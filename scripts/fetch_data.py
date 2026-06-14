@@ -137,8 +137,18 @@ def _request(path: str, method="GET", body=None, token=None):
                 req.add_header("Authorization", "Bearer " + token)
             with urllib.request.urlopen(req, timeout=TIMEOUT) as r:
                 return json.loads(r.read().decode())
-        except urllib.error.HTTPError:
-            raise  # 4xx/5xx are not transient — surface immediately (e.g. 401 bad token)
+        except urllib.error.HTTPError as e:
+            # Retry transient server errors (5xx) and rate limiting (429).
+            # Surface other 4xx immediately (e.g. 401 bad token, 404 wrong path).
+            if e.code in (429, 500, 502, 503, 504):
+                last_err = e
+                if attempt < RETRIES:
+                    wait = RETRY_BACKOFF * attempt
+                    print(f"[fetch] {path} HTTP {e.code} attempt {attempt}/{RETRIES}; retry in {wait}s")
+                    time.sleep(wait)
+                    continue
+                raise
+            raise
         except (urllib.error.URLError, TimeoutError, OSError) as e:
             last_err = e
             if attempt < RETRIES:
