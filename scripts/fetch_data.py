@@ -21,6 +21,7 @@ assumption here.
 import json
 import os
 import sys
+import time
 import urllib.request
 import urllib.error
 from datetime import datetime, timezone
@@ -118,17 +119,33 @@ def to_utc_iso(local_date: str, tz_name: str):
 
 
 # --- HTTP --------------------------------------------------------------------
+RETRIES = 3            # transient blips (SSL EOF, timeouts) from the indie source are common
+RETRY_BACKOFF = 4      # seconds: 4, 8, 12 ...
+
+
 def _request(path: str, method="GET", body=None, token=None):
     url = BASE + path
     data = json.dumps(body).encode() if body is not None else None
-    req = urllib.request.Request(url, data=data, method=method)
-    req.add_header("Accept", "application/json")
-    if data is not None:
-        req.add_header("Content-Type", "application/json")
-    if token:
-        req.add_header("Authorization", "Bearer " + token)
-    with urllib.request.urlopen(req, timeout=TIMEOUT) as r:
-        return json.loads(r.read().decode())
+    last_err = None
+    for attempt in range(1, RETRIES + 1):
+        try:
+            req = urllib.request.Request(url, data=data, method=method)
+            req.add_header("Accept", "application/json")
+            if data is not None:
+                req.add_header("Content-Type", "application/json")
+            if token:
+                req.add_header("Authorization", "Bearer " + token)
+            with urllib.request.urlopen(req, timeout=TIMEOUT) as r:
+                return json.loads(r.read().decode())
+        except urllib.error.HTTPError:
+            raise  # 4xx/5xx are not transient — surface immediately (e.g. 401 bad token)
+        except (urllib.error.URLError, TimeoutError, OSError) as e:
+            last_err = e
+            if attempt < RETRIES:
+                wait = RETRY_BACKOFF * attempt
+                print(f"[fetch] {path} attempt {attempt}/{RETRIES} failed ({e}); retry in {wait}s")
+                time.sleep(wait)
+    raise last_err
 
 
 def get_token() -> str:
