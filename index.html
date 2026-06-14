@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>World Cup 2026 — Tracker</title>
+  <meta name="description" content="FIFA World Cup 2026 group results, schedule and team search. Personal tracker." />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚽</text></svg>" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <div class="brand">
+        <span class="brand-mark" aria-hidden="true">⚽</span>
+        <div>
+          <h1>World Cup 2026</h1>
+          <p class="brand-sub">Group results · schedule · team search</p>
+        </div>
+      </div>
+      <div class="meta-box">
+        <span id="updated-label" class="updated">—</span>
+        <span id="sample-badge" class="badge hidden">Sample data</span>
+      </div>
+    </div>
+  </header>
+
+  <!-- Favourite teams -->
+  <section class="favbar">
+    <div class="wrap favbar-inner">
+      <span class="favbar-label">Highlight teams</span>
+      <div id="fav-chips" class="chips" role="group" aria-label="Highlight favourite teams"></div>
+      <button id="fav-clear" class="link-btn" type="button">Clear</button>
+    </div>
+  </section>
+
+  <!-- View switch -->
+  <nav class="wrap tabs" role="tablist" aria-label="Views">
+    <button class="tab is-active" data-view="groups" role="tab" aria-selected="true">Groups</button>
+    <button class="tab" data-view="schedule" role="tab" aria-selected="false">Schedule</button>
+    <button class="tab" data-view="search" role="tab" aria-selected="false">Search</button>
+  </nav>
+
+  <main class="wrap main">
+    <!-- GROUPS -->
+    <section id="view-groups" class="view" data-view="groups">
+      <div id="groups-grid" class="groups-grid"></div>
+    </section>
+
+    <!-- SCHEDULE -->
+    <section id="view-schedule" class="view hidden" data-view="schedule">
+      <div class="toolbar">
+        <div class="seg" role="group" aria-label="Schedule filter">
+          <button class="seg-btn is-active" data-sched="upcoming">Upcoming</button>
+          <button class="seg-btn" data-sched="finished">Results</button>
+          <button class="seg-btn" data-sched="all">All</button>
+        </div>
+        <label class="favonly">
+          <input type="checkbox" id="sched-favonly" /> Favourites only
+        </label>
+      </div>
+      <div id="schedule-list" class="match-list"></div>
+    </section>
+
+    <!-- SEARCH -->
+    <section id="view-search" class="view hidden" data-view="search">
+      <div class="search-box">
+        <input id="team-search" type="search" placeholder="Search a team — e.g. Netherlands, Japan, FRA…" autocomplete="off" />
+        <div id="search-suggest" class="suggest hidden"></div>
+      </div>
+      <div id="team-detail" class="team-detail"></div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <p>Personal tracker · times shown in <span id="tz-label">your local time</span> · data from worldcup26.ir</p>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

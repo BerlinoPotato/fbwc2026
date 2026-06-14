@@ -1,0 +1,134 @@
+{
+  "meta": {
+    "tournament": "FIFA World Cup 2026",
+    "source": "worldcup26.ir",
+    "last_updated": "2026-06-15T08:00:00Z",
+    "is_sample": true,
+    "note": "Sample data for local preview. Replaced by the GitHub Action once a token is configured."
+  },
+  "teams": [
+    { "id": "1",  "code": "MEX", "name": "Mexico",       "group": "A", "flag": "https://flagcdn.com/w80/mx.png" },
+    { "id": "2",  "code": "RSA", "name": "South Africa",  "group": "A", "flag": "https://flagcdn.com/w80/za.png" },
+    { "id": "3",  "code": "NED", "name": "Netherlands",   "group": "B", "flag": "https://flagcdn.com/w80/nl.png" },
+    { "id": "4",  "code": "JPN", "name": "Japan",         "group": "B", "flag": "https://flagcdn.com/w80/jp.png" },
+    { "id": "5",  "code": "ENG", "name": "England",       "group": "C", "flag": "https://flagcdn.com/w80/gb-eng.png" },
+    { "id": "6",  "code": "CUW", "name": "Curacao",       "group": "C", "flag": "https://flagcdn.com/w80/cw.png" },
+    { "id": "7",  "code": "GER", "name": "Germany",       "group": "D", "flag": "https://flagcdn.com/w80/de.png" },
+    { "id": "8",  "code": "BEL", "name": "Belgium",       "group": "D", "flag": "https://flagcdn.com/w80/be.png" },
+    { "id": "9",  "code": "FRA", "name": "France",        "group": "E", "flag": "https://flagcdn.com/w80/fr.png" },
+    { "id": "10", "code": "USA", "name": "United States", "group": "E", "flag": "https://flagcdn.com/w80/us.png" },
+    { "id": "11", "code": "BRA", "name": "Brazil",        "group": "B", "flag": "https://flagcdn.com/w80/br.png" },
+    { "id": "12", "code": "MAR", "name": "Morocco",       "group": "B", "flag": "https://flagcdn.com/w80/ma.png" },
+    { "id": "13", "code": "ARG", "name": "Argentina",     "group": "C", "flag": "https://flagcdn.com/w80/ar.png" },
+    { "id": "14", "code": "CRO", "name": "Croatia",       "group": "C", "flag": "https://flagcdn.com/w80/hr.png" },
+    { "id": "15", "code": "ESP", "name": "Spain",         "group": "D", "flag": "https://flagcdn.com/w80/es.png" },
+    { "id": "16", "code": "POR", "name": "Portugal",      "group": "D", "flag": "https://flagcdn.com/w80/pt.png" }
+  ],
+  "stadiums": [
+    { "id": "1",  "name": "Estadio Azteca",     "city": "Mexico City",          "country": "Mexico",        "capacity": 87523, "tz": "America/Mexico_City" },
+    { "id": "2",  "name": "MetLife Stadium",    "city": "East Rutherford, NJ",  "country": "United States", "capacity": 82500, "tz": "America/New_York" },
+    { "id": "3",  "name": "SoFi Stadium",       "city": "Los Angeles, CA",      "country": "United States", "capacity": 70240, "tz": "America/Los_Angeles" },
+    { "id": "4",  "name": "AT&T Stadium",       "city": "Arlington, TX",        "country": "United States", "capacity": 80000, "tz": "America/Chicago" },
+    { "id": "5",  "name": "BMO Field",          "city": "Toronto",              "country": "Canada",        "capacity": 45000, "tz": "America/Toronto" },
+    { "id": "6",  "name": "Lumen Field",        "city": "Seattle, WA",          "country": "United States", "capacity": 68740, "tz": "America/Los_Angeles" }
+  ],
+  "matches": [
+    {
+      "id": "1", "group": "A", "matchday": "1", "type": "group",
+      "home": { "id": "1", "code": "MEX", "name": "Mexico",      "flag": "https://flagcdn.com/w80/mx.png" },
+      "away": { "id": "2", "code": "RSA", "name": "South Africa","flag": "https://flagcdn.com/w80/za.png" },
+      "home_label": null, "away_label": null,
+      "home_score": 2, "away_score": 1,
+      "finished": true, "status": "FT", "time_elapsed": "finished",
+      "stadium": { "id": "1", "name": "Estadio Azteca", "city": "Mexico City", "country": "Mexico" },
+      "kickoff_utc": "2026-06-11T19:00:00Z", "kickoff_local_label": "06/11/2026 13:00"
+    },
+    {
+      "id": "2", "group": "B", "matchday": "1", "type": "group",
+      "home": { "id": "3", "code": "NED", "name": "Netherlands", "flag": "https://flagcdn.com/w80/nl.png" },
+      "away": { "id": "4", "code": "JPN", "name": "Japan",       "flag": "https://flagcdn.com/w80/jp.png" },
+      "home_label": null, "away_label": null,
+      "home_score": 3, "away_score": 1,
+      "finished": true, "status": "FT", "time_elapsed": "finished",
+      "stadium": { "id": "2", "name": "MetLife Stadium", "city": "East Rutherford, NJ", "country": "United States" },
+      "kickoff_utc": "2026-06-12T23:00:00Z", "kickoff_local_label": "06/12/2026 19:00"
+    },
+    {
+      "id": "3", "group": "B", "matchday": "1", "type": "group",
+      "home": { "id": "11", "code": "BRA", "name": "Brazil",  "flag": "https://flagcdn.com/w80/br.png" },
+      "away": { "id": "12", "code": "MAR", "name": "Morocco", "flag": "https://flagcdn.com/w80/ma.png" },
+      "home_label": null, "away_label": null,
+      "home_score": 1, "away_score": 1,
+      "finished": true, "status": "FT", "time_elapsed": "finished",
+      "stadium": { "id": "3", "name": "SoFi Stadium", "city": "Los Angeles, CA", "country": "United States" },
+      "kickoff_utc": "2026-06-13T20:00:00Z", "kickoff_local_label": "06/13/2026 13:00"
+    },
+    {
+      "id": "4", "group": "C", "matchday": "1", "type": "group",
+      "home": { "id": "5", "code": "ENG", "name": "England", "flag": "https://flagcdn.com/w80/gb-eng.png" },
+      "away": { "id": "6", "code": "CUW", "name": "Curacao", "flag": "https://flagcdn.com/w80/cw.png" },
+      "home_label": null, "away_label": null,
+      "home_score": null, "away_score": null,
+      "finished": false, "status": "LIVE", "time_elapsed": "62'",
+      "stadium": { "id": "4", "name": "AT&T Stadium", "city": "Arlington, TX", "country": "United States" },
+      "kickoff_utc": "2026-06-15T18:00:00Z", "kickoff_local_label": "06/15/2026 13:00"
+    },
+    {
+      "id": "5", "group": "D", "matchday": "1", "type": "group",
+      "home": { "id": "7", "code": "GER", "name": "Germany", "flag": "https://flagcdn.com/w80/de.png" },
+      "away": { "id": "8", "code": "BEL", "name": "Belgium", "flag": "https://flagcdn.com/w80/be.png" },
+      "home_label": null, "away_label": null,
+      "home_score": null, "away_score": null,
+      "finished": false, "status": "NS", "time_elapsed": "notstarted",
+      "stadium": { "id": "5", "name": "BMO Field", "city": "Toronto", "country": "Canada" },
+      "kickoff_utc": "2026-06-16T16:00:00Z", "kickoff_local_label": "06/16/2026 12:00"
+    },
+    {
+      "id": "6", "group": "E", "matchday": "1", "type": "group",
+      "home": { "id": "9",  "code": "FRA", "name": "France",        "flag": "https://flagcdn.com/w80/fr.png" },
+      "away": { "id": "10", "code": "USA", "name": "United States", "flag": "https://flagcdn.com/w80/us.png" },
+      "home_label": null, "away_label": null,
+      "home_score": null, "away_score": null,
+      "finished": false, "status": "NS", "time_elapsed": "notstarted",
+      "stadium": { "id": "6", "name": "Lumen Field", "city": "Seattle, WA", "country": "United States" },
+      "kickoff_utc": "2026-06-17T01:00:00Z", "kickoff_local_label": "06/16/2026 18:00"
+    },
+    {
+      "id": "7", "group": "B", "matchday": "2", "type": "group",
+      "home": { "id": "3",  "code": "NED", "name": "Netherlands", "flag": "https://flagcdn.com/w80/nl.png" },
+      "away": { "id": "11", "code": "BRA", "name": "Brazil",      "flag": "https://flagcdn.com/w80/br.png" },
+      "home_label": null, "away_label": null,
+      "home_score": null, "away_score": null,
+      "finished": false, "status": "NS", "time_elapsed": "notstarted",
+      "stadium": { "id": "2", "name": "MetLife Stadium", "city": "East Rutherford, NJ", "country": "United States" },
+      "kickoff_utc": "2026-06-18T23:00:00Z", "kickoff_local_label": "06/18/2026 19:00"
+    },
+    {
+      "id": "73", "group": "R32", "matchday": null, "type": "r32",
+      "home": null, "away": null,
+      "home_label": "Winner Group A", "away_label": "Runner-up Group B",
+      "home_score": null, "away_score": null,
+      "finished": false, "status": "NS", "time_elapsed": "notstarted",
+      "stadium": { "id": "3", "name": "SoFi Stadium", "city": "Los Angeles, CA", "country": "United States" },
+      "kickoff_utc": "2026-06-28T20:00:00Z", "kickoff_local_label": "06/28/2026 13:00"
+    }
+  ],
+  "standings": [
+    {
+      "group": "A",
+      "rows": [
+        { "team_id": "1", "code": "MEX", "name": "Mexico",       "flag": "https://flagcdn.com/w80/mx.png", "played": 1, "won": 1, "drawn": 0, "lost": 0, "gf": 2, "ga": 1, "gd": 1,  "pts": 3 },
+        { "team_id": "2", "code": "RSA", "name": "South Africa", "flag": "https://flagcdn.com/w80/za.png", "played": 1, "won": 0, "drawn": 0, "lost": 1, "gf": 1, "ga": 2, "gd": -1, "pts": 0 }
+      ]
+    },
+    {
+      "group": "B",
+      "rows": [
+        { "team_id": "3",  "code": "NED", "name": "Netherlands", "flag": "https://flagcdn.com/w80/nl.png", "played": 1, "won": 1, "drawn": 0, "lost": 0, "gf": 3, "ga": 1, "gd": 2,  "pts": 3 },
+        { "team_id": "11", "code": "BRA", "name": "Brazil",      "flag": "https://flagcdn.com/w80/br.png", "played": 1, "won": 0, "drawn": 1, "lost": 0, "gf": 1, "ga": 1, "gd": 0,  "pts": 1 },
+        { "team_id": "12", "code": "MAR", "name": "Morocco",     "flag": "https://flagcdn.com/w80/ma.png", "played": 1, "won": 0, "drawn": 1, "lost": 0, "gf": 1, "ga": 1, "gd": 0,  "pts": 1 },
+        { "team_id": "4",  "code": "JPN", "name": "Japan",       "flag": "https://flagcdn.com/w80/jp.png", "played": 1, "won": 0, "drawn": 0, "lost": 1, "gf": 1, "ga": 3, "gd": -2, "pts": 0 }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+name: Fetch World Cup data
+
+on:
+  schedule:
+    # Every 15 minutes. Cron is UTC. GitHub may delay scheduled runs under load.
+    - cron: "*/15 * * * *"
+  workflow_dispatch: {}   # manual "Run workflow" button
+
+permissions:
+  contents: write
+
+concurrency:
+  group: fetch-wc-data
+  cancel-in-progress: false
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install tz database
+        run: pip install tzdata
+
+      - name: Fetch + build data/wc2026.json
+        env:
+          WC_API_TOKEN: ${{ secrets.WC_API_TOKEN }}
+          WC_API_EMAIL: ${{ secrets.WC_API_EMAIL }}
+          WC_API_PASSWORD: ${{ secrets.WC_API_PASSWORD }}
+        run: python scripts/fetch_data.py
+
+      - name: Commit if changed
+        run: |
+          git config user.name "wc-bot"
+          git config user.email "actions@github.com"
+          git add data/wc2026.json
+          if git diff --cached --quiet; then
+            echo "No data change."
+          else
+            git commit -m "data: refresh wc2026.json [skip ci]"
+            git push
+          fi
