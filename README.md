@@ -27,6 +27,9 @@ GitHub Pages serves index.html ── reads ──> data/wc2026.json
 The page is the customer-facing part; it never sees the API token. "Realtime" = last refresh
 (~15 min). If the source API is down at refresh time, the last good snapshot keeps serving.
 
+> GitHub's built-in cron is best-effort and often drifts. For a dependable 15-minute refresh,
+> see [docs/external-scheduler.md](docs/external-scheduler.md) (free external pinger).
+
 ## File structure
 
 | File | Purpose |
