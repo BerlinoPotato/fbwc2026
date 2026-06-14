@@ -38,6 +38,8 @@
   <nav class="wrap tabs" role="tablist" aria-label="Views">
     <button class="tab is-active" data-view="groups" role="tab" aria-selected="true">Groups</button>
     <button class="tab" data-view="schedule" role="tab" aria-selected="false">Schedule</button>
+    <button class="tab" data-view="teams" role="tab" aria-selected="false">Teams</button>
+    <button class="tab" data-view="venues" role="tab" aria-selected="false">Venues</button>
     <button class="tab" data-view="search" role="tab" aria-selected="false">Search</button>
   </nav>
 
@@ -60,6 +62,16 @@
         </label>
       </div>
       <div id="schedule-list" class="match-list"></div>
+    </section>
+
+    <!-- TEAMS -->
+    <section id="view-teams" class="view hidden" data-view="teams">
+      <div id="teams-grid" class="teams-grid"></div>
+    </section>
+
+    <!-- VENUES -->
+    <section id="view-venues" class="view hidden" data-view="venues">
+      <div id="venues-list" class="venues-list"></div>
     </section>
 
     <!-- SEARCH -->
