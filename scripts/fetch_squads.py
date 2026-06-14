@@ -26,7 +26,9 @@ LEAGUE = os.environ.get("AF_LEAGUE", "1")     # 1 = FIFA World Cup
 SEASON = os.environ.get("AF_SEASON", "2026")
 OUT = Path(__file__).resolve().parents[1] / "data" / "squads.json"
 TIMEOUT = 25
-PAUSE = 0.4   # be polite to the free tier
+# Free plan = 10 requests/minute. Space calls ≥7s apart to stay safely under it.
+# ~49 calls * 7s ≈ 6 min — fine for a once-a-day job.
+PAUSE = float(os.environ.get("AF_PAUSE", "7"))
 
 
 def _get(path: str):
