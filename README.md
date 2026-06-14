@@ -13,8 +13,11 @@ Action fetches the data and commits a JSON snapshot the page reads.
 
 - **Groups** — live standings (P/W/D/L/GF/GA/GD/Pts), computed from finished matches; top-2 line marked.
 - **Schedule** — upcoming / results / all, grouped by day, times in the viewer's local zone.
-- **Search** — find a team → their results, fixtures, venues, locations and kick-off times.
+- **Teams** — all 48 teams grouped A–L; click a team for its detail.
+- **Venues** — 16 stadiums: city, country, capacity, number of matches.
+- **Search / Team detail** — find a team → group standing, fixtures, venues, kick-off times, and **squad** (players info, if enabled).
 - **Highlight teams** — toggle chips (defaults: Netherlands, Curaçao, England, Japan, Germany, Belgium, France). Saved in `localStorage`.
+- **Formats** — dates `dd MMM yyyy` (e.g. `14 Jun 2026`), times 24-hour (e.g. `19:00`), in the viewer's local timezone.
 
 ## How it works
 
@@ -33,8 +36,11 @@ The page is the customer-facing part; it never sees the API token. "Realtime" = 
 |---|---|
 | `index.html` / `styles.css` / `app.js` | The static page |
 | `data/wc2026.json` | Data snapshot the page reads (sample data shipped; Action overwrites it) |
-| `scripts/fetch_data.py` | Fetches the API, normalises, computes standings, writes the JSON |
-| `.github/workflows/fetch.yml` | Scheduled Action that runs the fetcher and commits changes |
+| `data/squads.json` | Player squads (optional; sample shipped, the squads Action overwrites it) |
+| `scripts/fetch_data.py` | Fetches worldcup26.ir, normalises, computes standings, writes `wc2026.json` |
+| `scripts/fetch_squads.py` | Fetches squads from api-football.com → `squads.json` |
+| `.github/workflows/fetch.yml` | Scheduled Action (15 min) — scores/standings/schedule |
+| `.github/workflows/fetch_squads.yml` | Scheduled Action (daily) — player squads |
 
 ---
 
@@ -69,6 +75,18 @@ and commits it. After that it runs every 15 minutes on its own.
 
 ---
 
+## Players info (optional — api-football.com)
+
+Squads come from a second free source because worldcup26.ir has none.
+
+1. Free key: register at `https://dashboard.api-football.com` → copy your API key.
+2. Add as repository secret `API_FOOTBALL_KEY` (Settings → Secrets and variables → Actions).
+3. Run **Actions → "Fetch squads" → Run workflow**. Writes `data/squads.json` (~49 API calls, under the 100/day free limit). Then runs daily.
+
+Squads match to teams by FIFA code, then normalised name (alias map in `app.js` handles
+cases like *South Korea / Korea Republic*). Until enabled, the team detail shows a "squad not
+available" note and everything else works.
+
 ## Local preview
 
 `fetch()` can't read a local file via `file://`, so use a tiny server:
@@ -98,7 +116,7 @@ python scripts/fetch_data.py       # overwrites data/wc2026.json with live data
   **match venue's local time** (each stadium mapped to an IANA zone in `fetch_data.py`) and emits
   a UTC instant. Verify against one known kick-off after the first live fetch; if every match is
   off by a constant number of hours, adjust the venue zone map or that assumption.
-- **Players info**: not included (the chosen free source provides team-level data only).
+- **Players info**: from api-football.com (separate daily Action). worldcup26.ir is team-level only.
 - **Data source**: [rezarahiminia/worldcup2026](https://github.com/rezarahiminia/worldcup2026)
   (`worldcup26.ir`). To swap to a different provider (e.g. api-football.com), change the
   `_request` calls and the `norm_*` mappers in `fetch_data.py` — the page and JSON shape stay the same.

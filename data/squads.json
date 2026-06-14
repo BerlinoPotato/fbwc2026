@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "source": "api-football.com",
+    "last_updated": "2026-06-15T06:00:00Z",
+    "is_sample": true,
+    "note": "Sample squads for preview. Replaced by the fetch-squads Action once API_FOOTBALL_KEY is set.",
+    "teams": 2
+  },
+  "squads": [
+    {
+      "name": "Netherlands",
+      "code": "NED",
+      "country": "Netherlands",
+      "players": [
+        { "number": 1,  "name": "Bart Verbruggen",   "position": "Goalkeeper" },
+        { "number": 4,  "name": "Virgil van Dijk",    "position": "Defender" },
+        { "number": 5,  "name": "Nathan Aké",         "position": "Defender" },
+        { "number": 8,  "name": "Tijjani Reijnders",  "position": "Midfielder" },
+        { "number": 10, "name": "Memphis Depay",      "position": "Attacker" },
+        { "number": 11, "name": "Cody Gakpo",         "position": "Attacker" },
+        { "number": 21, "name": "Frenkie de Jong",    "position": "Midfielder" }
+      ]
+    },
+    {
+      "name": "Japan",
+      "code": "JPN",
+      "country": "Japan",
+      "players": [
+        { "number": 1,  "name": "Zion Suzuki",        "position": "Goalkeeper" },
+        { "number": 4,  "name": "Ko Itakura",         "position": "Defender" },
+        { "number": 8,  "name": "Takefusa Kubo",      "position": "Midfielder" },
+        { "number": 10, "name": "Takumi Minamino",    "position": "Midfielder" },
+        { "number": 14, "name": "Junya Ito",          "position": "Attacker" },
+        { "number": 18, "name": "Kaoru Mitoma",       "position": "Attacker" }
+      ]
+    }
+  ]
+}

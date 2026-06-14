@@ -1,0 +1,41 @@
+name: Fetch squads
+
+on:
+  schedule:
+    # Once a day at 05:30 UTC. Squads change rarely; ~49 API calls/run, under the 100/day free limit.
+    - cron: "30 5 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: fetch-squads
+  cancel-in-progress: false
+
+jobs:
+  squads:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Fetch + build data/squads.json
+        env:
+          API_FOOTBALL_KEY: ${{ secrets.API_FOOTBALL_KEY }}
+        run: python scripts/fetch_squads.py
+
+      - name: Commit if changed
+        run: |
+          git config user.name "wc-bot"
+          git config user.email "actions@github.com"
+          git add data/squads.json
+          if git diff --cached --quiet; then
+            echo "No squad change."
+          else
+            git commit -m "data: refresh squads.json [skip ci]"
+            git push
+          fi
