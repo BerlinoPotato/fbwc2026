@@ -31,12 +31,30 @@ TIMEOUT = 25
 PAUSE = float(os.environ.get("AF_PAUSE", "7"))
 
 
+RETRIES = 3
+RETRY_BACKOFF = 4
+
+
 def _get(path: str):
-    req = urllib.request.Request(BASE + path, method="GET")
-    req.add_header("x-apisports-key", KEY)
-    req.add_header("Accept", "application/json")
-    with urllib.request.urlopen(req, timeout=TIMEOUT) as r:
-        body = json.loads(r.read().decode())
+    last_err = None
+    for attempt in range(1, RETRIES + 1):
+        try:
+            req = urllib.request.Request(BASE + path, method="GET")
+            req.add_header("x-apisports-key", KEY)
+            req.add_header("Accept", "application/json")
+            with urllib.request.urlopen(req, timeout=TIMEOUT) as r:
+                body = json.loads(r.read().decode())
+            break
+        except urllib.error.HTTPError:
+            raise
+        except (urllib.error.URLError, TimeoutError, OSError) as e:
+            last_err = e
+            if attempt < RETRIES:
+                wait = RETRY_BACKOFF * attempt
+                print(f"[squads] {path} attempt {attempt}/{RETRIES} failed ({e}); retry in {wait}s")
+                time.sleep(wait)
+    else:
+        raise last_err
     # api-sports returns HTTP 200 even on auth/quota errors; the real error is in `errors`
     errs = body.get("errors")
     if errs and (errs if isinstance(errs, list) else list(errs.values())):
