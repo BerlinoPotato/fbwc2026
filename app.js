@@ -385,29 +385,109 @@ function openTeam(id) {
 }
 
 /* ---------- venues view ---------- */
+// Static per-venue extras (keyed by the stadium name in the data): map coords + Wikipedia
+// page title for the lead photo. Coords are stable; photos are fetched at runtime.
+const VENUE_EXTRA = {
+  "Estadio Azteca": { lat: 19.3029, lng: -99.1505, wiki: "Estadio Azteca" },
+  "Estadio Akron": { lat: 20.6819, lng: -103.4626, wiki: "Estadio Akron" },
+  "Estadio BBVA": { lat: 25.6692, lng: -100.2447, wiki: "Estadio BBVA" },
+  "BMO Field": { lat: 43.6332, lng: -79.4185, wiki: "BMO Field" },
+  "BC Place": { lat: 49.2768, lng: -123.1119, wiki: "BC Place" },
+  "Mercedes-Benz Stadium": { lat: 33.7553, lng: -84.4006, wiki: "Mercedes-Benz Stadium" },
+  "Gillette Stadium": { lat: 42.0909, lng: -71.2643, wiki: "Gillette Stadium" },
+  "AT&T Stadium": { lat: 32.7473, lng: -97.0945, wiki: "AT&T Stadium" },
+  "NRG Stadium": { lat: 29.6847, lng: -95.4107, wiki: "NRG Stadium" },
+  "GEHA Field at Arrowhead Stadium": { lat: 39.0489, lng: -94.4839, wiki: "Arrowhead Stadium" },
+  "SoFi Stadium": { lat: 33.9535, lng: -118.3392, wiki: "SoFi Stadium" },
+  "Hard Rock Stadium": { lat: 25.9580, lng: -80.2389, wiki: "Hard Rock Stadium" },
+  "MetLife Stadium": { lat: 40.8135, lng: -74.0745, wiki: "MetLife Stadium" },
+  "Lincoln Financial Field": { lat: 39.9008, lng: -75.1675, wiki: "Lincoln Financial Field" },
+  "Levi's Stadium": { lat: 37.4030, lng: -121.9700, wiki: "Levi's Stadium" },
+  "Lumen Field": { lat: 47.5952, lng: -122.3316, wiki: "Lumen Field" },
+};
+const COUNTRY_ISO = { "United States": "us", "Canada": "ca", "Mexico": "mx" };
+
+const _photoCache = {};
+async function loadVenuePhoto(imgEl, wikiTitle) {
+  if (!wikiTitle) return;
+  try {
+    if (!(wikiTitle in _photoCache)) {
+      const r = await fetch(`https://en.wikipedia.org/api/rest_v1/page/summary/${encodeURIComponent(wikiTitle)}`);
+      _photoCache[wikiTitle] = r.ok ? await r.json() : null;
+    }
+    const data = _photoCache[wikiTitle];
+    const src = data && data.thumbnail && data.thumbnail.source;
+    if (src) {
+      imgEl.src = src;
+      imgEl.parentElement.classList.add("has-photo");
+    }
+  } catch { /* keep placeholder */ }
+}
+
+let _venuesMap = null;
+function initVenuesMap(stadiums) {
+  if (typeof L === "undefined") return;          // Leaflet not loaded — skip map gracefully
+  const pts = stadiums.map((s) => ({ s, x: VENUE_EXTRA[s.name] })).filter((p) => p.x);
+  if (!pts.length) return;
+  if (!_venuesMap) {
+    _venuesMap = L.map("venues-map", { scrollWheelZoom: false });
+    L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+      attribution: "&copy; OpenStreetMap", maxZoom: 18,
+    }).addTo(_venuesMap);
+    const markers = pts.map((p) =>
+      L.marker([p.x.lat, p.x.lng]).bindPopup(`<b>${esc(p.s.name)}</b><br>${esc(p.s.city)}`));
+    const group = L.featureGroup(markers).addTo(_venuesMap);
+    _venuesMap.fitBounds(group.getBounds().pad(0.15));
+  }
+  setTimeout(() => _venuesMap.invalidateSize(), 0);  // container was hidden until now
+}
+
 function renderVenues() {
+  const stadiums = state.data.stadiums || [];
   const host = $("#venues-list");
   host.innerHTML = "";
-  const stadiums = state.data.stadiums || [];
   if (!stadiums.length) {
+    $("#venues-map").style.display = "none";
     host.appendChild(el("div", "state", "<p>No venue data.</p>"));
     return;
   }
+  initVenuesMap(stadiums);
+
   const countByStadium = {};
   for (const m of state.data.matches) {
     if (m.stadium) countByStadium[m.stadium.id] = (countByStadium[m.stadium.id] || 0) + 1;
   }
-  for (const s of [...stadiums].sort((a, b) => (a.country || "").localeCompare(b.country) || a.city.localeCompare(b.city))) {
-    const card = el("div", "venue-card");
-    const n = countByStadium[s.id] || 0;
-    card.innerHTML = `
-      <div class="vc-name">${esc(s.name)}</div>
-      <div class="vc-loc">${esc(s.city)}${s.country ? ", " + esc(s.country) : ""}</div>
-      <div class="vc-meta">
-        ${s.capacity ? `<span>${Number(s.capacity).toLocaleString("en-GB")} seats</span>` : ""}
-        <span>${n} ${n === 1 ? "match" : "matches"}</span>
-      </div>`;
-    host.appendChild(card);
+  // Group by country, sort countries then cities within.
+  const byCountry = {};
+  for (const s of stadiums) (byCountry[s.country || "—"] = byCountry[s.country || "—"] || []).push(s);
+
+  for (const country of Object.keys(byCountry).sort()) {
+    const list = byCountry[country].sort((a, b) => a.city.localeCompare(b.city));
+    const section = el("div", "venue-country");
+    const iso = COUNTRY_ISO[country];
+    section.appendChild(el("div", "venue-country-head",
+      `${iso ? `<img src="https://flagcdn.com/w40/${iso}.png" alt="">` : ""}
+       <span>${esc(country)}</span><span class="vc-count">${list.length} venues</span>`));
+    const grid = el("div", "venues-grid");
+    for (const s of list) {
+      const n = countByStadium[s.id] || 0;
+      const x = VENUE_EXTRA[s.name];
+      const card = el("div", "venue-card");
+      card.innerHTML = `
+        <div class="vc-photo"><img alt="" loading="lazy"><span class="vc-ph-fallback">${esc(s.name)}</span></div>
+        <div class="vc-body">
+          <div class="vc-name">${esc(s.name)}</div>
+          <div class="vc-loc">${esc(s.city)}</div>
+          <div class="vc-meta">
+            ${s.capacity ? `<span>${Number(s.capacity).toLocaleString("en-GB")} seats</span>` : ""}
+            <span>${n} ${n === 1 ? "match" : "matches"}</span>
+          </div>
+        </div>`;
+      grid.appendChild(card);
+      if (x) loadVenuePhoto(card.querySelector(".vc-photo img"), x.wiki);
+    }
+    section.appendChild(grid);
+    host.appendChild(section);
   }
 }
 
