@@ -197,8 +197,20 @@ tr.fav-row .team-cell .nm { color: var(--hl-ink); font-weight: 650; }
 .team-card.fav .nm { color: var(--hl-ink); }
 
 /* Venues view */
-.venues-list { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; }
-.venue-card { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); box-shadow: var(--shadow-soft); padding: 16px; }
+.venues-map { height: 360px; border: 1px solid var(--line); border-radius: var(--radius); box-shadow: var(--shadow-soft); overflow: hidden; margin-bottom: 24px; position: relative; z-index: 0; }
+.venues-list { display: flex; flex-direction: column; gap: 26px; }
+.venue-country { }
+.venue-country-head { display: flex; align-items: center; gap: 10px; font-size: 13px; font-weight: 650; color: var(--ink-faint); text-transform: uppercase; letter-spacing: .04em; margin-bottom: 12px; }
+.venue-country-head img { width: 22px; height: 15px; border-radius: 2px; object-fit: cover; }
+.venue-country-head .vc-count { margin-left: auto; font-weight: 600; text-transform: none; letter-spacing: 0; }
+.venues-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; }
+.venue-card { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); box-shadow: var(--shadow-soft); overflow: hidden; }
+.vc-photo { position: relative; aspect-ratio: 16 / 9; background: linear-gradient(135deg, #eef1f5, #e2e7ee); display: flex; align-items: center; justify-content: center; }
+.vc-photo img { width: 100%; height: 100%; object-fit: cover; display: none; }
+.vc-photo.has-photo img { display: block; }
+.vc-photo.has-photo .vc-ph-fallback { display: none; }
+.vc-ph-fallback { padding: 0 14px; font-size: 12.5px; font-weight: 600; color: var(--ink-faint); text-align: center; }
+.vc-body { padding: 13px 15px; }
 .vc-name { font-weight: 650; font-size: 15px; }
 .vc-loc { color: var(--ink-soft); font-size: 13px; margin-top: 2px; }
 .vc-meta { display: flex; gap: 14px; margin-top: 10px; font-size: 12px; color: var(--ink-faint); }
@@ -206,12 +218,13 @@ tr.fav-row .team-cell .nm { color: var(--hl-ink); font-weight: 650; }
 /* Responsive */
 @media (max-width: 980px) {
   .team-cards { grid-template-columns: repeat(3, 1fr); }
-  .venues-list { grid-template-columns: repeat(2, 1fr); }
+  .venues-grid { grid-template-columns: repeat(2, 1fr); }
 }
 @media (max-width: 760px) {
   .squad { grid-template-columns: 1fr; }
   .team-cards { grid-template-columns: repeat(2, 1fr); }
-  .venues-list { grid-template-columns: 1fr; }
+  .venues-grid { grid-template-columns: 1fr; }
+  .venues-map { height: 280px; }
   .tabs { overflow-x: auto; -webkit-overflow-scrolling: touch; }
 }
 @media (max-width: 760px) {
