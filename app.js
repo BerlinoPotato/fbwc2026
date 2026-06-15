@@ -180,6 +180,85 @@ function matchCard(m) {
   return card;
 }
 
+/* ---------- bracket (knockout) ---------- */
+// Round order + display labels. Data carries the round in `m.type` (round is null);
+// the 2026 format runs a Round of 32 before the Round of 16.
+const KO_ROUNDS = [
+  { type: "r32", label: "Round of 32" },
+  { type: "r16", label: "Round of 16" },
+  { type: "qf", label: "Quarter-finals" },
+  { type: "sf", label: "Semi-finals" },
+  { type: "third", label: "Third place" },
+  { type: "final", label: "Final" },
+];
+
+// One side of a knockout card. Mirrors matchCard's TBD/fav handling using the .ko-* classes.
+function koSlot(side, m) {
+  const t = m[side];
+  const score = side === "home" ? m.home_score : m.away_score;
+  const showScore = m.finished || m.status === "LIVE";
+  const sc = showScore && score != null ? esc(score) : "";
+  if (t) {
+    const fav = isFav(t.code);
+    const cls = "ko-slot" + (fav ? " fav" : "");
+    return `<div class="${cls}">
+      <img src="${esc(t.flag)}" alt="" loading="lazy" onerror="this.style.display='none'">
+      <span class="ko-nm">${esc(t.name)}</span>
+      ${fav ? CHECK : ""}
+      <span class="ko-sc">${sc}</span>
+    </div>`;
+  }
+  const label = m[side + "_label"] || "TBD";
+  return `<div class="ko-slot tbd">
+    <span class="ko-nm">${esc(label)}</span>
+    <span class="ko-sc">${sc}</span>
+  </div>`;
+}
+
+function koCard(m) {
+  const card = el("div", "ko-card" + (matchHasFav(m) ? " fav-match" : ""));
+  let meta;
+  if (m.finished || m.status === "LIVE") {
+    meta = statusPill(m) || (m.finished ? "FT" : "");
+  } else {
+    const t = fmtTime(m.kickoff_utc);
+    const d = fmtDate(m.kickoff_utc);
+    meta = `${esc(d)} · ${esc(t)}`;
+  }
+  const venue = m.stadium ? ` · ${esc(m.stadium.city || m.stadium.name)}` : "";
+  card.innerHTML = `
+    ${koSlot("home", m)}
+    ${koSlot("away", m)}
+    <div class="ko-meta">${meta}${venue}</div>`;
+  return card;
+}
+
+function renderBracket() {
+  const note = $("#bracket-note");
+  const host = $("#bracket-grid");
+  note.innerHTML = "";
+  host.innerHTML = "";
+
+  const ko = state.data.matches.filter((m) => m.type && m.type !== "group");
+  if (!ko.length) {
+    host.appendChild(el("div", "state", "<h3>Knockout stage not yet available</h3><p>Bracket matches appear once the group stage is complete.</p>"));
+    return;
+  }
+
+  note.textContent = "Knockout matches — kick-off times shown in your local time.";
+
+  for (const r of KO_ROUNDS) {
+    const matches = ko
+      .filter((m) => m.type === r.type)
+      .sort((a, b) => (Number(a.id) || 0) - (Number(b.id) || 0));
+    if (!matches.length) continue;
+    const col = el("div", "ko-col");
+    col.appendChild(el("div", "ko-col-head", esc(r.label)));
+    matches.forEach((m) => col.appendChild(koCard(m)));
+    host.appendChild(col);
+  }
+}
+
 /* ---------- schedule ---------- */
 function renderSchedule() {
   const host = $("#schedule-list");
@@ -498,6 +577,7 @@ function renderVenues() {
 function renderActiveView() {
   if (!state.data) return;
   if (state.view === "groups") renderGroups();
+  else if (state.view === "bracket") renderBracket();
   else if (state.view === "schedule") renderSchedule();
   else if (state.view === "teams") renderTeams();
   else if (state.view === "venues") renderVenues();
