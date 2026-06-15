@@ -42,6 +42,7 @@
   <!-- View switch -->
   <nav class="wrap tabs" role="tablist" aria-label="Views">
     <button class="tab is-active" data-view="groups" role="tab" aria-selected="true">Groups</button>
+    <button class="tab" data-view="bracket" role="tab" aria-selected="false">Bracket</button>
     <button class="tab" data-view="schedule" role="tab" aria-selected="false">Schedule</button>
     <button class="tab" data-view="teams" role="tab" aria-selected="false">Teams</button>
     <button class="tab" data-view="venues" role="tab" aria-selected="false">Venues</button>
@@ -52,6 +53,12 @@
     <!-- GROUPS -->
     <section id="view-groups" class="view" data-view="groups">
       <div id="groups-grid" class="groups-grid"></div>
+    </section>
+
+    <!-- BRACKET (knockout) -->
+    <section id="view-bracket" class="view hidden" data-view="bracket">
+      <div id="bracket-note" class="bracket-note"></div>
+      <div id="bracket-grid" class="bracket-grid"></div>
     </section>
 
     <!-- SCHEDULE -->

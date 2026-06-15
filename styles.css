@@ -215,6 +215,24 @@ tr.fav-row .team-cell .nm { color: var(--hl-ink); font-weight: 650; }
 .vc-loc { color: var(--ink-soft); font-size: 13px; margin-top: 2px; }
 .vc-meta { display: flex; gap: 14px; margin-top: 10px; font-size: 12px; color: var(--ink-faint); }
 
+/* Bracket (knockout) */
+.bracket-note { font-size: 13px; color: var(--ink-soft); margin-bottom: 14px; display: flex; align-items: center; gap: 8px; }
+.bracket-grid { display: flex; gap: 16px; overflow-x: auto; padding-bottom: 12px; -webkit-overflow-scrolling: touch; }
+.ko-col { flex: 0 0 auto; width: 210px; display: flex; flex-direction: column; gap: 10px; }
+.ko-col-head { font-size: 12px; font-weight: 650; color: var(--ink-faint); text-transform: uppercase; letter-spacing: .04em; padding-bottom: 4px; }
+.ko-card { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius-sm); box-shadow: var(--shadow-soft); padding: 8px; }
+.ko-card.fav-match { border-color: var(--hl-line); background: linear-gradient(0deg, var(--hl-soft), var(--surface) 70%); }
+.ko-slot { display: flex; align-items: center; gap: 7px; padding: 5px 6px; border-radius: 6px; font-size: 13px; }
+.ko-slot + .ko-slot { margin-top: 2px; }
+.ko-slot img { width: 20px; height: 14px; border-radius: 2px; object-fit: cover; flex-shrink: 0; }
+.ko-nm { flex: 1; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.ko-slot.tbd .ko-nm { color: var(--ink-faint); font-style: italic; }
+.ko-slot.win .ko-nm { font-weight: 700; }
+.ko-slot.fav .ko-nm { color: var(--hl-ink); font-weight: 650; }
+.ko-sc { font-weight: 700; font-variant-numeric: tabular-nums; color: var(--ink); min-width: 12px; text-align: right; }
+.ko-meta { text-align: center; font-size: 11px; color: var(--ink-faint); margin-top: 6px; }
+.ko-slot .chk { font-size: 11px; }
+
 /* Responsive */
 @media (max-width: 980px) {
   .team-cards { grid-template-columns: repeat(3, 1fr); }
