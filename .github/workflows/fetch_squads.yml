@@ -2,7 +2,7 @@ name: Fetch squads
 
 on:
   schedule:
-    # Once a day at 05:30 UTC. Squads change rarely; ~49 API calls/run, under the 100/day free limit.
+    # Once a day at 05:30 UTC. Squads change rarely (well under the user's "hourly max").
     - cron: "30 5 * * *"
   workflow_dispatch: {}
 
@@ -24,8 +24,10 @@ jobs:
           python-version: "3.11"
 
       - name: Fetch + build data/squads.json
+        # TheSportsDB free public key "3" — no secret required.
+        # Optional: set a SPORTSDB_KEY repo secret to use your own key.
         env:
-          API_FOOTBALL_KEY: ${{ secrets.API_FOOTBALL_KEY }}
+          SPORTSDB_KEY: ${{ secrets.SPORTSDB_KEY }}
         run: python scripts/fetch_squads.py
 
       - name: Commit if changed

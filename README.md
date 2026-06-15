@@ -78,17 +78,20 @@ and commits it. After that it runs every 15 minutes on its own.
 
 ---
 
-## Players info (optional — api-football.com)
+## Players info (TheSportsDB — free, no key)
 
-Squads come from a second free source because worldcup26.ir has none.
+Squads come from [TheSportsDB](https://www.thesportsdb.com) because worldcup26.ir has none
+and api-football's free tier blocks season 2026. TheSportsDB is free with no season lock and
+needs **no secret** (uses the public key `3`; override via an optional `SPORTSDB_KEY` secret).
 
-1. Free key: register at `https://dashboard.api-football.com` → copy your API key.
-2. Add as repository secret `API_FOOTBALL_KEY` (Settings → Secrets and variables → Actions).
-3. Run **Actions → "Fetch squads" → Run workflow**. Writes `data/squads.json` (~49 API calls, under the 100/day free limit). Then runs daily.
+- Runs **daily** (`fetch_squads.yml`) — squads barely change. Reads the team list from
+  `data/wc2026.json`, finds each senior national side (league `FIFA World Cup`, with a
+  name→code fallback so e.g. *United States → USA* resolves), and writes `data/squads.json`.
+- **Coverage is partial** — TheSportsDB national rosters typically list ~10–20 players, not the
+  full 26. Teams it doesn't have show a "squad not available" note; everything else works.
+- Squads match to teams by FIFA code, then normalised name (alias map in `app.js`).
 
-Squads match to teams by FIFA code, then normalised name (alias map in `app.js` handles
-cases like *South Korea / Korea Republic*). Until enabled, the team detail shows a "squad not
-available" note and everything else works.
+Trigger once now: **Actions → "Fetch squads" → Run workflow**. After that it runs daily.
 
 ## Local preview
 
