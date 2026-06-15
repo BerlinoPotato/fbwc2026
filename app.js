@@ -79,17 +79,19 @@ function toggleFav(code) {
   renderActiveView();
 }
 
+// Small green check shown on highlighted teams (no reordering — position stays stable)
+const CHECK = `<span class="chk" aria-hidden="true">✓</span>`;
 function renderChips() {
   const host = $("#fav-chips");
   host.innerHTML = "";
+  // Stable alphabetical order — selecting a team never moves it.
   const teams = state.data ? [...state.data.teams].sort((a, b) => a.name.localeCompare(b.name)) : [];
-  // Show favourite teams first (and any default favs even if not yet in data won't show — data drives it)
-  const ordered = teams.sort((a, b) => (isFav(b.code) - isFav(a.code)) || a.name.localeCompare(b.name));
-  for (const t of ordered) {
-    const c = el("button", "chip" + (isFav(t.code) ? " is-on" : ""));
+  for (const t of teams) {
+    const on = isFav(t.code);
+    const c = el("button", "chip" + (on ? " is-on" : ""));
     c.type = "button";
-    c.setAttribute("aria-pressed", isFav(t.code));
-    c.innerHTML = `<img src="${esc(t.flag)}" alt="" loading="lazy" onerror="this.style.display='none'"><span>${esc(t.name)}</span>`;
+    c.setAttribute("aria-pressed", on);
+    c.innerHTML = `<img src="${esc(t.flag)}" alt="" loading="lazy" onerror="this.style.display='none'"><span>${esc(t.name)}</span>${on ? CHECK : ""}`;
     c.addEventListener("click", () => toggleFav(t.code));
     host.appendChild(c);
   }
@@ -253,7 +255,7 @@ function renderTeamDetail() {
     </div>`;
   const favBtn = el("button", "chip td-fav" + (isFav(t.code) ? " is-on" : ""));
   favBtn.type = "button";
-  favBtn.textContent = isFav(t.code) ? "★ Highlighted" : "☆ Highlight";
+  favBtn.innerHTML = isFav(t.code) ? `${CHECK} Highlighted` : "Highlight";
   favBtn.addEventListener("click", () => { toggleFav(t.code); renderTeamDetail(); });
   head.appendChild(favBtn);
   host.appendChild(head);
@@ -366,10 +368,11 @@ function renderTeams() {
     block.appendChild(el("div", "team-group-head", `Group ${esc(g)}`));
     const grid = el("div", "team-cards");
     byGroup[g].sort((a, b) => a.name.localeCompare(b.name)).forEach((t) => {
-      const c = el("button", "team-card" + (isFav(t.code) ? " fav" : ""));
+      const on = isFav(t.code);
+      const c = el("button", "team-card" + (on ? " fav" : ""));
       c.type = "button";
       c.innerHTML = `<img src="${esc(t.flag)}" alt="" loading="lazy" onerror="this.style.display='none'">
-        <span class="nm">${esc(t.name)}</span><span class="cd">${esc(t.code)}</span>`;
+        <span class="nm">${esc(t.name)}</span>${on ? CHECK : `<span class="cd">${esc(t.code)}</span>`}`;
       c.addEventListener("click", () => openTeam(t.id));
       grid.appendChild(c);
     });

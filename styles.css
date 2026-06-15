@@ -13,6 +13,11 @@
   --fav: #f59e0b;
   --fav-soft: #fff6e6;
   --fav-line: #f6d490;
+  /* Highlighted-team accent (green) */
+  --hl: #16a34a;
+  --hl-soft: #ecfaf1;
+  --hl-line: #a7e0bd;
+  --hl-ink: #0f7a3d;
   --live: #e5484d;
   --live-soft: #fdecec;
   --win: #1f9d5c;
@@ -63,8 +68,10 @@ button { font-family: inherit; cursor: pointer; }
   transition: all .15s ease;
 }
 .chip img { width: 18px; height: 13px; border-radius: 2px; object-fit: cover; display: block; }
-.chip:hover { border-color: var(--fav-line); }
-.chip.is-on { background: var(--fav-soft); border-color: var(--fav-line); color: #7a5200; font-weight: 600; }
+.chip:hover { border-color: var(--hl-line); }
+.chip.is-on { background: var(--hl-soft); border-color: var(--hl-line); color: var(--hl-ink); font-weight: 600; }
+.chk { color: var(--hl); font-weight: 800; font-size: 12px; line-height: 1; }
+.team-card .chk { margin-left: auto; }
 .link-btn { background: none; border: none; color: var(--accent); font-size: 13px; padding: 4px; }
 .link-btn:hover { text-decoration: underline; }
 
@@ -92,8 +99,8 @@ button { font-family: inherit; cursor: pointer; }
 .team-cell img { width: 22px; height: 16px; border-radius: 2px; object-fit: cover; }
 .team-cell .nm { color: var(--ink); font-weight: 500; }
 .pos { color: var(--ink-faint); width: 16px; display: inline-block; }
-tr.fav-row { background: var(--fav-soft); }
-tr.fav-row .team-cell .nm { color: #7a5200; font-weight: 650; }
+tr.fav-row { background: var(--hl-soft); box-shadow: inset 3px 0 0 var(--hl); }
+tr.fav-row .team-cell .nm { color: var(--hl-ink); font-weight: 650; }
 .qualify-line { border-top: 2px solid var(--accent-soft) !important; }
 
 /* Toolbar / segmented */
@@ -111,7 +118,7 @@ tr.fav-row .team-cell .nm { color: #7a5200; font-weight: 650; }
   box-shadow: var(--shadow-soft); padding: 14px 16px; display: grid;
   grid-template-columns: 1fr auto 1fr; align-items: center; gap: 12px;
 }
-.match-card.fav-match { border-color: var(--fav-line); background: linear-gradient(0deg, var(--fav-soft), var(--surface) 60%); }
+.match-card.fav-match { border-color: var(--hl-line); background: linear-gradient(0deg, var(--hl-soft), var(--surface) 60%); }
 .mc-team { display: flex; align-items: center; gap: 10px; min-width: 0; }
 .mc-team.home { justify-content: flex-end; text-align: right; }
 .mc-team img { width: 26px; height: 19px; border-radius: 3px; object-fit: cover; flex-shrink: 0; }
@@ -186,8 +193,8 @@ tr.fav-row .team-cell .nm { color: #7a5200; font-weight: 650; }
 .team-card img { width: 28px; height: 20px; border-radius: 3px; object-fit: cover; flex-shrink: 0; }
 .team-card .nm { flex: 1; font-weight: 600; font-size: 14px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 .team-card .cd { font-size: 11px; color: var(--ink-faint); font-weight: 600; }
-.team-card.fav { background: var(--fav-soft); border-color: var(--fav-line); }
-.team-card.fav .nm { color: #7a5200; }
+.team-card.fav { background: var(--hl-soft); border-color: var(--hl-line); }
+.team-card.fav .nm { color: var(--hl-ink); }
 
 /* Venues view */
 .venues-list { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; }
