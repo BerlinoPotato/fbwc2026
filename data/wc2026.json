@@ -2,7 +2,7 @@
   "meta": {
     "tournament": "FIFA World Cup 2026",
     "source": "worldcup26.ir",
-    "last_updated": "2026-06-15T20:31:03Z",
+    "last_updated": "2026-06-15T21:03:32Z",
     "is_sample": false,
     "counts": {
       "teams": 48,
@@ -3284,11 +3284,11 @@
       },
       "home_label": null,
       "away_label": null,
-      "home_score": 0,
+      "home_score": 1,
       "away_score": 1,
-      "finished": false,
-      "status": "LIVE",
-      "time_elapsed": "live",
+      "finished": true,
+      "status": "FT",
+      "time_elapsed": "finished",
       "stadium": {
         "id": "14",
         "name": "Lumen Field",
@@ -3967,28 +3967,28 @@
           "code": "BEL",
           "name": "Belgium",
           "flag": "https://flagcdn.com/w80/be.png",
-          "played": 0,
+          "played": 1,
           "won": 0,
-          "drawn": 0,
+          "drawn": 1,
           "lost": 0,
-          "gf": 0,
-          "ga": 0,
+          "gf": 1,
+          "ga": 1,
           "gd": 0,
-          "pts": 0
+          "pts": 1
         },
         {
           "team_id": "26",
           "code": "EGY",
           "name": "Egypt",
           "flag": "https://flagcdn.com/w80/eg.png",
-          "played": 0,
+          "played": 1,
           "won": 0,
-          "drawn": 0,
+          "drawn": 1,
           "lost": 0,
-          "gf": 0,
-          "ga": 0,
+          "gf": 1,
+          "ga": 1,
           "gd": 0,
-          "pts": 0
+          "pts": 1
         },
         {
           "team_id": "27",
