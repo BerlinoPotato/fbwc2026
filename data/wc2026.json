@@ -2,7 +2,7 @@
   "meta": {
     "tournament": "FIFA World Cup 2026",
     "source": "worldcup26.ir",
-    "last_updated": "2026-06-16T01:45:56Z",
+    "last_updated": "2026-06-16T02:01:19Z",
     "is_sample": false,
     "counts": {
       "teams": 48,
@@ -2918,11 +2918,11 @@
       },
       "home_label": null,
       "away_label": null,
-      "home_score": 0,
-      "away_score": 0,
+      "home_score": 1,
+      "away_score": 1,
       "finished": false,
-      "status": "NS",
-      "time_elapsed": "notstarted",
+      "status": "LIVE",
+      "time_elapsed": "live",
       "stadium": {
         "id": "16",
         "name": "SoFi Stadium",
