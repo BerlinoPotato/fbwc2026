@@ -2,7 +2,7 @@
   "meta": {
     "tournament": "FIFA World Cup 2026",
     "source": "worldcup26.ir",
-    "last_updated": "2026-06-16T03:01:15Z",
+    "last_updated": "2026-06-16T03:15:42Z",
     "is_sample": false,
     "counts": {
       "teams": 48,
@@ -2920,9 +2920,9 @@
       "away_label": null,
       "home_score": 2,
       "away_score": 2,
-      "finished": false,
-      "status": "LIVE",
-      "time_elapsed": "live",
+      "finished": true,
+      "status": "FT",
+      "time_elapsed": "finished",
       "stadium": {
         "id": "16",
         "name": "SoFi Stadium",
@@ -3963,6 +3963,34 @@
       "group": "G",
       "rows": [
         {
+          "team_id": "27",
+          "code": "IRN",
+          "name": "Iran",
+          "flag": "https://flagcdn.com/w80/ir.png",
+          "played": 1,
+          "won": 0,
+          "drawn": 1,
+          "lost": 0,
+          "gf": 2,
+          "ga": 2,
+          "gd": 0,
+          "pts": 1
+        },
+        {
+          "team_id": "28",
+          "code": "NZL",
+          "name": "New Zealand",
+          "flag": "https://flagcdn.com/w80/nz.png",
+          "played": 1,
+          "won": 0,
+          "drawn": 1,
+          "lost": 0,
+          "gf": 2,
+          "ga": 2,
+          "gd": 0,
+          "pts": 1
+        },
+        {
           "team_id": "25",
           "code": "BEL",
           "name": "Belgium",
@@ -3989,34 +4017,6 @@
           "ga": 1,
           "gd": 0,
           "pts": 1
-        },
-        {
-          "team_id": "27",
-          "code": "IRN",
-          "name": "Iran",
-          "flag": "https://flagcdn.com/w80/ir.png",
-          "played": 0,
-          "won": 0,
-          "drawn": 0,
-          "lost": 0,
-          "gf": 0,
-          "ga": 0,
-          "gd": 0,
-          "pts": 0
-        },
-        {
-          "team_id": "28",
-          "code": "NZL",
-          "name": "New Zealand",
-          "flag": "https://flagcdn.com/w80/nz.png",
-          "played": 0,
-          "won": 0,
-          "drawn": 0,
-          "lost": 0,
-          "gf": 0,
-          "ga": 0,
-          "gd": 0,
-          "pts": 0
         }
       ]
     },
