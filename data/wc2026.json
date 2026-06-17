@@ -2,7 +2,7 @@
   "meta": {
     "tournament": "FIFA World Cup 2026",
     "source": "worldcup26.ir",
-    "last_updated": "2026-06-17T00:01:12Z",
+    "last_updated": "2026-06-17T00:15:45Z",
     "is_sample": false,
     "counts": {
       "teams": 48,
@@ -1363,10 +1363,10 @@
       "home_label": null,
       "away_label": null,
       "home_score": 1,
-      "away_score": 3,
-      "finished": false,
-      "status": "LIVE",
-      "time_elapsed": "live",
+      "away_score": 4,
+      "finished": true,
+      "status": "FT",
+      "time_elapsed": "finished",
       "stadium": {
         "id": "9",
         "name": "Gillette Stadium",
@@ -4085,6 +4085,20 @@
       "group": "I",
       "rows": [
         {
+          "team_id": "36",
+          "code": "NOR",
+          "name": "Norway",
+          "flag": "https://flagcdn.com/w80/no.png",
+          "played": 1,
+          "won": 1,
+          "drawn": 0,
+          "lost": 0,
+          "gf": 4,
+          "ga": 1,
+          "gd": 3,
+          "pts": 3
+        },
+        {
           "team_id": "33",
           "code": "FRA",
           "name": "France",
@@ -4099,34 +4113,6 @@
           "pts": 3
         },
         {
-          "team_id": "35",
-          "code": "IRQ",
-          "name": "Iraq",
-          "flag": "https://flagcdn.com/w80/iq.png",
-          "played": 0,
-          "won": 0,
-          "drawn": 0,
-          "lost": 0,
-          "gf": 0,
-          "ga": 0,
-          "gd": 0,
-          "pts": 0
-        },
-        {
-          "team_id": "36",
-          "code": "NOR",
-          "name": "Norway",
-          "flag": "https://flagcdn.com/w80/no.png",
-          "played": 0,
-          "won": 0,
-          "drawn": 0,
-          "lost": 0,
-          "gf": 0,
-          "ga": 0,
-          "gd": 0,
-          "pts": 0
-        },
-        {
           "team_id": "34",
           "code": "SEN",
           "name": "Senegal",
@@ -4138,6 +4124,20 @@
           "gf": 1,
           "ga": 3,
           "gd": -2,
+          "pts": 0
+        },
+        {
+          "team_id": "35",
+          "code": "IRQ",
+          "name": "Iraq",
+          "flag": "https://flagcdn.com/w80/iq.png",
+          "played": 1,
+          "won": 0,
+          "drawn": 0,
+          "lost": 1,
+          "gf": 1,
+          "ga": 4,
+          "gd": -3,
           "pts": 0
         }
       ]
