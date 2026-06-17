@@ -2,7 +2,7 @@
   "meta": {
     "tournament": "FIFA World Cup 2026",
     "source": "worldcup26.ir",
-    "last_updated": "2026-06-17T03:01:12Z",
+    "last_updated": "2026-06-17T03:15:48Z",
     "is_sample": false,
     "counts": {
       "teams": 48,
@@ -2953,9 +2953,9 @@
       "away_label": null,
       "home_score": 3,
       "away_score": 0,
-      "finished": false,
-      "status": "LIVE",
-      "time_elapsed": "live",
+      "finished": true,
+      "status": "FT",
+      "time_elapsed": "finished",
       "stadium": {
         "id": "6",
         "name": "GEHA Field at Arrowhead Stadium",
@@ -4146,32 +4146,18 @@
       "group": "J",
       "rows": [
         {
-          "team_id": "38",
-          "code": "ALG",
-          "name": "Algeria",
-          "flag": "https://flagcdn.com/w80/dz.png",
-          "played": 0,
-          "won": 0,
-          "drawn": 0,
-          "lost": 0,
-          "gf": 0,
-          "ga": 0,
-          "gd": 0,
-          "pts": 0
-        },
-        {
           "team_id": "37",
           "code": "ARG",
           "name": "Argentina",
           "flag": "https://flagcdn.com/w80/ar.png",
-          "played": 0,
-          "won": 0,
+          "played": 1,
+          "won": 1,
           "drawn": 0,
           "lost": 0,
-          "gf": 0,
+          "gf": 3,
           "ga": 0,
-          "gd": 0,
-          "pts": 0
+          "gd": 3,
+          "pts": 3
         },
         {
           "team_id": "39",
@@ -4199,6 +4185,20 @@
           "gf": 0,
           "ga": 0,
           "gd": 0,
+          "pts": 0
+        },
+        {
+          "team_id": "38",
+          "code": "ALG",
+          "name": "Algeria",
+          "flag": "https://flagcdn.com/w80/dz.png",
+          "played": 1,
+          "won": 0,
+          "drawn": 0,
+          "lost": 1,
+          "gf": 0,
+          "ga": 3,
+          "gd": -3,
           "pts": 0
         }
       ]
