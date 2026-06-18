@@ -2,7 +2,7 @@
   "meta": {
     "tournament": "FIFA World Cup 2026",
     "source": "worldcup26.ir",
-    "last_updated": "2026-06-18T04:01:08Z",
+    "last_updated": "2026-06-18T04:15:48Z",
     "is_sample": false,
     "counts": {
       "teams": 48,
@@ -1226,9 +1226,9 @@
       "away_label": null,
       "home_score": 1,
       "away_score": 3,
-      "finished": false,
-      "status": "LIVE",
-      "time_elapsed": "live",
+      "finished": true,
+      "status": "FT",
+      "time_elapsed": "finished",
       "stadium": {
         "id": "1",
         "name": "Estadio Azteca",
@@ -4207,6 +4207,20 @@
       "group": "K",
       "rows": [
         {
+          "team_id": "44",
+          "code": "COL",
+          "name": "Colombia",
+          "flag": "https://flagcdn.com/w80/co.png",
+          "played": 1,
+          "won": 1,
+          "drawn": 0,
+          "lost": 0,
+          "gf": 3,
+          "ga": 1,
+          "gd": 2,
+          "pts": 3
+        },
+        {
           "team_id": "42",
           "code": "COD",
           "name": "Democratic Republic of the Congo",
@@ -4235,31 +4249,17 @@
           "pts": 1
         },
         {
-          "team_id": "44",
-          "code": "COL",
-          "name": "Colombia",
-          "flag": "https://flagcdn.com/w80/co.png",
-          "played": 0,
-          "won": 0,
-          "drawn": 0,
-          "lost": 0,
-          "gf": 0,
-          "ga": 0,
-          "gd": 0,
-          "pts": 0
-        },
-        {
           "team_id": "43",
           "code": "UZB",
           "name": "Uzbekistan",
           "flag": "https://flagcdn.com/w80/uz.png",
-          "played": 0,
+          "played": 1,
           "won": 0,
           "drawn": 0,
-          "lost": 0,
-          "gf": 0,
-          "ga": 0,
-          "gd": 0,
+          "lost": 1,
+          "gf": 1,
+          "ga": 3,
+          "gd": -2,
           "pts": 0
         }
       ]
