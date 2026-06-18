@@ -2,7 +2,7 @@
   "meta": {
     "tournament": "FIFA World Cup 2026",
     "source": "worldcup26.ir",
-    "last_updated": "2026-06-18T17:48:26Z",
+    "last_updated": "2026-06-18T18:01:10Z",
     "is_sample": false,
     "counts": {
       "teams": 48,
@@ -1391,9 +1391,9 @@
       "away_label": null,
       "home_score": 1,
       "away_score": 1,
-      "finished": false,
-      "status": "LIVE",
-      "time_elapsed": "live",
+      "finished": true,
+      "status": "FT",
+      "time_elapsed": "finished",
       "stadium": {
         "id": "7",
         "name": "Mercedes-Benz Stadium",
@@ -3629,28 +3629,28 @@
           "code": "CZE",
           "name": "Czech Republic",
           "flag": "https://flagcdn.com/w80/cz.png",
-          "played": 1,
+          "played": 2,
           "won": 0,
-          "drawn": 0,
+          "drawn": 1,
           "lost": 1,
-          "gf": 1,
-          "ga": 2,
+          "gf": 2,
+          "ga": 3,
           "gd": -1,
-          "pts": 0
+          "pts": 1
         },
         {
           "team_id": "2",
           "code": "RSA",
           "name": "South Africa",
           "flag": "https://flagcdn.com/w80/za.png",
-          "played": 1,
+          "played": 2,
           "won": 0,
-          "drawn": 0,
+          "drawn": 1,
           "lost": 1,
-          "gf": 0,
-          "ga": 2,
+          "gf": 1,
+          "ga": 3,
           "gd": -2,
-          "pts": 0
+          "pts": 1
         }
       ]
     },
