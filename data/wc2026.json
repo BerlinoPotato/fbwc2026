@@ -2,7 +2,7 @@
   "meta": {
     "tournament": "FIFA World Cup 2026",
     "source": "worldcup26.ir",
-    "last_updated": "2026-06-18T01:01:04Z",
+    "last_updated": "2026-06-18T01:15:44Z",
     "is_sample": false,
     "counts": {
       "teams": 48,
@@ -1259,9 +1259,9 @@
       "away_label": null,
       "home_score": 1,
       "away_score": 0,
-      "finished": false,
-      "status": "LIVE",
-      "time_elapsed": "live",
+      "finished": true,
+      "status": "FT",
+      "time_elapsed": "finished",
       "stadium": {
         "id": "12",
         "name": "BMO Field",
@@ -4286,27 +4286,27 @@
           "code": "GHA",
           "name": "Ghana",
           "flag": "https://flagcdn.com/w80/gh.png",
-          "played": 0,
-          "won": 0,
+          "played": 1,
+          "won": 1,
           "drawn": 0,
           "lost": 0,
-          "gf": 0,
+          "gf": 1,
           "ga": 0,
-          "gd": 0,
-          "pts": 0
+          "gd": 1,
+          "pts": 3
         },
         {
           "team_id": "48",
           "code": "PAN",
           "name": "Panama",
           "flag": "https://flagcdn.com/w80/pa.png",
-          "played": 0,
+          "played": 1,
           "won": 0,
           "drawn": 0,
-          "lost": 0,
+          "lost": 1,
           "gf": 0,
-          "ga": 0,
-          "gd": 0,
+          "ga": 1,
+          "gd": -1,
           "pts": 0
         },
         {
