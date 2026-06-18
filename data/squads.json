@@ -1,7 +1,7 @@
 {
   "meta": {
     "source": "thesportsdb.com",
-    "last_updated": "2026-06-16T10:28:05Z",
+    "last_updated": "2026-06-18T09:55:09Z",
     "is_sample": false,
     "teams": 48,
     "teams_with_players": 28,
@@ -1005,7 +1005,7 @@
         },
         {
           "number": 11,
-          "name": "Bilal El Khannous",
+          "name": "Bilal El Khannouss",
           "position": "Midfielder"
         },
         {
@@ -1583,58 +1583,7 @@
     {
       "code": "KOR",
       "name": "South Korea",
-      "players": [
-        {
-          "number": 31,
-          "name": "Bum-keun Song",
-          "position": "Goalkeeper"
-        },
-        {
-          "number": 10,
-          "name": "Dong-gyeong Lee",
-          "position": "Midfielder"
-        },
-        {
-          "number": 13,
-          "name": "Gi-hyuk Lee",
-          "position": "Defender"
-        },
-        {
-          "number": 10,
-          "name": "Gue-sung Cho",
-          "position": "Attacker"
-        },
-        {
-          "number": 3,
-          "name": "Han-beom Lee",
-          "position": "Defender"
-        },
-        {
-          "number": 11,
-          "name": "Hee-chan Hwang",
-          "position": "Attacker"
-        },
-        {
-          "number": 7,
-          "name": "Heung-min Son",
-          "position": "Attacker"
-        },
-        {
-          "number": 9,
-          "name": "Hyeon-gyu Oh",
-          "position": "Attacker"
-        },
-        {
-          "number": 21,
-          "name": "Hyeon-woo Jo",
-          "position": "Goalkeeper"
-        },
-        {
-          "number": 13,
-          "name": "Hyun-jun Yang",
-          "position": "Attacker"
-        }
-      ]
+      "players": []
     },
     {
       "code": "ESP",
@@ -1674,7 +1623,58 @@
     {
       "code": "UZB",
       "name": "Uzbekistan",
-      "players": []
+      "players": [
+        {
+          "number": 11,
+          "name": "Abbosbek Fayzullaev",
+          "position": "Midfielder"
+        },
+        {
+          "number": 45,
+          "name": "Abdukodir Khusanov",
+          "position": "Defender"
+        },
+        {
+          "number": 8,
+          "name": "Abdulla Abdullaev",
+          "position": "Defender"
+        },
+        {
+          "number": 1,
+          "name": "Abduvohid Nematov",
+          "position": "Goalkeeper"
+        },
+        {
+          "number": 10,
+          "name": "Akmal Mozgovoy",
+          "position": "Midfielder"
+        },
+        {
+          "number": 6,
+          "name": "Avazbek Ulmasaliev",
+          "position": "Defender"
+        },
+        {
+          "number": 8,
+          "name": "Azizbek Amonov",
+          "position": "Attacker"
+        },
+        {
+          "number": 6,
+          "name": "Azizjon Ganiev",
+          "position": "Midfielder"
+        },
+        {
+          "number": 2,
+          "name": "Bekhruz Karimov",
+          "position": "Defender"
+        },
+        {
+          "number": 1,
+          "name": "Botirali Ergashev",
+          "position": "Goalkeeper"
+        }
+      ]
     }
   ]
 }
