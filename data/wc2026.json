@@ -2,7 +2,7 @@
   "meta": {
     "tournament": "FIFA World Cup 2026",
     "source": "worldcup26.ir",
-    "last_updated": "2026-06-19T21:00:57Z",
+    "last_updated": "2026-06-19T21:15:55Z",
     "is_sample": false,
     "counts": {
       "teams": 48,
@@ -1490,9 +1490,9 @@
       "away_label": null,
       "home_score": 2,
       "away_score": 0,
-      "finished": false,
-      "status": "LIVE",
-      "time_elapsed": "live",
+      "finished": true,
+      "status": "FT",
+      "time_elapsed": "finished",
       "stadium": {
         "id": "14",
         "name": "Lumen Field",
@@ -3784,27 +3784,27 @@
           "code": "USA",
           "name": "United States",
           "flag": "https://flagcdn.com/w80/us.png",
-          "played": 1,
-          "won": 1,
+          "played": 2,
+          "won": 2,
           "drawn": 0,
           "lost": 0,
-          "gf": 4,
+          "gf": 6,
           "ga": 1,
-          "gd": 3,
-          "pts": 3
+          "gd": 5,
+          "pts": 6
         },
         {
           "team_id": "15",
           "code": "AUS",
           "name": "Australia",
           "flag": "https://flagcdn.com/w80/au.png",
-          "played": 1,
+          "played": 2,
           "won": 1,
           "drawn": 0,
-          "lost": 0,
+          "lost": 1,
           "gf": 2,
-          "ga": 0,
-          "gd": 2,
+          "ga": 2,
+          "gd": 0,
           "pts": 3
         },
         {
