@@ -2,7 +2,7 @@
   "meta": {
     "tournament": "FIFA World Cup 2026",
     "source": "worldcup26.ir",
-    "last_updated": "2026-06-19T02:45:52Z",
+    "last_updated": "2026-06-19T03:00:59Z",
     "is_sample": false,
     "counts": {
       "teams": 48,
@@ -1292,9 +1292,9 @@
       "away_label": null,
       "home_score": 1,
       "away_score": 0,
-      "finished": false,
-      "status": "LIVE",
-      "time_elapsed": "live",
+      "finished": true,
+      "status": "FT",
+      "time_elapsed": "finished",
       "stadium": {
         "id": "2",
         "name": "Estadio Akron",
@@ -3601,27 +3601,27 @@
           "code": "MEX",
           "name": "Mexico",
           "flag": "https://flagcdn.com/w80/mx.png",
-          "played": 1,
-          "won": 1,
+          "played": 2,
+          "won": 2,
           "drawn": 0,
           "lost": 0,
-          "gf": 2,
+          "gf": 3,
           "ga": 0,
-          "gd": 2,
-          "pts": 3
+          "gd": 3,
+          "pts": 6
         },
         {
           "team_id": "3",
           "code": "KOR",
           "name": "South Korea",
           "flag": "https://flagcdn.com/w80/kr.png",
-          "played": 1,
+          "played": 2,
           "won": 1,
           "drawn": 0,
-          "lost": 0,
+          "lost": 1,
           "gf": 2,
-          "ga": 1,
-          "gd": 1,
+          "ga": 2,
+          "gd": 0,
           "pts": 3
         },
         {
