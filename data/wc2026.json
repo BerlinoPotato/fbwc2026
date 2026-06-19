@@ -2,7 +2,7 @@
   "meta": {
     "tournament": "FIFA World Cup 2026",
     "source": "worldcup26.ir",
-    "last_updated": "2026-06-18T23:45:51Z",
+    "last_updated": "2026-06-19T00:08:20Z",
     "is_sample": false,
     "counts": {
       "teams": 48,
@@ -1356,11 +1356,11 @@
       },
       "home_label": null,
       "away_label": null,
-      "home_score": 5,
+      "home_score": 6,
       "away_score": 0,
-      "finished": false,
-      "status": "LIVE",
-      "time_elapsed": "live",
+      "finished": true,
+      "status": "FT",
+      "time_elapsed": "finished",
       "stadium": {
         "id": "13",
         "name": "BC Place",
@@ -3658,6 +3658,20 @@
       "group": "B",
       "rows": [
         {
+          "team_id": "5",
+          "code": "CAN",
+          "name": "Canada",
+          "flag": "https://flagcdn.com/w80/ca.png",
+          "played": 2,
+          "won": 1,
+          "drawn": 1,
+          "lost": 0,
+          "gf": 7,
+          "ga": 1,
+          "gd": 6,
+          "pts": 4
+        },
+        {
           "team_id": "8",
           "code": "SUI",
           "name": "Switzerland",
@@ -3672,34 +3686,6 @@
           "pts": 4
         },
         {
-          "team_id": "5",
-          "code": "CAN",
-          "name": "Canada",
-          "flag": "https://flagcdn.com/w80/ca.png",
-          "played": 1,
-          "won": 0,
-          "drawn": 1,
-          "lost": 0,
-          "gf": 1,
-          "ga": 1,
-          "gd": 0,
-          "pts": 1
-        },
-        {
-          "team_id": "7",
-          "code": "QAT",
-          "name": "Qatar",
-          "flag": "https://flagcdn.com/w80/qa.png",
-          "played": 1,
-          "won": 0,
-          "drawn": 1,
-          "lost": 0,
-          "gf": 1,
-          "ga": 1,
-          "gd": 0,
-          "pts": 1
-        },
-        {
           "team_id": "6",
           "code": "BIH",
           "name": "Bosnia and Herzegovina",
@@ -3711,6 +3697,20 @@
           "gf": 2,
           "ga": 5,
           "gd": -3,
+          "pts": 1
+        },
+        {
+          "team_id": "7",
+          "code": "QAT",
+          "name": "Qatar",
+          "flag": "https://flagcdn.com/w80/qa.png",
+          "played": 2,
+          "won": 0,
+          "drawn": 1,
+          "lost": 1,
+          "gf": 1,
+          "ga": 7,
+          "gd": -6,
           "pts": 1
         }
       ]
