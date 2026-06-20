@@ -2,7 +2,7 @@
   "meta": {
     "tournament": "FIFA World Cup 2026",
     "source": "worldcup26.ir",
-    "last_updated": "2026-06-20T07:15:37Z",
+    "last_updated": "2026-06-20T07:30:50Z",
     "is_sample": false,
     "counts": {
       "teams": 48,
@@ -2998,7 +2998,12 @@
       "group": "R32",
       "matchday": "4",
       "type": "r32",
-      "home": null,
+      "home": {
+        "id": "1",
+        "code": "MEX",
+        "name": "Mexico",
+        "flag": "https://flagcdn.com/w80/mx.png"
+      },
       "away": null,
       "home_label": "Winner Group A",
       "away_label": "3rd Group C/E/F/H/I",
