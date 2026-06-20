@@ -2,7 +2,7 @@
   "meta": {
     "tournament": "FIFA World Cup 2026",
     "source": "worldcup26.ir",
-    "last_updated": "2026-06-20T07:00:58Z",
+    "last_updated": "2026-06-20T07:15:37Z",
     "is_sample": false,
     "counts": {
       "teams": 48,
@@ -3044,7 +3044,12 @@
       "group": "R32",
       "matchday": "4",
       "type": "r32",
-      "home": null,
+      "home": {
+        "id": "13",
+        "code": "USA",
+        "name": "United States",
+        "flag": "https://flagcdn.com/w80/us.png"
+      },
       "away": null,
       "home_label": "Winner Group D",
       "away_label": "3rd Group B/E/F/I/J",
