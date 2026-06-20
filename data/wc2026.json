@@ -2,7 +2,7 @@
   "meta": {
     "tournament": "FIFA World Cup 2026",
     "source": "worldcup26.ir",
-    "last_updated": "2026-06-19T23:45:55Z",
+    "last_updated": "2026-06-20T00:00:53Z",
     "is_sample": false,
     "counts": {
       "teams": 48,
@@ -1457,9 +1457,9 @@
       "away_label": null,
       "home_score": 0,
       "away_score": 1,
-      "finished": false,
-      "status": "LIVE",
-      "time_elapsed": "live",
+      "finished": true,
+      "status": "FT",
+      "time_elapsed": "finished",
       "stadium": {
         "id": "9",
         "name": "Gillette Stadium",
@@ -3719,17 +3719,31 @@
       "group": "C",
       "rows": [
         {
+          "team_id": "10",
+          "code": "MAR",
+          "name": "Morocco",
+          "flag": "https://flagcdn.com/w80/ma.png",
+          "played": 2,
+          "won": 1,
+          "drawn": 1,
+          "lost": 0,
+          "gf": 2,
+          "ga": 1,
+          "gd": 1,
+          "pts": 4
+        },
+        {
           "team_id": "12",
           "code": "SCO",
           "name": "Scotland",
           "flag": "https://flagcdn.com/w80/gb-sct.png",
-          "played": 1,
+          "played": 2,
           "won": 1,
           "drawn": 0,
-          "lost": 0,
+          "lost": 1,
           "gf": 1,
-          "ga": 0,
-          "gd": 1,
+          "ga": 1,
+          "gd": 0,
           "pts": 3
         },
         {
@@ -3737,20 +3751,6 @@
           "code": "BRA",
           "name": "Brazil",
           "flag": "https://flagcdn.com/w80/br.png",
-          "played": 1,
-          "won": 0,
-          "drawn": 1,
-          "lost": 0,
-          "gf": 1,
-          "ga": 1,
-          "gd": 0,
-          "pts": 1
-        },
-        {
-          "team_id": "10",
-          "code": "MAR",
-          "name": "Morocco",
-          "flag": "https://flagcdn.com/w80/ma.png",
           "played": 1,
           "won": 0,
           "drawn": 1,
