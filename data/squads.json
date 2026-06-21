@@ -1,10 +1,10 @@
 {
   "meta": {
     "source": "thesportsdb.com",
-    "last_updated": "2026-06-18T09:55:09Z",
+    "last_updated": "2026-06-21T09:11:04Z",
     "is_sample": false,
     "teams": 48,
-    "teams_with_players": 28,
+    "teams_with_players": 27,
     "note": "TheSportsDB national rosters are partial; some teams may have few/no players."
   },
   "squads": [
@@ -789,58 +789,7 @@
     {
       "code": "CIV",
       "name": "Ivory Coast",
-      "players": [
-        {
-          "number": 40,
-          "name": "Alban Lafont",
-          "position": "Goalkeeper"
-        },
-        {
-          "number": 16,
-          "name": "Amad Diallo",
-          "position": "Attacker"
-        },
-        {
-          "number": 14,
-          "name": "Ange-Yoan Bonny",
-          "position": "Attacker"
-        },
-        {
-          "number": 29,
-          "name": "Bazoumana Touré",
-          "position": "Attacker"
-        },
-        {
-          "number": 42,
-          "name": "Christ Inao Oulaï",
-          "position": "Midfielder"
-        },
-        {
-          "number": 21,
-          "name": "Christopher Opéri",
-          "position": "Defender"
-        },
-        {
-          "number": 11,
-          "name": "Elye Wahi",
-          "position": "Attacker"
-        },
-        {
-          "number": null,
-          "name": "Emerse Faé",
-          "position": ""
-        },
-        {
-          "number": 12,
-          "name": "Emmanuel Agbadou",
-          "position": "Defender"
-        },
-        {
-          "number": 5,
-          "name": "Evan Ndicka",
-          "position": "Defender"
-        }
-      ]
+      "players": []
     },
     {
       "code": "JPN",
