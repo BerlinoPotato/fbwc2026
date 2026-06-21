@@ -2,7 +2,7 @@
   "meta": {
     "tournament": "FIFA World Cup 2026",
     "source": "worldcup26.ir",
-    "last_updated": "2026-06-21T20:15:58Z",
+    "last_updated": "2026-06-21T20:30:49Z",
     "is_sample": false,
     "counts": {
       "teams": 48,
@@ -1686,11 +1686,11 @@
       },
       "home_label": null,
       "away_label": null,
-      "home_score": null,
-      "away_score": null,
+      "home_score": 0,
+      "away_score": 0,
       "finished": false,
-      "status": "NS",
-      "time_elapsed": "notstarted",
+      "status": "LIVE",
+      "time_elapsed": "live",
       "stadium": {
         "id": "16",
         "name": "SoFi Stadium",
@@ -1752,11 +1752,11 @@
       },
       "home_label": null,
       "away_label": null,
-      "home_score": null,
-      "away_score": null,
-      "finished": false,
-      "status": "NS",
-      "time_elapsed": "notstarted",
+      "home_score": 4,
+      "away_score": 0,
+      "finished": true,
+      "status": "FT",
+      "time_elapsed": "finished",
       "stadium": {
         "id": "7",
         "name": "Mercedes-Benz Stadium",
@@ -4039,18 +4039,18 @@
       "group": "H",
       "rows": [
         {
-          "team_id": "31",
-          "code": "KSA",
-          "name": "Saudi Arabia",
-          "flag": "https://flagcdn.com/w80/sa.png",
-          "played": 1,
-          "won": 0,
+          "team_id": "29",
+          "code": "ESP",
+          "name": "Spain",
+          "flag": "https://flagcdn.com/w80/es.png",
+          "played": 2,
+          "won": 1,
           "drawn": 1,
           "lost": 0,
-          "gf": 1,
-          "ga": 1,
-          "gd": 0,
-          "pts": 1
+          "gf": 4,
+          "ga": 0,
+          "gd": 4,
+          "pts": 4
         },
         {
           "team_id": "32",
@@ -4081,17 +4081,17 @@
           "pts": 1
         },
         {
-          "team_id": "29",
-          "code": "ESP",
-          "name": "Spain",
-          "flag": "https://flagcdn.com/w80/es.png",
-          "played": 1,
+          "team_id": "31",
+          "code": "KSA",
+          "name": "Saudi Arabia",
+          "flag": "https://flagcdn.com/w80/sa.png",
+          "played": 2,
           "won": 0,
           "drawn": 1,
-          "lost": 0,
-          "gf": 0,
-          "ga": 0,
-          "gd": 0,
+          "lost": 1,
+          "gf": 1,
+          "ga": 5,
+          "gd": -4,
           "pts": 1
         }
       ]
