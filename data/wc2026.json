@@ -2,7 +2,7 @@
   "meta": {
     "tournament": "FIFA World Cup 2026",
     "source": "worldcup26.ir",
-    "last_updated": "2026-06-22T00:04:29Z",
+    "last_updated": "2026-06-22T00:15:59Z",
     "is_sample": false,
     "counts": {
       "teams": 48,
@@ -1787,9 +1787,9 @@
       "away_label": null,
       "home_score": 2,
       "away_score": 2,
-      "finished": false,
-      "status": "LIVE",
-      "time_elapsed": "live",
+      "finished": true,
+      "status": "FT",
+      "time_elapsed": "finished",
       "stadium": {
         "id": "8",
         "name": "Hard Rock Stadium",
@@ -4057,28 +4057,28 @@
           "code": "URU",
           "name": "Uruguay",
           "flag": "https://flagcdn.com/w80/uy.png",
-          "played": 1,
+          "played": 2,
           "won": 0,
-          "drawn": 1,
+          "drawn": 2,
           "lost": 0,
-          "gf": 1,
-          "ga": 1,
+          "gf": 3,
+          "ga": 3,
           "gd": 0,
-          "pts": 1
+          "pts": 2
         },
         {
           "team_id": "30",
           "code": "CPV",
           "name": "Cape Verde",
           "flag": "https://flagcdn.com/w80/cv.png",
-          "played": 1,
+          "played": 2,
           "won": 0,
-          "drawn": 1,
+          "drawn": 2,
           "lost": 0,
-          "gf": 0,
-          "ga": 0,
+          "gf": 2,
+          "ga": 2,
           "gd": 0,
-          "pts": 1
+          "pts": 2
         },
         {
           "team_id": "31",
