@@ -2,7 +2,7 @@
   "meta": {
     "tournament": "FIFA World Cup 2026",
     "source": "worldcup26.ir",
-    "last_updated": "2026-06-23T00:45:21Z",
+    "last_updated": "2026-06-23T01:00:27Z",
     "is_sample": false,
     "counts": {
       "teams": 48,
@@ -1820,9 +1820,9 @@
       "away_label": null,
       "home_score": 3,
       "away_score": 0,
-      "finished": false,
-      "status": "LIVE",
-      "time_elapsed": "live",
+      "finished": true,
+      "status": "FT",
+      "time_elapsed": "finished",
       "stadium": {
         "id": "10",
         "name": "Lincoln Financial Field",
@@ -4100,6 +4100,20 @@
       "group": "I",
       "rows": [
         {
+          "team_id": "33",
+          "code": "FRA",
+          "name": "France",
+          "flag": "https://flagcdn.com/w80/fr.png",
+          "played": 2,
+          "won": 2,
+          "drawn": 0,
+          "lost": 0,
+          "gf": 6,
+          "ga": 1,
+          "gd": 5,
+          "pts": 6
+        },
+        {
           "team_id": "36",
           "code": "NOR",
           "name": "Norway",
@@ -4111,20 +4125,6 @@
           "gf": 4,
           "ga": 1,
           "gd": 3,
-          "pts": 3
-        },
-        {
-          "team_id": "33",
-          "code": "FRA",
-          "name": "France",
-          "flag": "https://flagcdn.com/w80/fr.png",
-          "played": 1,
-          "won": 1,
-          "drawn": 0,
-          "lost": 0,
-          "gf": 3,
-          "ga": 1,
-          "gd": 2,
           "pts": 3
         },
         {
@@ -4146,13 +4146,13 @@
           "code": "IRQ",
           "name": "Iraq",
           "flag": "https://flagcdn.com/w80/iq.png",
-          "played": 1,
+          "played": 2,
           "won": 0,
           "drawn": 0,
-          "lost": 1,
+          "lost": 2,
           "gf": 1,
-          "ga": 4,
-          "gd": -3,
+          "ga": 7,
+          "gd": -6,
           "pts": 0
         }
       ]
