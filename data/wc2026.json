@@ -2,7 +2,7 @@
   "meta": {
     "tournament": "FIFA World Cup 2026",
     "source": "worldcup26.ir",
-    "last_updated": "2026-06-23T05:00:33Z",
+    "last_updated": "2026-06-23T05:15:19Z",
     "is_sample": false,
     "counts": {
       "teams": 48,
@@ -1919,9 +1919,9 @@
       "away_label": null,
       "home_score": 1,
       "away_score": 2,
-      "finished": false,
-      "status": "LIVE",
-      "time_elapsed": "live",
+      "finished": true,
+      "status": "FT",
+      "time_elapsed": "finished",
       "stadium": {
         "id": "15",
         "name": "Levi's Stadium",
@@ -4189,30 +4189,30 @@
           "pts": 3
         },
         {
-          "team_id": "40",
-          "code": "JOR",
-          "name": "Jordan",
-          "flag": "https://flagcdn.com/w80/jo.png",
-          "played": 1,
-          "won": 0,
-          "drawn": 0,
-          "lost": 1,
-          "gf": 1,
-          "ga": 3,
-          "gd": -2,
-          "pts": 0
-        },
-        {
           "team_id": "38",
           "code": "ALG",
           "name": "Algeria",
           "flag": "https://flagcdn.com/w80/dz.png",
-          "played": 1,
-          "won": 0,
+          "played": 2,
+          "won": 1,
           "drawn": 0,
           "lost": 1,
-          "gf": 0,
-          "ga": 3,
+          "gf": 2,
+          "ga": 4,
+          "gd": -2,
+          "pts": 3
+        },
+        {
+          "team_id": "40",
+          "code": "JOR",
+          "name": "Jordan",
+          "flag": "https://flagcdn.com/w80/jo.png",
+          "played": 2,
+          "won": 0,
+          "drawn": 0,
+          "lost": 2,
+          "gf": 2,
+          "ga": 5,
           "gd": -3,
           "pts": 0
         }
