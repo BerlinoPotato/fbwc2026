@@ -2,7 +2,7 @@
   "meta": {
     "tournament": "FIFA World Cup 2026",
     "source": "worldcup26.ir",
-    "last_updated": "2026-06-23T19:00:38Z",
+    "last_updated": "2026-06-23T19:15:28Z",
     "is_sample": false,
     "counts": {
       "teams": 48,
@@ -1952,9 +1952,9 @@
       "away_label": null,
       "home_score": 5,
       "away_score": 0,
-      "finished": false,
-      "status": "LIVE",
-      "time_elapsed": "live",
+      "finished": true,
+      "status": "FT",
+      "time_elapsed": "finished",
       "stadium": {
         "id": "5",
         "name": "NRG Stadium",
@@ -4222,6 +4222,20 @@
       "group": "K",
       "rows": [
         {
+          "team_id": "41",
+          "code": "POR",
+          "name": "Portugal",
+          "flag": "https://flagcdn.com/w80/pt.png",
+          "played": 2,
+          "won": 1,
+          "drawn": 1,
+          "lost": 0,
+          "gf": 6,
+          "ga": 1,
+          "gd": 5,
+          "pts": 4
+        },
+        {
           "team_id": "44",
           "code": "COL",
           "name": "Colombia",
@@ -4250,31 +4264,17 @@
           "pts": 1
         },
         {
-          "team_id": "41",
-          "code": "POR",
-          "name": "Portugal",
-          "flag": "https://flagcdn.com/w80/pt.png",
-          "played": 1,
-          "won": 0,
-          "drawn": 1,
-          "lost": 0,
-          "gf": 1,
-          "ga": 1,
-          "gd": 0,
-          "pts": 1
-        },
-        {
           "team_id": "43",
           "code": "UZB",
           "name": "Uzbekistan",
           "flag": "https://flagcdn.com/w80/uz.png",
-          "played": 1,
+          "played": 2,
           "won": 0,
           "drawn": 0,
-          "lost": 1,
+          "lost": 2,
           "gf": 1,
-          "ga": 3,
-          "gd": -2,
+          "ga": 8,
+          "gd": -7,
           "pts": 0
         }
       ]
