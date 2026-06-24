@@ -2,7 +2,7 @@
   "meta": {
     "tournament": "FIFA World Cup 2026",
     "source": "worldcup26.ir",
-    "last_updated": "2026-06-24T00:45:24Z",
+    "last_updated": "2026-06-24T01:00:27Z",
     "is_sample": false,
     "counts": {
       "teams": 48,
@@ -1985,9 +1985,9 @@
       "away_label": null,
       "home_score": 0,
       "away_score": 1,
-      "finished": false,
-      "status": "LIVE",
-      "time_elapsed": "live",
+      "finished": true,
+      "status": "FT",
+      "time_elapsed": "finished",
       "stadium": {
         "id": "12",
         "name": "BMO Field",
@@ -4311,30 +4311,30 @@
           "pts": 4
         },
         {
-          "team_id": "48",
-          "code": "PAN",
-          "name": "Panama",
-          "flag": "https://flagcdn.com/w80/pa.png",
-          "played": 1,
-          "won": 0,
-          "drawn": 0,
-          "lost": 1,
-          "gf": 0,
-          "ga": 1,
-          "gd": -1,
-          "pts": 0
-        },
-        {
           "team_id": "46",
           "code": "CRO",
           "name": "Croatia",
           "flag": "https://flagcdn.com/w80/hr.png",
-          "played": 1,
-          "won": 0,
+          "played": 2,
+          "won": 1,
           "drawn": 0,
           "lost": 1,
-          "gf": 2,
+          "gf": 3,
           "ga": 4,
+          "gd": -1,
+          "pts": 3
+        },
+        {
+          "team_id": "48",
+          "code": "PAN",
+          "name": "Panama",
+          "flag": "https://flagcdn.com/w80/pa.png",
+          "played": 2,
+          "won": 0,
+          "drawn": 0,
+          "lost": 2,
+          "gf": 0,
+          "ga": 2,
           "gd": -2,
           "pts": 0
         }
