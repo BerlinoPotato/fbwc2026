@@ -2,7 +2,7 @@
   "meta": {
     "tournament": "FIFA World Cup 2026",
     "source": "worldcup26.ir",
-    "last_updated": "2026-06-24T22:00:30Z",
+    "last_updated": "2026-06-24T22:15:20Z",
     "is_sample": false,
     "counts": {
       "teams": 48,
@@ -1180,7 +1180,12 @@
       "group": "R32",
       "matchday": "4",
       "type": "r32",
-      "home": null,
+      "home": {
+        "id": "37",
+        "code": "ARG",
+        "name": "Argentina",
+        "flag": "https://flagcdn.com/w80/ar.png"
+      },
       "away": null,
       "home_label": "Winner Group J",
       "away_label": "Runner-up Group H",
@@ -1461,11 +1466,11 @@
       },
       "home_label": null,
       "away_label": null,
-      "home_score": null,
-      "away_score": null,
+      "home_score": 0,
+      "away_score": 1,
       "finished": false,
-      "status": "NS",
-      "time_elapsed": "notstarted",
+      "status": "LIVE",
+      "time_elapsed": "live",
       "stadium": {
         "id": "7",
         "name": "Mercedes-Benz Stadium",
@@ -1837,11 +1842,11 @@
       },
       "home_label": null,
       "away_label": null,
-      "home_score": null,
-      "away_score": null,
+      "home_score": 0,
+      "away_score": 1,
       "finished": false,
-      "status": "NS",
-      "time_elapsed": "notstarted",
+      "status": "LIVE",
+      "time_elapsed": "live",
       "stadium": {
         "id": "8",
         "name": "Hard Rock Stadium",
@@ -2133,7 +2138,12 @@
       "group": "R32",
       "matchday": "4",
       "type": "r32",
-      "home": null,
+      "home": {
+        "id": "8",
+        "code": "SUI",
+        "name": "Switzerland",
+        "flag": "https://flagcdn.com/w80/ch.png"
+      },
       "away": null,
       "home_label": "Winner Group B",
       "away_label": "3rd Group E/F/G/I/J",
@@ -2533,7 +2543,12 @@
       "matchday": "4",
       "type": "r32",
       "home": null,
-      "away": null,
+      "away": {
+        "id": "5",
+        "code": "CAN",
+        "name": "Canada",
+        "flag": "https://flagcdn.com/w80/ca.png"
+      },
       "home_label": "Runner-up Group A",
       "away_label": "Runner-up Group B",
       "home_score": 0,
