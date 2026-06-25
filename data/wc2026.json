@@ -2,7 +2,7 @@
   "meta": {
     "tournament": "FIFA World Cup 2026",
     "source": "worldcup26.ir",
-    "last_updated": "2026-06-25T07:45:22Z",
+    "last_updated": "2026-06-25T08:00:34Z",
     "is_sample": false,
     "counts": {
       "teams": 48,
@@ -2092,7 +2092,12 @@
       "group": "R32",
       "matchday": "4",
       "type": "r32",
-      "home": null,
+      "home": {
+        "id": "9",
+        "code": "BRA",
+        "name": "Brazil",
+        "flag": "https://flagcdn.com/w80/br.png"
+      },
       "away": null,
       "home_label": "Winner Group C",
       "away_label": "Runner-up Group F",
