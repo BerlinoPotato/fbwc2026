@@ -2,7 +2,7 @@
   "meta": {
     "tournament": "FIFA World Cup 2026",
     "source": "worldcup26.ir",
-    "last_updated": "2026-06-26T14:45:26Z",
+    "last_updated": "2026-06-26T15:00:32Z",
     "is_sample": false,
     "counts": {
       "teams": 48,
@@ -2098,7 +2098,12 @@
         "name": "Brazil",
         "flag": "https://flagcdn.com/w80/br.png"
       },
-      "away": null,
+      "away": {
+        "id": "22",
+        "code": "JPN",
+        "name": "Japan",
+        "flag": "https://flagcdn.com/w80/jp.png"
+      },
       "home_label": "Winner Group C",
       "away_label": "Runner-up Group F",
       "home_score": 0,
@@ -3260,7 +3265,12 @@
         "name": "United States",
         "flag": "https://flagcdn.com/w80/us.png"
       },
-      "away": null,
+      "away": {
+        "id": "6",
+        "code": "BIH",
+        "name": "Bosnia and Herzegovina",
+        "flag": "https://flagcdn.com/w80/ba.png"
+      },
       "home_label": "Winner Group D",
       "away_label": "3rd Group B/E/F/I/J",
       "home_score": 0,
@@ -3470,7 +3480,12 @@
       "group": "R32",
       "matchday": "4",
       "type": "r32",
-      "home": null,
+      "home": {
+        "id": "21",
+        "code": "NED",
+        "name": "Netherlands",
+        "flag": "https://flagcdn.com/w80/nl.png"
+      },
       "away": {
         "id": "10",
         "code": "MAR",
@@ -3498,7 +3513,12 @@
       "group": "R32",
       "matchday": "4",
       "type": "r32",
-      "home": null,
+      "home": {
+        "id": "19",
+        "code": "CIV",
+        "name": "Ivory Coast",
+        "flag": "https://flagcdn.com/w80/ci.png"
+      },
       "away": null,
       "home_label": "Runner-up Group E",
       "away_label": "Runner-up Group I",
