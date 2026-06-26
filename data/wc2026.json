@@ -2,7 +2,7 @@
   "meta": {
     "tournament": "FIFA World Cup 2026",
     "source": "worldcup26.ir",
-    "last_updated": "2026-06-26T21:00:31Z",
+    "last_updated": "2026-06-26T21:45:21Z",
     "is_sample": false,
     "counts": {
       "teams": 48,
@@ -1097,9 +1097,9 @@
       "away_label": null,
       "home_score": 5,
       "away_score": 0,
-      "finished": false,
-      "status": "LIVE",
-      "time_elapsed": "live",
+      "finished": true,
+      "status": "FT",
+      "time_elapsed": "finished",
       "stadium": {
         "id": "12",
         "name": "BMO Field",
@@ -2590,7 +2590,12 @@
       "group": "R32",
       "matchday": "4",
       "type": "r32",
-      "home": null,
+      "home": {
+        "id": "33",
+        "code": "FRA",
+        "name": "France",
+        "flag": "https://flagcdn.com/w80/fr.png"
+      },
       "away": null,
       "home_label": "Winner Group I",
       "away_label": "3rd Group C/D/F/G/H",
@@ -3524,7 +3529,12 @@
         "name": "Ivory Coast",
         "flag": "https://flagcdn.com/w80/ci.png"
       },
-      "away": null,
+      "away": {
+        "id": "36",
+        "code": "NOR",
+        "name": "Norway",
+        "flag": "https://flagcdn.com/w80/no.png"
+      },
       "home_label": "Runner-up Group E",
       "away_label": "Runner-up Group I",
       "home_score": 0,
@@ -4187,27 +4197,27 @@
           "code": "SEN",
           "name": "Senegal",
           "flag": "https://flagcdn.com/w80/sn.png",
-          "played": 2,
-          "won": 0,
+          "played": 3,
+          "won": 1,
           "drawn": 0,
           "lost": 2,
-          "gf": 3,
+          "gf": 8,
           "ga": 6,
-          "gd": -3,
-          "pts": 0
+          "gd": 2,
+          "pts": 3
         },
         {
           "team_id": "35",
           "code": "IRQ",
           "name": "Iraq",
           "flag": "https://flagcdn.com/w80/iq.png",
-          "played": 2,
+          "played": 3,
           "won": 0,
           "drawn": 0,
-          "lost": 2,
+          "lost": 3,
           "gf": 1,
-          "ga": 7,
-          "gd": -6,
+          "ga": 12,
+          "gd": -11,
           "pts": 0
         }
       ]
