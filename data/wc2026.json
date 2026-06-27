@@ -2,7 +2,7 @@
   "meta": {
     "tournament": "FIFA World Cup 2026",
     "source": "worldcup26.ir",
-    "last_updated": "2026-06-27T03:15:20Z",
+    "last_updated": "2026-06-27T03:30:34Z",
     "is_sample": false,
     "counts": {
       "teams": 48,
@@ -1186,7 +1186,12 @@
         "name": "Argentina",
         "flag": "https://flagcdn.com/w80/ar.png"
       },
-      "away": null,
+      "away": {
+        "id": "30",
+        "code": "CPV",
+        "name": "Cape Verde",
+        "flag": "https://flagcdn.com/w80/cv.png"
+      },
       "home_label": "Winner Group J",
       "away_label": "Runner-up Group H",
       "home_score": 0,
@@ -1980,7 +1985,7 @@
       "home_label": null,
       "away_label": null,
       "home_score": 1,
-      "away_score": 0,
+      "away_score": 1,
       "finished": false,
       "status": "LIVE",
       "time_elapsed": "live",
@@ -3247,7 +3252,12 @@
         "name": "Germany",
         "flag": "https://flagcdn.com/w80/de.png"
       },
-      "away": null,
+      "away": {
+        "id": "14",
+        "code": "PAR",
+        "name": "Paraguay",
+        "flag": "https://flagcdn.com/w80/py.png"
+      },
       "home_label": "Winner Group E",
       "away_label": "3rd Group A/B/C/D/F",
       "home_score": 0,
@@ -3472,7 +3482,7 @@
       "home_label": null,
       "away_label": null,
       "home_score": 0,
-      "away_score": 0,
+      "away_score": 1,
       "finished": false,
       "status": "LIVE",
       "time_elapsed": "live",
