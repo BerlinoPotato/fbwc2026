@@ -2,7 +2,7 @@
   "meta": {
     "tournament": "FIFA World Cup 2026",
     "source": "worldcup26.ir",
-    "last_updated": "2026-06-27T05:11:22Z",
+    "last_updated": "2026-06-27T05:45:19Z",
     "is_sample": false,
     "counts": {
       "teams": 48,
@@ -1219,7 +1219,12 @@
         "name": "Australia",
         "flag": "https://flagcdn.com/w80/au.png"
       },
-      "away": null,
+      "away": {
+        "id": "26",
+        "code": "EGY",
+        "name": "Egypt",
+        "flag": "https://flagcdn.com/w80/eg.png"
+      },
       "home_label": "Runner-up Group D",
       "away_label": "Runner-up Group G",
       "home_score": 0,
@@ -3594,7 +3599,12 @@
       "group": "R32",
       "matchday": "4",
       "type": "r32",
-      "home": null,
+      "home": {
+        "id": "25",
+        "code": "BEL",
+        "name": "Belgium",
+        "flag": "https://flagcdn.com/w80/be.png"
+      },
       "away": null,
       "home_label": "Winner Group L",
       "away_label": "3rd Group E/H/I/J/K",
