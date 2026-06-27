@@ -1,7 +1,7 @@
 {
   "meta": {
     "source": "thesportsdb.com",
-    "last_updated": "2026-06-26T08:42:27Z",
+    "last_updated": "2026-06-27T08:13:06Z",
     "is_sample": false,
     "teams": 48,
     "teams_with_players": 28,
@@ -1527,58 +1527,7 @@
     {
       "code": "RSA",
       "name": "South Africa",
-      "players": [
-        {
-          "number": 6,
-          "name": "Aubrey Modiba",
-          "position": "Defender"
-        },
-        {
-          "number": 48,
-          "name": "Bradley Cross",
-          "position": "Defender"
-        },
-        {
-          "number": 17,
-          "name": "Evidence Makgopa",
-          "position": "Attacker"
-        },
-        {
-          "number": null,
-          "name": "Hugo Broos",
-          "position": ""
-        },
-        {
-          "number": 20,
-          "name": "Ime Okon",
-          "position": "Defender"
-        },
-        {
-          "number": 13,
-          "name": "Iqraam Rayners",
-          "position": "Attacker"
-        },
-        {
-          "number": 8,
-          "name": "Jayden Adams",
-          "position": "Midfielder"
-        },
-        {
-          "number": 36,
-          "name": "Kamogelo Sebelebele",
-          "position": "Defender"
-        },
-        {
-          "number": 25,
-          "name": "Khuliso Mudau",
-          "position": "Defender"
-        },
-        {
-          "number": 3,
-          "name": "Khulumani Ndamane",
-          "position": "Defender"
-        }
-      ]
+      "players": []
     },
     {
       "code": "KOR",
@@ -1618,7 +1567,58 @@
     {
       "code": "URU",
       "name": "Uruguay",
-      "players": []
+      "players": [
+        {
+          "number": 17,
+          "name": "Agustín Canobbio",
+          "position": "Attacker"
+        },
+        {
+          "number": 7,
+          "name": "Brian Rodríguez",
+          "position": "Attacker"
+        },
+        {
+          "number": 7,
+          "name": "Darwin Núñez",
+          "position": "Attacker"
+        },
+        {
+          "number": 32,
+          "name": "Emiliano Martínez",
+          "position": "Defender"
+        },
+        {
+          "number": 28,
+          "name": "Facundo Pellistri",
+          "position": "Attacker"
+        },
+        {
+          "number": 8,
+          "name": "Federico Valverde",
+          "position": "Midfielder"
+        },
+        {
+          "number": 9,
+          "name": "Federico Viñas",
+          "position": "Attacker"
+        },
+        {
+          "number": 1,
+          "name": "Fernando Muslera",
+          "position": "Goalkeeper"
+        },
+        {
+          "number": 10,
+          "name": "Giorgian De Arrascaeta",
+          "position": "Midfielder"
+        },
+        {
+          "number": 2,
+          "name": "Guillermo Varela",
+          "position": "Defender"
+        }
+      ]
     },
     {
       "code": "UZB",
