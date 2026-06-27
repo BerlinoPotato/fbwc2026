@@ -2,7 +2,7 @@
   "meta": {
     "tournament": "FIFA World Cup 2026",
     "source": "worldcup26.ir",
-    "last_updated": "2026-06-27T22:55:51Z",
+    "last_updated": "2026-06-27T23:00:33Z",
     "is_sample": false,
     "counts": {
       "teams": 48,
@@ -1130,9 +1130,9 @@
       "away_label": null,
       "home_score": 0,
       "away_score": 2,
-      "finished": false,
-      "status": "LIVE",
-      "time_elapsed": "live",
+      "finished": true,
+      "status": "FT",
+      "time_elapsed": "finished",
       "stadium": {
         "id": "11",
         "name": "MetLife Stadium",
@@ -4372,14 +4372,14 @@
           "code": "ENG",
           "name": "England",
           "flag": "https://flagcdn.com/w80/gb-eng.png",
-          "played": 2,
-          "won": 1,
+          "played": 3,
+          "won": 2,
           "drawn": 1,
           "lost": 0,
-          "gf": 4,
+          "gf": 6,
           "ga": 2,
-          "gd": 2,
-          "pts": 4
+          "gd": 4,
+          "pts": 7
         },
         {
           "team_id": "47",
@@ -4414,13 +4414,13 @@
           "code": "PAN",
           "name": "Panama",
           "flag": "https://flagcdn.com/w80/pa.png",
-          "played": 2,
+          "played": 3,
           "won": 0,
           "drawn": 0,
-          "lost": 2,
+          "lost": 3,
           "gf": 0,
-          "ga": 2,
-          "gd": -2,
+          "ga": 4,
+          "gd": -4,
           "pts": 0
         }
       ]
