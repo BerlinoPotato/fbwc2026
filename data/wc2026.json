@@ -2,7 +2,7 @@
   "meta": {
     "tournament": "FIFA World Cup 2026",
     "source": "worldcup26.ir",
-    "last_updated": "2026-06-27T23:00:33Z",
+    "last_updated": "2026-06-27T23:15:22Z",
     "is_sample": false,
     "counts": {
       "teams": 48,
@@ -3201,9 +3201,9 @@
       "away_label": null,
       "home_score": 2,
       "away_score": 1,
-      "finished": false,
-      "status": "LIVE",
-      "time_elapsed": "live",
+      "finished": true,
+      "status": "FT",
+      "time_elapsed": "finished",
       "stadium": {
         "id": "10",
         "name": "Lincoln Financial Field",
@@ -4382,32 +4382,32 @@
           "pts": 7
         },
         {
-          "team_id": "47",
-          "code": "GHA",
-          "name": "Ghana",
-          "flag": "https://flagcdn.com/w80/gh.png",
-          "played": 2,
-          "won": 1,
-          "drawn": 1,
-          "lost": 0,
-          "gf": 1,
-          "ga": 0,
-          "gd": 1,
-          "pts": 4
-        },
-        {
           "team_id": "46",
           "code": "CRO",
           "name": "Croatia",
           "flag": "https://flagcdn.com/w80/hr.png",
-          "played": 2,
-          "won": 1,
+          "played": 3,
+          "won": 2,
           "drawn": 0,
           "lost": 1,
-          "gf": 3,
-          "ga": 4,
-          "gd": -1,
-          "pts": 3
+          "gf": 5,
+          "ga": 5,
+          "gd": 0,
+          "pts": 6
+        },
+        {
+          "team_id": "47",
+          "code": "GHA",
+          "name": "Ghana",
+          "flag": "https://flagcdn.com/w80/gh.png",
+          "played": 3,
+          "won": 1,
+          "drawn": 1,
+          "lost": 1,
+          "gf": 2,
+          "ga": 2,
+          "gd": 0,
+          "pts": 4
         },
         {
           "team_id": "48",
