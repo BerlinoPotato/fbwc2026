@@ -2,7 +2,7 @@
   "meta": {
     "tournament": "FIFA World Cup 2026",
     "source": "worldcup26.ir",
-    "last_updated": "2026-06-27T04:45:24Z",
+    "last_updated": "2026-06-27T05:00:31Z",
     "is_sample": false,
     "counts": {
       "teams": 48,
@@ -1985,7 +1985,7 @@
       "home_label": null,
       "away_label": null,
       "home_score": 1,
-      "away_score": 1,
+      "away_score": 2,
       "finished": false,
       "status": "LIVE",
       "time_elapsed": "live",
@@ -3481,11 +3481,11 @@
       },
       "home_label": null,
       "away_label": null,
-      "home_score": 0,
-      "away_score": 3,
-      "finished": false,
-      "status": "LIVE",
-      "time_elapsed": "live",
+      "home_score": 1,
+      "away_score": 5,
+      "finished": true,
+      "status": "FT",
+      "time_elapsed": "finished",
       "stadium": {
         "id": "13",
         "name": "BC Place",
@@ -4053,6 +4053,20 @@
       "group": "G",
       "rows": [
         {
+          "team_id": "25",
+          "code": "BEL",
+          "name": "Belgium",
+          "flag": "https://flagcdn.com/w80/be.png",
+          "played": 3,
+          "won": 1,
+          "drawn": 2,
+          "lost": 0,
+          "gf": 6,
+          "ga": 2,
+          "gd": 4,
+          "pts": 5
+        },
+        {
           "team_id": "26",
           "code": "EGY",
           "name": "Egypt",
@@ -4081,31 +4095,17 @@
           "pts": 2
         },
         {
-          "team_id": "25",
-          "code": "BEL",
-          "name": "Belgium",
-          "flag": "https://flagcdn.com/w80/be.png",
-          "played": 2,
-          "won": 0,
-          "drawn": 2,
-          "lost": 0,
-          "gf": 1,
-          "ga": 1,
-          "gd": 0,
-          "pts": 2
-        },
-        {
           "team_id": "28",
           "code": "NZL",
           "name": "New Zealand",
           "flag": "https://flagcdn.com/w80/nz.png",
-          "played": 2,
+          "played": 3,
           "won": 0,
           "drawn": 1,
-          "lost": 1,
-          "gf": 3,
-          "ga": 5,
-          "gd": -2,
+          "lost": 2,
+          "gf": 4,
+          "ga": 10,
+          "gd": -6,
           "pts": 1
         }
       ]
