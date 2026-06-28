@@ -2,7 +2,7 @@
   "meta": {
     "tournament": "FIFA World Cup 2026",
     "source": "worldcup26.ir",
-    "last_updated": "2026-06-28T03:45:35Z",
+    "last_updated": "2026-06-28T04:00:26Z",
     "is_sample": false,
     "counts": {
       "teams": 48,
@@ -2090,9 +2090,9 @@
       "away_label": null,
       "home_score": 1,
       "away_score": 3,
-      "finished": false,
-      "status": "LIVE",
-      "time_elapsed": "live",
+      "finished": true,
+      "status": "FT",
+      "time_elapsed": "finished",
       "stadium": {
         "id": "4",
         "name": "AT&T Stadium",
@@ -3232,8 +3232,8 @@
       },
       "home_label": null,
       "away_label": null,
-      "home_score": 2,
-      "away_score": 2,
+      "home_score": 3,
+      "away_score": 3,
       "finished": false,
       "status": "LIVE",
       "time_elapsed": "live",
@@ -4250,14 +4250,14 @@
           "code": "ARG",
           "name": "Argentina",
           "flag": "https://flagcdn.com/w80/ar.png",
-          "played": 2,
-          "won": 2,
+          "played": 3,
+          "won": 3,
           "drawn": 0,
           "lost": 0,
-          "gf": 5,
-          "ga": 0,
-          "gd": 5,
-          "pts": 6
+          "gf": 8,
+          "ga": 1,
+          "gd": 7,
+          "pts": 9
         },
         {
           "team_id": "39",
@@ -4292,13 +4292,13 @@
           "code": "JOR",
           "name": "Jordan",
           "flag": "https://flagcdn.com/w80/jo.png",
-          "played": 2,
+          "played": 3,
           "won": 0,
           "drawn": 0,
-          "lost": 2,
-          "gf": 2,
-          "ga": 5,
-          "gd": -3,
+          "lost": 3,
+          "gf": 3,
+          "ga": 8,
+          "gd": -5,
           "pts": 0
         }
       ]
