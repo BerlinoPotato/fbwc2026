@@ -2,7 +2,7 @@
   "meta": {
     "tournament": "FIFA World Cup 2026",
     "source": "worldcup26.ir",
-    "last_updated": "2026-06-28T04:00:26Z",
+    "last_updated": "2026-06-28T04:15:21Z",
     "is_sample": false,
     "counts": {
       "teams": 48,
@@ -3234,9 +3234,9 @@
       "away_label": null,
       "home_score": 3,
       "away_score": 3,
-      "finished": false,
-      "status": "LIVE",
-      "time_elapsed": "live",
+      "finished": true,
+      "status": "FT",
+      "time_elapsed": "finished",
       "stadium": {
         "id": "6",
         "name": "GEHA Field at Arrowhead Stadium",
@@ -4264,28 +4264,28 @@
           "code": "AUT",
           "name": "Austria",
           "flag": "https://flagcdn.com/w80/at.png",
-          "played": 2,
+          "played": 3,
           "won": 1,
-          "drawn": 0,
+          "drawn": 1,
           "lost": 1,
-          "gf": 3,
-          "ga": 3,
+          "gf": 6,
+          "ga": 6,
           "gd": 0,
-          "pts": 3
+          "pts": 4
         },
         {
           "team_id": "38",
           "code": "ALG",
           "name": "Algeria",
           "flag": "https://flagcdn.com/w80/dz.png",
-          "played": 2,
+          "played": 3,
           "won": 1,
-          "drawn": 0,
+          "drawn": 1,
           "lost": 1,
-          "gf": 2,
-          "ga": 4,
+          "gf": 5,
+          "ga": 7,
           "gd": -2,
-          "pts": 3
+          "pts": 4
         },
         {
           "team_id": "40",
