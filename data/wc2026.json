@@ -2,7 +2,7 @@
   "meta": {
     "tournament": "FIFA World Cup 2026",
     "source": "worldcup26.ir",
-    "last_updated": "2026-06-28T05:30:24Z",
+    "last_updated": "2026-06-28T05:45:22Z",
     "is_sample": false,
     "counts": {
       "teams": 48,
@@ -1533,8 +1533,18 @@
       "group": "R32",
       "matchday": "4",
       "type": "r32",
-      "home": null,
-      "away": null,
+      "home": {
+        "id": "44",
+        "code": "COL",
+        "name": "Colombia",
+        "flag": "https://flagcdn.com/w80/co.png"
+      },
+      "away": {
+        "id": "47",
+        "code": "GHA",
+        "name": "Ghana",
+        "flag": "https://flagcdn.com/w80/gh.png"
+      },
       "home_label": "Winner Group K",
       "away_label": "3rd Group D/E/I/J/L",
       "home_score": 0,
@@ -3605,7 +3615,12 @@
         "name": "Belgium",
         "flag": "https://flagcdn.com/w80/be.png"
       },
-      "away": null,
+      "away": {
+        "id": "34",
+        "code": "SEN",
+        "name": "Senegal",
+        "flag": "https://flagcdn.com/w80/sn.png"
+      },
       "home_label": "Winner Group L",
       "away_label": "3rd Group E/H/I/J/K",
       "home_score": 0,
