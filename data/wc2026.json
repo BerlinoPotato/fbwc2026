@@ -2,7 +2,7 @@
   "meta": {
     "tournament": "FIFA World Cup 2026",
     "source": "worldcup26.ir",
-    "last_updated": "2026-06-28T06:00:26Z",
+    "last_updated": "2026-06-28T06:15:25Z",
     "is_sample": false,
     "counts": {
       "teams": 48,
@@ -2150,8 +2150,18 @@
       "group": "R32",
       "matchday": "4",
       "type": "r32",
-      "home": null,
-      "away": null,
+      "home": {
+        "id": "41",
+        "code": "POR",
+        "name": "Portugal",
+        "flag": "https://flagcdn.com/w80/pt.png"
+      },
+      "away": {
+        "id": "46",
+        "code": "CRO",
+        "name": "Croatia",
+        "flag": "https://flagcdn.com/w80/hr.png"
+      },
       "home_label": "Runner-up Group K",
       "away_label": "Runner-up Group L",
       "home_score": 0,
@@ -2179,7 +2189,12 @@
         "name": "Switzerland",
         "flag": "https://flagcdn.com/w80/ch.png"
       },
-      "away": null,
+      "away": {
+        "id": "38",
+        "code": "ALG",
+        "name": "Algeria",
+        "flag": "https://flagcdn.com/w80/dz.png"
+      },
       "home_label": "Winner Group B",
       "away_label": "3rd Group E/F/G/I/J",
       "home_score": 0,
@@ -2616,7 +2631,12 @@
         "name": "France",
         "flag": "https://flagcdn.com/w80/fr.png"
       },
-      "away": null,
+      "away": {
+        "id": "23",
+        "code": "SWE",
+        "name": "Sweden",
+        "flag": "https://flagcdn.com/w80/se.png"
+      },
       "home_label": "Winner Group I",
       "away_label": "3rd Group C/D/F/G/H",
       "home_score": 0,
@@ -2638,8 +2658,18 @@
       "group": "R32",
       "matchday": "4",
       "type": "r32",
-      "home": null,
-      "away": null,
+      "home": {
+        "id": "29",
+        "code": "ESP",
+        "name": "Spain",
+        "flag": "https://flagcdn.com/w80/es.png"
+      },
+      "away": {
+        "id": "39",
+        "code": "AUT",
+        "name": "Austria",
+        "flag": "https://flagcdn.com/w80/at.png"
+      },
       "home_label": "Winner Group H",
       "away_label": "Runner-up Group J",
       "home_score": 0,
@@ -3587,7 +3617,12 @@
         "name": "Mexico",
         "flag": "https://flagcdn.com/w80/mx.png"
       },
-      "away": null,
+      "away": {
+        "id": "20",
+        "code": "ECU",
+        "name": "Ecuador",
+        "flag": "https://flagcdn.com/w80/ec.png"
+      },
       "home_label": "Winner Group A",
       "away_label": "3rd Group C/E/F/H/I",
       "home_score": 0,
@@ -3610,16 +3645,16 @@
       "matchday": "4",
       "type": "r32",
       "home": {
-        "id": "25",
-        "code": "BEL",
-        "name": "Belgium",
-        "flag": "https://flagcdn.com/w80/be.png"
+        "id": "45",
+        "code": "ENG",
+        "name": "England",
+        "flag": "https://flagcdn.com/w80/gb-eng.png"
       },
       "away": {
-        "id": "34",
-        "code": "SEN",
-        "name": "Senegal",
-        "flag": "https://flagcdn.com/w80/sn.png"
+        "id": "42",
+        "code": "COD",
+        "name": "Democratic Republic of the Congo",
+        "flag": "https://flagcdn.com/w80/cd.png"
       },
       "home_label": "Winner Group L",
       "away_label": "3rd Group E/H/I/J/K",
@@ -3642,8 +3677,18 @@
       "group": "R32",
       "matchday": "4",
       "type": "r32",
-      "home": null,
-      "away": null,
+      "home": {
+        "id": "25",
+        "code": "BEL",
+        "name": "Belgium",
+        "flag": "https://flagcdn.com/w80/be.png"
+      },
+      "away": {
+        "id": "34",
+        "code": "SEN",
+        "name": "Senegal",
+        "flag": "https://flagcdn.com/w80/sn.png"
+      },
       "home_label": "Winner Group G",
       "away_label": "3rd Group A/E/H/I/J",
       "home_score": 0,
