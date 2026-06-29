@@ -2,7 +2,7 @@
   "meta": {
     "tournament": "FIFA World Cup 2026",
     "source": "worldcup26.ir",
-    "last_updated": "2026-06-29T19:00:36Z",
+    "last_updated": "2026-06-29T19:15:28Z",
     "is_sample": false,
     "counts": {
       "teams": 48,
@@ -2133,9 +2133,9 @@
       "away_label": "Runner-up Group F",
       "home_score": 2,
       "away_score": 1,
-      "finished": false,
-      "status": "LIVE",
-      "time_elapsed": "live",
+      "finished": true,
+      "status": "FT",
+      "time_elapsed": "finished",
       "stadium": {
         "id": "5",
         "name": "NRG Stadium",
@@ -2897,7 +2897,12 @@
       "group": "R16",
       "matchday": "5",
       "type": "r16",
-      "home": null,
+      "home": {
+        "id": "9",
+        "code": "BRA",
+        "name": "Brazil",
+        "flag": "https://flagcdn.com/w80/br.png"
+      },
       "away": null,
       "home_label": "Winner Match 76",
       "away_label": "Winner Match 78",
