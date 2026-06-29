@@ -2,7 +2,7 @@
   "meta": {
     "tournament": "FIFA World Cup 2026",
     "source": "worldcup26.ir",
-    "last_updated": "2026-06-29T07:45:22Z",
+    "last_updated": "2026-06-29T08:00:33Z",
     "is_sample": false,
     "counts": {
       "teams": 48,
@@ -2692,10 +2692,10 @@
       "matchday": "5",
       "type": "r16",
       "home": {
-        "id": "2",
-        "code": "RSA",
-        "name": "South Africa",
-        "flag": "https://flagcdn.com/w80/za.png"
+        "id": "5",
+        "code": "CAN",
+        "name": "Canada",
+        "flag": "https://flagcdn.com/w80/ca.png"
       },
       "away": null,
       "home_label": "Winner Match 73",
