@@ -2,7 +2,7 @@
   "meta": {
     "tournament": "FIFA World Cup 2026",
     "source": "worldcup26.ir",
-    "last_updated": "2026-06-29T23:30:22Z",
+    "last_updated": "2026-06-29T23:45:18Z",
     "is_sample": false,
     "counts": {
       "teams": 48,
@@ -3317,9 +3317,9 @@
       "away_label": "3rd Group A/B/C/D/F",
       "home_score": 1,
       "away_score": 1,
-      "finished": false,
-      "status": "LIVE",
-      "time_elapsed": "live",
+      "finished": true,
+      "status": "FT",
+      "time_elapsed": "finished",
       "stadium": {
         "id": "9",
         "name": "Gillette Stadium",
@@ -3720,7 +3720,12 @@
       "group": "R16",
       "matchday": "5",
       "type": "r16",
-      "home": null,
+      "home": {
+        "id": "14",
+        "code": "PAR",
+        "name": "Paraguay",
+        "flag": "https://flagcdn.com/w80/py.png"
+      },
       "away": null,
       "home_label": "Winner Match 74",
       "away_label": "Winner Match 77",
