@@ -2,7 +2,7 @@
   "meta": {
     "tournament": "FIFA World Cup 2026",
     "source": "worldcup26.ir",
-    "last_updated": "2026-06-30T22:45:20Z",
+    "last_updated": "2026-06-30T23:00:36Z",
     "is_sample": false,
     "counts": {
       "teams": 48,
@@ -2641,9 +2641,9 @@
       "away_label": "3rd Group C/D/F/G/H",
       "home_score": 3,
       "away_score": 0,
-      "finished": false,
-      "status": "LIVE",
-      "time_elapsed": "live",
+      "finished": true,
+      "status": "FT",
+      "time_elapsed": "finished",
       "stadium": {
         "id": "11",
         "name": "MetLife Stadium",
@@ -3736,7 +3736,12 @@
         "name": "Paraguay",
         "flag": "https://flagcdn.com/w80/py.png"
       },
-      "away": null,
+      "away": {
+        "id": "33",
+        "code": "FRA",
+        "name": "France",
+        "flag": "https://flagcdn.com/w80/fr.png"
+      },
       "home_label": "Winner Match 74",
       "away_label": "Winner Match 77",
       "home_score": 0,
