@@ -2,7 +2,7 @@
   "meta": {
     "tournament": "FIFA World Cup 2026",
     "source": "worldcup26.ir",
-    "last_updated": "2026-06-30T18:45:25Z",
+    "last_updated": "2026-06-30T19:00:37Z",
     "is_sample": false,
     "counts": {
       "teams": 48,
@@ -2908,7 +2908,12 @@
         "name": "Brazil",
         "flag": "https://flagcdn.com/w80/br.png"
       },
-      "away": null,
+      "away": {
+        "id": "36",
+        "code": "NOR",
+        "name": "Norway",
+        "flag": "https://flagcdn.com/w80/no.png"
+      },
       "home_label": "Winner Match 76",
       "away_label": "Winner Match 78",
       "home_score": 0,
@@ -3608,10 +3613,10 @@
       "home_label": "Runner-up Group E",
       "away_label": "Runner-up Group I",
       "home_score": 1,
-      "away_score": 1,
-      "finished": false,
-      "status": "LIVE",
-      "time_elapsed": "live",
+      "away_score": 2,
+      "finished": true,
+      "status": "FT",
+      "time_elapsed": "finished",
       "stadium": {
         "id": "4",
         "name": "AT&T Stadium",
