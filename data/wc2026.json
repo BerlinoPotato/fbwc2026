@@ -2,7 +2,7 @@
   "meta": {
     "tournament": "FIFA World Cup 2026",
     "source": "worldcup26.ir",
-    "last_updated": "2026-07-01T04:00:32Z",
+    "last_updated": "2026-07-01T04:15:19Z",
     "is_sample": false,
     "counts": {
       "teams": 48,
@@ -2724,7 +2724,12 @@
       "group": "R16",
       "matchday": "5",
       "type": "r16",
-      "home": null,
+      "home": {
+        "id": "1",
+        "code": "MEX",
+        "name": "Mexico",
+        "flag": "https://flagcdn.com/w80/mx.png"
+      },
       "away": null,
       "home_label": "Winner Match 79",
       "away_label": "Winner Match 80",
@@ -3647,9 +3652,9 @@
       "away_label": "3rd Group C/E/F/H/I",
       "home_score": 2,
       "away_score": 0,
-      "finished": false,
-      "status": "LIVE",
-      "time_elapsed": "live",
+      "finished": true,
+      "status": "FT",
+      "time_elapsed": "finished",
       "stadium": {
         "id": "1",
         "name": "Estadio Azteca",
