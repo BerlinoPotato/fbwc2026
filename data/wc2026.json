@@ -2,7 +2,7 @@
   "meta": {
     "tournament": "FIFA World Cup 2026",
     "source": "worldcup26.ir",
-    "last_updated": "2026-07-01T22:45:18Z",
+    "last_updated": "2026-07-01T23:00:29Z",
     "is_sample": false,
     "counts": {
       "teams": 48,
@@ -3173,9 +3173,9 @@
       "away_label": "3rd Group A/E/H/I/J",
       "home_score": 3,
       "away_score": 2,
-      "finished": false,
-      "status": "LIVE",
-      "time_elapsed": "live",
+      "finished": true,
+      "status": "FT",
+      "time_elapsed": "finished",
       "stadium": {
         "id": "14",
         "name": "Lumen Field",
@@ -3544,7 +3544,12 @@
       "matchday": "5",
       "type": "r16",
       "home": null,
-      "away": null,
+      "away": {
+        "id": "25",
+        "code": "BEL",
+        "name": "Belgium",
+        "flag": "https://flagcdn.com/w80/be.png"
+      },
       "home_label": "Winner Match 81",
       "away_label": "Winner Match 82",
       "home_score": 0,
