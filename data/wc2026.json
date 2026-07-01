@@ -2,7 +2,7 @@
   "meta": {
     "tournament": "FIFA World Cup 2026",
     "source": "worldcup26.ir",
-    "last_updated": "2026-07-01T18:00:37Z",
+    "last_updated": "2026-07-01T18:15:01Z",
     "is_sample": false,
     "counts": {
       "teams": 48,
@@ -3107,9 +3107,9 @@
       "away_label": "3rd Group E/H/I/J/K",
       "home_score": 2,
       "away_score": 1,
-      "finished": false,
-      "status": "LIVE",
-      "time_elapsed": "live",
+      "finished": true,
+      "status": "FT",
+      "time_elapsed": "finished",
       "stadium": {
         "id": "7",
         "name": "Mercedes-Benz Stadium",
@@ -3493,7 +3493,12 @@
         "name": "Mexico",
         "flag": "https://flagcdn.com/w80/mx.png"
       },
-      "away": null,
+      "away": {
+        "id": "45",
+        "code": "ENG",
+        "name": "England",
+        "flag": "https://flagcdn.com/w80/gb-eng.png"
+      },
       "home_label": "Winner Match 79",
       "away_label": "Winner Match 80",
       "home_score": 0,
