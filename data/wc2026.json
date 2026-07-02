@@ -2,7 +2,7 @@
   "meta": {
     "tournament": "FIFA World Cup 2026",
     "source": "worldcup26.ir",
-    "last_updated": "2026-07-02T22:30:27Z",
+    "last_updated": "2026-07-02T22:45:18Z",
     "is_sample": false,
     "counts": {
       "teams": 48,
@@ -3204,8 +3204,8 @@
       },
       "home_label": "Runner-up Group K",
       "away_label": "Runner-up Group L",
-      "home_score": 0,
-      "away_score": 0,
+      "home_score": null,
+      "away_score": null,
       "finished": false,
       "status": "NS",
       "time_elapsed": "notstarted",
