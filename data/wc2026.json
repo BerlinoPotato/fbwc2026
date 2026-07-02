@@ -2,7 +2,7 @@
   "meta": {
     "tournament": "FIFA World Cup 2026",
     "source": "worldcup26.ir",
-    "last_updated": "2026-07-02T00:45:18Z",
+    "last_updated": "2026-07-02T01:00:32Z",
     "is_sample": false,
     "counts": {
       "teams": 48,
@@ -3138,7 +3138,7 @@
       },
       "home_label": "Winner Group D",
       "away_label": "3rd Group B/E/F/I/J",
-      "home_score": 0,
+      "home_score": 1,
       "away_score": 0,
       "finished": false,
       "status": "LIVE",
