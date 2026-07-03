@@ -2,7 +2,7 @@
   "meta": {
     "tournament": "FIFA World Cup 2026",
     "source": "worldcup26.ir",
-    "last_updated": "2026-07-03T04:45:22Z",
+    "last_updated": "2026-07-03T05:00:32Z",
     "is_sample": false,
     "counts": {
       "teams": 48,
@@ -3272,9 +3272,9 @@
       "away_label": "3rd Group E/F/G/I/J",
       "home_score": 2,
       "away_score": 0,
-      "finished": false,
-      "status": "LIVE",
-      "time_elapsed": "live",
+      "finished": true,
+      "status": "FT",
+      "time_elapsed": "finished",
       "stadium": {
         "id": "13",
         "name": "BC Place",
@@ -3609,7 +3609,12 @@
       "group": "R16",
       "matchday": "5",
       "type": "r16",
-      "home": null,
+      "home": {
+        "id": "8",
+        "code": "SUI",
+        "name": "Switzerland",
+        "flag": "https://flagcdn.com/w80/ch.png"
+      },
       "away": null,
       "home_label": "Winner Match 85",
       "away_label": "Winner Match 87",
