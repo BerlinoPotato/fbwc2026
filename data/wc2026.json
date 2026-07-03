@@ -2,7 +2,7 @@
   "meta": {
     "tournament": "FIFA World Cup 2026",
     "source": "worldcup26.ir",
-    "last_updated": "2026-07-03T01:00:30Z",
+    "last_updated": "2026-07-03T01:15:20Z",
     "is_sample": false,
     "counts": {
       "teams": 48,
@@ -3206,9 +3206,9 @@
       "away_label": "Runner-up Group L",
       "home_score": 2,
       "away_score": 1,
-      "finished": false,
-      "status": "LIVE",
-      "time_elapsed": "live",
+      "finished": true,
+      "status": "FT",
+      "time_elapsed": "finished",
       "stadium": {
         "id": "12",
         "name": "BMO Field",
@@ -3520,7 +3520,12 @@
       "group": "R16",
       "matchday": "5",
       "type": "r16",
-      "home": null,
+      "home": {
+        "id": "41",
+        "code": "POR",
+        "name": "Portugal",
+        "flag": "https://flagcdn.com/w80/pt.png"
+      },
       "away": {
         "id": "29",
         "code": "ESP",
