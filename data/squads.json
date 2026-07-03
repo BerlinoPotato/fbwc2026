@@ -1,10 +1,10 @@
 {
   "meta": {
     "source": "thesportsdb.com",
-    "last_updated": "2026-06-29T10:08:03Z",
+    "last_updated": "2026-07-03T08:36:26Z",
     "is_sample": false,
     "teams": 48,
-    "teams_with_players": 27,
+    "teams_with_players": 33,
     "note": "TheSportsDB national rosters are partial; some teams may have few/no players."
   },
   "squads": [
@@ -749,17 +749,170 @@
     {
       "code": "EGY",
       "name": "Egypt",
-      "players": []
+      "players": [
+        {
+          "number": 13,
+          "name": "Ahmed Fatouh",
+          "position": "Defender"
+        },
+        {
+          "number": 37,
+          "name": "El Mahdy Soliman",
+          "position": "Goalkeeper"
+        },
+        {
+          "number": 22,
+          "name": "Emam Ashour",
+          "position": "Midfielder"
+        },
+        {
+          "number": 10,
+          "name": "Haissem Hassan",
+          "position": "Attacker"
+        },
+        {
+          "number": 8,
+          "name": "Hamdy Fathy",
+          "position": "Defender"
+        },
+        {
+          "number": null,
+          "name": "Hamza Abdelkarim",
+          "position": "Attacker"
+        },
+        {
+          "number": 5,
+          "name": "Hossam Abdelmaguid",
+          "position": "Defender"
+        },
+        {
+          "number": null,
+          "name": "Hossam Hassan",
+          "position": ""
+        },
+        {
+          "number": 14,
+          "name": "Ibrahim Adel",
+          "position": "Attacker"
+        },
+        {
+          "number": 29,
+          "name": "Karim Hafez",
+          "position": "Defender"
+        }
+      ]
     },
     {
       "code": "ENG",
       "name": "England",
-      "players": []
+      "players": [
+        {
+          "number": null,
+          "name": "Anthony Barry",
+          "position": ""
+        },
+        {
+          "number": 10,
+          "name": "Anthony Gordon",
+          "position": "Attacker"
+        },
+        {
+          "number": 7,
+          "name": "Bukayo Saka",
+          "position": "Attacker"
+        },
+        {
+          "number": 33,
+          "name": "Dan Burn",
+          "position": "Defender"
+        },
+        {
+          "number": 1,
+          "name": "Dean Henderson",
+          "position": "Goalkeeper"
+        },
+        {
+          "number": 41,
+          "name": "Declan Rice",
+          "position": "Midfielder"
+        },
+        {
+          "number": 24,
+          "name": "Djed Spence",
+          "position": "Defender"
+        },
+        {
+          "number": 10,
+          "name": "Eberechi Eze",
+          "position": "Midfielder"
+        },
+        {
+          "number": 8,
+          "name": "Elliot Anderson",
+          "position": "Midfielder"
+        },
+        {
+          "number": 4,
+          "name": "Ezri Konsa",
+          "position": "Defender"
+        }
+      ]
     },
     {
       "code": "FRA",
       "name": "France",
-      "players": []
+      "players": [
+        {
+          "number": 12,
+          "name": "Adrien Rabiot",
+          "position": "Midfielder"
+        },
+        {
+          "number": 14,
+          "name": "Aurélien Tchouaméni",
+          "position": "Defender"
+        },
+        {
+          "number": 29,
+          "name": "Bradley Barcola",
+          "position": "Attacker"
+        },
+        {
+          "number": 30,
+          "name": "Brice Samba",
+          "position": "Goalkeeper"
+        },
+        {
+          "number": 2,
+          "name": "Dayot Upamecano",
+          "position": "Defender"
+        },
+        {
+          "number": 14,
+          "name": "Désiré Doué",
+          "position": "Midfielder"
+        },
+        {
+          "number": null,
+          "name": "Didier Deschamps",
+          "position": ""
+        },
+        {
+          "number": 5,
+          "name": "Ibrahima Konaté",
+          "position": "Defender"
+        },
+        {
+          "number": 14,
+          "name": "Jean-Philippe Mateta",
+          "position": "Attacker"
+        },
+        {
+          "number": 23,
+          "name": "Jules Koundé",
+          "position": "Defender"
+        }
+      ]
     },
     {
       "code": "GER",
@@ -1243,7 +1396,7 @@
           "position": "Defender"
         },
         {
-          "number": 9,
+          "number": null,
           "name": "Gonçalo Ramos",
           "position": "Attacker"
         }
@@ -1532,12 +1685,114 @@
     {
       "code": "KOR",
       "name": "South Korea",
-      "players": []
+      "players": [
+        {
+          "number": 31,
+          "name": "Bum-keun Song",
+          "position": "Goalkeeper"
+        },
+        {
+          "number": 10,
+          "name": "Dong-gyeong Lee",
+          "position": "Midfielder"
+        },
+        {
+          "number": 13,
+          "name": "Gi-hyuk Lee",
+          "position": "Defender"
+        },
+        {
+          "number": 10,
+          "name": "Gue-sung Cho",
+          "position": "Attacker"
+        },
+        {
+          "number": 3,
+          "name": "Han-beom Lee",
+          "position": "Defender"
+        },
+        {
+          "number": 11,
+          "name": "Hee-chan Hwang",
+          "position": "Attacker"
+        },
+        {
+          "number": 7,
+          "name": "Heung-min Son",
+          "position": "Attacker"
+        },
+        {
+          "number": 9,
+          "name": "Hyeon-gyu Oh",
+          "position": "Attacker"
+        },
+        {
+          "number": 21,
+          "name": "Hyeon-woo Jo",
+          "position": "Goalkeeper"
+        },
+        {
+          "number": 13,
+          "name": "Hyun-jun Yang",
+          "position": "Attacker"
+        }
+      ]
     },
     {
       "code": "ESP",
       "name": "Spain",
-      "players": []
+      "players": [
+        {
+          "number": 10,
+          "name": "Álex Baena",
+          "position": "Midfielder"
+        },
+        {
+          "number": 20,
+          "name": "Álex Grimaldo",
+          "position": "Defender"
+        },
+        {
+          "number": 14,
+          "name": "Aymeric Laporte",
+          "position": "Defender"
+        },
+        {
+          "number": 7,
+          "name": "Borja Iglesias",
+          "position": "Attacker"
+        },
+        {
+          "number": 20,
+          "name": "Dani Olmo",
+          "position": "Midfielder"
+        },
+        {
+          "number": 1,
+          "name": "David Raya",
+          "position": "Goalkeeper"
+        },
+        {
+          "number": 24,
+          "name": "Eric García",
+          "position": "Defender"
+        },
+        {
+          "number": 8,
+          "name": "Fabián Ruiz",
+          "position": "Midfielder"
+        },
+        {
+          "number": 7,
+          "name": "Ferran Torres",
+          "position": "Attacker"
+        },
+        {
+          "number": 6,
+          "name": "Gavi",
+          "position": "Midfielder"
+        }
+      ]
     },
     {
       "code": "SWE",
@@ -1547,7 +1802,58 @@
     {
       "code": "SUI",
       "name": "Switzerland",
-      "players": []
+      "players": [
+        {
+          "number": 30,
+          "name": "Ardon Jashari",
+          "position": "Defender"
+        },
+        {
+          "number": 5,
+          "name": "Aurèle Amenda",
+          "position": "Defender"
+        },
+        {
+          "number": 7,
+          "name": "Breel Embolo",
+          "position": "Attacker"
+        },
+        {
+          "number": 13,
+          "name": "Cedric Itten",
+          "position": "Attacker"
+        },
+        {
+          "number": 16,
+          "name": "Christian Fassnacht",
+          "position": "Midfielder"
+        },
+        {
+          "number": 14,
+          "name": "Dan Ndoye",
+          "position": "Attacker"
+        },
+        {
+          "number": 6,
+          "name": "Denis Zakaria",
+          "position": "Defender"
+        },
+        {
+          "number": 20,
+          "name": "Djibril Sow",
+          "position": "Midfielder"
+        },
+        {
+          "number": 24,
+          "name": "Eray Cömert",
+          "position": "Defender"
+        },
+        {
+          "number": 32,
+          "name": "Fabian Rieder",
+          "position": "Midfielder"
+        }
+      ]
     },
     {
       "code": "TUN",
@@ -1562,7 +1868,58 @@
     {
       "code": "USA",
       "name": "United States",
-      "players": []
+      "players": [
+        {
+          "number": 10,
+          "name": "Alejandro Zendejas",
+          "position": "Attacker"
+        },
+        {
+          "number": 3,
+          "name": "Alex Freeman",
+          "position": "Defender"
+        },
+        {
+          "number": 33,
+          "name": "Antonee Robinson",
+          "position": "Defender"
+        },
+        {
+          "number": 6,
+          "name": "Auston Trusty",
+          "position": "Defender"
+        },
+        {
+          "number": 11,
+          "name": "Brenden Aaronson",
+          "position": "Midfielder"
+        },
+        {
+          "number": 1,
+          "name": "Chris Brady",
+          "position": "Goalkeeper"
+        },
+        {
+          "number": 26,
+          "name": "Chris Richards",
+          "position": "Defender"
+        },
+        {
+          "number": 11,
+          "name": "Christian Pulisic",
+          "position": "Attacker"
+        },
+        {
+          "number": 7,
+          "name": "Cristian Roldan",
+          "position": "Midfielder"
+        },
+        {
+          "number": 9,
+          "name": "Folarin Balogun",
+          "position": "Attacker"
+        }
+      ]
     },
     {
       "code": "URU",
@@ -1572,58 +1929,7 @@
     {
       "code": "UZB",
       "name": "Uzbekistan",
-      "players": [
-        {
-          "number": 11,
-          "name": "Abbosbek Fayzullaev",
-          "position": "Midfielder"
-        },
-        {
-          "number": 45,
-          "name": "Abdukodir Khusanov",
-          "position": "Defender"
-        },
-        {
-          "number": 8,
-          "name": "Abdulla Abdullaev",
-          "position": "Defender"
-        },
-        {
-          "number": 1,
-          "name": "Abduvohid Nematov",
-          "position": "Goalkeeper"
-        },
-        {
-          "number": 10,
-          "name": "Akmal Mozgovoy",
-          "position": "Midfielder"
-        },
-        {
-          "number": 6,
-          "name": "Avazbek Ulmasaliev",
-          "position": "Defender"
-        },
-        {
-          "number": 8,
-          "name": "Azizbek Amonov",
-          "position": "Attacker"
-        },
-        {
-          "number": 6,
-          "name": "Azizjon Ganiev",
-          "position": "Midfielder"
-        },
-        {
-          "number": 2,
-          "name": "Bekhruz Karimov",
-          "position": "Defender"
-        },
-        {
-          "number": 1,
-          "name": "Botirali Ergashev",
-          "position": "Goalkeeper"
-        }
-      ]
+      "players": []
     }
   ]
 }
