@@ -2,7 +2,7 @@
   "meta": {
     "tournament": "FIFA World Cup 2026",
     "source": "worldcup26.ir",
-    "last_updated": "2026-07-03T20:53:23Z",
+    "last_updated": "2026-07-03T21:00:36Z",
     "is_sample": false,
     "counts": {
       "teams": 48,
@@ -3371,9 +3371,9 @@
       "away_label": "Runner-up Group G",
       "home_score": 1,
       "away_score": 1,
-      "finished": false,
-      "status": "LIVE",
-      "time_elapsed": "live",
+      "finished": true,
+      "status": "FT",
+      "time_elapsed": "finished",
       "stadium": {
         "id": "4",
         "name": "AT&T Stadium",
@@ -3587,7 +3587,12 @@
       "matchday": "5",
       "type": "r16",
       "home": null,
-      "away": null,
+      "away": {
+        "id": "26",
+        "code": "EGY",
+        "name": "Egypt",
+        "flag": "https://flagcdn.com/w80/eg.png"
+      },
       "home_label": "Winner Match 86",
       "away_label": "Winner Match 88",
       "home_score": 0,
