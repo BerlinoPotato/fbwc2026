@@ -1,10 +1,10 @@
 {
   "meta": {
     "source": "thesportsdb.com",
-    "last_updated": "2026-07-03T08:36:26Z",
+    "last_updated": "2026-07-04T08:12:47Z",
     "is_sample": false,
     "teams": 48,
-    "teams_with_players": 33,
+    "teams_with_players": 28,
     "note": "TheSportsDB national rosters are partial; some teams may have few/no players."
   },
   "squads": [
@@ -410,11 +410,6 @@
       "name": "Cape Verde",
       "players": [
         {
-          "number": 11,
-          "name": "Benchimol",
-          "position": "Attacker"
-        },
-        {
           "number": null,
           "name": "Bubista",
           "position": ""
@@ -442,6 +437,11 @@
         {
           "number": 10,
           "name": "Garry Rodrigues",
+          "position": "Attacker"
+        },
+        {
+          "number": 11,
+          "name": "Gilson Benchimol",
           "position": "Attacker"
         },
         {
@@ -861,58 +861,7 @@
     {
       "code": "FRA",
       "name": "France",
-      "players": [
-        {
-          "number": 12,
-          "name": "Adrien Rabiot",
-          "position": "Midfielder"
-        },
-        {
-          "number": 14,
-          "name": "Aurélien Tchouaméni",
-          "position": "Defender"
-        },
-        {
-          "number": 29,
-          "name": "Bradley Barcola",
-          "position": "Attacker"
-        },
-        {
-          "number": 30,
-          "name": "Brice Samba",
-          "position": "Goalkeeper"
-        },
-        {
-          "number": 2,
-          "name": "Dayot Upamecano",
-          "position": "Defender"
-        },
-        {
-          "number": 14,
-          "name": "Désiré Doué",
-          "position": "Midfielder"
-        },
-        {
-          "number": null,
-          "name": "Didier Deschamps",
-          "position": ""
-        },
-        {
-          "number": 5,
-          "name": "Ibrahima Konaté",
-          "position": "Defender"
-        },
-        {
-          "number": 14,
-          "name": "Jean-Philippe Mateta",
-          "position": "Attacker"
-        },
-        {
-          "number": 23,
-          "name": "Jules Koundé",
-          "position": "Defender"
-        }
-      ]
+      "players": []
     },
     {
       "code": "GER",
@@ -947,58 +896,7 @@
     {
       "code": "JPN",
       "name": "Japan",
-      "players": [
-        {
-          "number": 22,
-          "name": "Ao Tanaka",
-          "position": "Midfielder"
-        },
-        {
-          "number": 9,
-          "name": "Ayase Ueda",
-          "position": "Attacker"
-        },
-        {
-          "number": 15,
-          "name": "Ayumu Seko",
-          "position": "Defender"
-        },
-        {
-          "number": 18,
-          "name": "Daichi Kamada",
-          "position": "Midfielder"
-        },
-        {
-          "number": 38,
-          "name": "Daizen Maeda",
-          "position": "Attacker"
-        },
-        {
-          "number": null,
-          "name": "Hajime Moriyasu",
-          "position": ""
-        },
-        {
-          "number": 21,
-          "name": "Hiroki Itō",
-          "position": "Defender"
-        },
-        {
-          "number": 20,
-          "name": "Junnosuke Suzuki",
-          "position": "Defender"
-        },
-        {
-          "number": 10,
-          "name": "Junya Itō",
-          "position": "Attacker"
-        },
-        {
-          "number": 6,
-          "name": "Kaishū Sano",
-          "position": "Defender"
-        }
-      ]
+      "players": []
     },
     {
       "code": "JOR",
@@ -1741,58 +1639,7 @@
     {
       "code": "ESP",
       "name": "Spain",
-      "players": [
-        {
-          "number": 10,
-          "name": "Álex Baena",
-          "position": "Midfielder"
-        },
-        {
-          "number": 20,
-          "name": "Álex Grimaldo",
-          "position": "Defender"
-        },
-        {
-          "number": 14,
-          "name": "Aymeric Laporte",
-          "position": "Defender"
-        },
-        {
-          "number": 7,
-          "name": "Borja Iglesias",
-          "position": "Attacker"
-        },
-        {
-          "number": 20,
-          "name": "Dani Olmo",
-          "position": "Midfielder"
-        },
-        {
-          "number": 1,
-          "name": "David Raya",
-          "position": "Goalkeeper"
-        },
-        {
-          "number": 24,
-          "name": "Eric García",
-          "position": "Defender"
-        },
-        {
-          "number": 8,
-          "name": "Fabián Ruiz",
-          "position": "Midfielder"
-        },
-        {
-          "number": 7,
-          "name": "Ferran Torres",
-          "position": "Attacker"
-        },
-        {
-          "number": 6,
-          "name": "Gavi",
-          "position": "Midfielder"
-        }
-      ]
+      "players": []
     },
     {
       "code": "SWE",
@@ -1802,58 +1649,7 @@
     {
       "code": "SUI",
       "name": "Switzerland",
-      "players": [
-        {
-          "number": 30,
-          "name": "Ardon Jashari",
-          "position": "Defender"
-        },
-        {
-          "number": 5,
-          "name": "Aurèle Amenda",
-          "position": "Defender"
-        },
-        {
-          "number": 7,
-          "name": "Breel Embolo",
-          "position": "Attacker"
-        },
-        {
-          "number": 13,
-          "name": "Cedric Itten",
-          "position": "Attacker"
-        },
-        {
-          "number": 16,
-          "name": "Christian Fassnacht",
-          "position": "Midfielder"
-        },
-        {
-          "number": 14,
-          "name": "Dan Ndoye",
-          "position": "Attacker"
-        },
-        {
-          "number": 6,
-          "name": "Denis Zakaria",
-          "position": "Defender"
-        },
-        {
-          "number": 20,
-          "name": "Djibril Sow",
-          "position": "Midfielder"
-        },
-        {
-          "number": 24,
-          "name": "Eray Cömert",
-          "position": "Defender"
-        },
-        {
-          "number": 32,
-          "name": "Fabian Rieder",
-          "position": "Midfielder"
-        }
-      ]
+      "players": []
     },
     {
       "code": "TUN",
@@ -1868,58 +1664,7 @@
     {
       "code": "USA",
       "name": "United States",
-      "players": [
-        {
-          "number": 10,
-          "name": "Alejandro Zendejas",
-          "position": "Attacker"
-        },
-        {
-          "number": 3,
-          "name": "Alex Freeman",
-          "position": "Defender"
-        },
-        {
-          "number": 33,
-          "name": "Antonee Robinson",
-          "position": "Defender"
-        },
-        {
-          "number": 6,
-          "name": "Auston Trusty",
-          "position": "Defender"
-        },
-        {
-          "number": 11,
-          "name": "Brenden Aaronson",
-          "position": "Midfielder"
-        },
-        {
-          "number": 1,
-          "name": "Chris Brady",
-          "position": "Goalkeeper"
-        },
-        {
-          "number": 26,
-          "name": "Chris Richards",
-          "position": "Defender"
-        },
-        {
-          "number": 11,
-          "name": "Christian Pulisic",
-          "position": "Attacker"
-        },
-        {
-          "number": 7,
-          "name": "Cristian Roldan",
-          "position": "Midfielder"
-        },
-        {
-          "number": 9,
-          "name": "Folarin Balogun",
-          "position": "Attacker"
-        }
-      ]
+      "players": []
     },
     {
       "code": "URU",
