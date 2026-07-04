@@ -2,7 +2,7 @@
   "meta": {
     "tournament": "FIFA World Cup 2026",
     "source": "worldcup26.ir",
-    "last_updated": "2026-07-04T23:00:41Z",
+    "last_updated": "2026-07-04T23:15:21Z",
     "is_sample": false,
     "counts": {
       "teams": 48,
@@ -3404,9 +3404,9 @@
       "away_label": "Winner Match 77",
       "home_score": 0,
       "away_score": 1,
-      "finished": false,
-      "status": "LIVE",
-      "time_elapsed": "live",
+      "finished": true,
+      "status": "FT",
+      "time_elapsed": "finished",
       "stadium": {
         "id": "10",
         "name": "Lincoln Financial Field",
@@ -3652,7 +3652,12 @@
       "group": "QF",
       "matchday": "6",
       "type": "qf",
-      "home": null,
+      "home": {
+        "id": "33",
+        "code": "FRA",
+        "name": "France",
+        "flag": "https://flagcdn.com/w80/fr.png"
+      },
       "away": {
         "id": "10",
         "code": "MAR",
