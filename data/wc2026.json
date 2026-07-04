@@ -2,7 +2,7 @@
   "meta": {
     "tournament": "FIFA World Cup 2026",
     "source": "worldcup26.ir",
-    "last_updated": "2026-07-04T22:30:41Z",
+    "last_updated": "2026-07-04T22:38:07Z",
     "is_sample": false,
     "counts": {
       "teams": 48,
@@ -3403,7 +3403,7 @@
       "home_label": "Winner Match 74",
       "away_label": "Winner Match 77",
       "home_score": 0,
-      "away_score": 0,
+      "away_score": 1,
       "finished": false,
       "status": "LIVE",
       "time_elapsed": "live",
@@ -3653,7 +3653,12 @@
       "matchday": "6",
       "type": "qf",
       "home": null,
-      "away": null,
+      "away": {
+        "id": "10",
+        "code": "MAR",
+        "name": "Morocco",
+        "flag": "https://flagcdn.com/w80/ma.png"
+      },
       "home_label": "Winner Match 89",
       "away_label": "Winner Match 90",
       "home_score": 0,
