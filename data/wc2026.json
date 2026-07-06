@@ -2,7 +2,7 @@
   "meta": {
     "tournament": "FIFA World Cup 2026",
     "source": "worldcup26.ir",
-    "last_updated": "2026-07-06T21:00:43Z",
+    "last_updated": "2026-07-06T21:15:29Z",
     "is_sample": false,
     "counts": {
       "teams": 48,
@@ -3536,9 +3536,9 @@
       "away_label": "Winner Match 84",
       "home_score": 0,
       "away_score": 1,
-      "finished": false,
-      "status": "LIVE",
-      "time_elapsed": "live",
+      "finished": true,
+      "status": "FT",
+      "time_elapsed": "finished",
       "stadium": {
         "id": "4",
         "name": "AT&T Stadium",
@@ -3685,7 +3685,12 @@
       "group": "QF",
       "matchday": "6",
       "type": "qf",
-      "home": null,
+      "home": {
+        "id": "29",
+        "code": "ESP",
+        "name": "Spain",
+        "flag": "https://flagcdn.com/w80/es.png"
+      },
       "away": null,
       "home_label": "Winner Match 93",
       "away_label": "Winner Match 94",
