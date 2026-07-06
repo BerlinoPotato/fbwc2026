@@ -2,7 +2,7 @@
   "meta": {
     "tournament": "FIFA World Cup 2026",
     "source": "worldcup26.ir",
-    "last_updated": "2026-07-06T03:00:34Z",
+    "last_updated": "2026-07-06T03:15:22Z",
     "is_sample": false,
     "counts": {
       "teams": 48,
@@ -3503,9 +3503,9 @@
       "away_label": "Winner Match 80",
       "home_score": 2,
       "away_score": 3,
-      "finished": false,
-      "status": "LIVE",
-      "time_elapsed": "live",
+      "finished": true,
+      "status": "FT",
+      "time_elapsed": "finished",
       "stadium": {
         "id": "1",
         "name": "Estadio Azteca",
@@ -3714,7 +3714,12 @@
         "name": "Norway",
         "flag": "https://flagcdn.com/w80/no.png"
       },
-      "away": null,
+      "away": {
+        "id": "45",
+        "code": "ENG",
+        "name": "England",
+        "flag": "https://flagcdn.com/w80/gb-eng.png"
+      },
       "home_label": "Winner Match 91",
       "away_label": "Winner Match 92",
       "home_score": 0,
