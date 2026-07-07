@@ -2,7 +2,7 @@
   "meta": {
     "tournament": "FIFA World Cup 2026",
     "source": "worldcup26.ir",
-    "last_updated": "2026-07-07T18:01:24Z",
+    "last_updated": "2026-07-07T18:15:22Z",
     "is_sample": false,
     "counts": {
       "teams": 48,
@@ -3602,9 +3602,9 @@
       "away_label": "Winner Match 88",
       "home_score": 3,
       "away_score": 2,
-      "finished": false,
-      "status": "LIVE",
-      "time_elapsed": "live",
+      "finished": true,
+      "status": "FT",
+      "time_elapsed": "finished",
       "stadium": {
         "id": "7",
         "name": "Mercedes-Benz Stadium",
@@ -3751,7 +3751,12 @@
       "group": "QF",
       "matchday": "6",
       "type": "qf",
-      "home": null,
+      "home": {
+        "id": "37",
+        "code": "ARG",
+        "name": "Argentina",
+        "flag": "https://flagcdn.com/w80/ar.png"
+      },
       "away": null,
       "home_label": "Winner Match 95",
       "away_label": "Winner Match 96",
