@@ -2,7 +2,7 @@
   "meta": {
     "tournament": "FIFA World Cup 2026",
     "source": "worldcup26.ir",
-    "last_updated": "2026-07-09T22:00:45Z",
+    "last_updated": "2026-07-09T22:13:59Z",
     "is_sample": false,
     "counts": {
       "teams": 48,
@@ -3021,9 +3021,9 @@
       "away_label": "Winner Match 90",
       "home_score": 2,
       "away_score": 0,
-      "finished": false,
-      "status": "LIVE",
-      "time_elapsed": "live",
+      "finished": true,
+      "status": "FT",
+      "time_elapsed": "finished",
       "stadium": {
         "id": "9",
         "name": "Gillette Stadium",
