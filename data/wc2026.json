@@ -2,7 +2,7 @@
   "meta": {
     "tournament": "FIFA World Cup 2026",
     "source": "worldcup26.ir",
-    "last_updated": "2026-07-11T21:31:29Z",
+    "last_updated": "2026-07-11T21:45:20Z",
     "is_sample": false,
     "counts": {
       "teams": 48,
@@ -3732,7 +3732,7 @@
       },
       "home_label": "Winner Match 91",
       "away_label": "Winner Match 92",
-      "home_score": 0,
+      "home_score": 1,
       "away_score": 0,
       "finished": false,
       "status": "LIVE",
