@@ -2,7 +2,7 @@
   "meta": {
     "tournament": "FIFA World Cup 2026",
     "source": "worldcup26.ir",
-    "last_updated": "2026-07-11T20:00:41Z",
+    "last_updated": "2026-07-11T20:15:23Z",
     "is_sample": false,
     "counts": {
       "teams": 48,
@@ -3732,11 +3732,11 @@
       },
       "home_label": "Winner Match 91",
       "away_label": "Winner Match 92",
-      "home_score": 0,
-      "away_score": 0,
+      "home_score": null,
+      "away_score": null,
       "finished": false,
-      "status": "LIVE",
-      "time_elapsed": "live",
+      "status": "NS",
+      "time_elapsed": "notstarted",
       "stadium": {
         "id": "8",
         "name": "Hard Rock Stadium",
