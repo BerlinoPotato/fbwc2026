@@ -2,7 +2,7 @@
   "meta": {
     "tournament": "FIFA World Cup 2026",
     "source": "worldcup26.ir",
-    "last_updated": "2026-07-17T11:30:34Z",
+    "last_updated": "2026-07-17T11:45:25Z",
     "is_sample": false,
     "counts": {
       "teams": 48,
@@ -3058,8 +3058,18 @@
       "group": "FINAL",
       "matchday": "9",
       "type": "final",
-      "home": null,
-      "away": null,
+      "home": {
+        "id": "29",
+        "code": "ESP",
+        "name": "Spain",
+        "flag": "https://flagcdn.com/w80/es.png"
+      },
+      "away": {
+        "id": "37",
+        "code": "ARG",
+        "name": "Argentina",
+        "flag": "https://flagcdn.com/w80/ar.png"
+      },
       "home_label": "Winner Match 101",
       "away_label": "Winner Match 102",
       "home_score": 0,
@@ -3477,8 +3487,18 @@
       "group": "3RD",
       "matchday": "8",
       "type": "third",
-      "home": null,
-      "away": null,
+      "home": {
+        "id": "33",
+        "code": "FRA",
+        "name": "France",
+        "flag": "https://flagcdn.com/w80/fr.png"
+      },
+      "away": {
+        "id": "45",
+        "code": "ENG",
+        "name": "England",
+        "flag": "https://flagcdn.com/w80/gb-eng.png"
+      },
       "home_label": "Loser Match 101",
       "away_label": "Loser Match 102",
       "home_score": 0,
