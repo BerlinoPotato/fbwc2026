@@ -2,7 +2,7 @@
   "meta": {
     "tournament": "FIFA World Cup 2026",
     "source": "worldcup26.ir",
-    "last_updated": "2026-07-18T22:05:09Z",
+    "last_updated": "2026-07-18T22:15:24Z",
     "is_sample": false,
     "counts": {
       "teams": 48,
@@ -3501,7 +3501,7 @@
       },
       "home_label": "Loser Match 101",
       "away_label": "Loser Match 102",
-      "home_score": 0,
+      "home_score": 1,
       "away_score": 4,
       "finished": false,
       "status": "LIVE",
