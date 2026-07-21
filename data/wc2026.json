@@ -2,7 +2,7 @@
   "meta": {
     "tournament": "FIFA World Cup 2026",
     "source": "worldcup26.ir",
-    "last_updated": "2026-07-21T22:36:50Z",
+    "last_updated": "2026-07-21T23:38:55Z",
     "is_sample": false,
     "counts": {
       "teams": 48,
@@ -350,6 +350,46 @@
   ],
   "stadiums": [
     {
+      "id": "14",
+      "name": "Lumen Field",
+      "city": "Seattle",
+      "country": "United States",
+      "capacity": 69000,
+      "tz": "America/Los_Angeles"
+    },
+    {
+      "id": "8",
+      "name": "Hard Rock Stadium",
+      "city": "Miami (Miami Gardens)",
+      "country": "United States",
+      "capacity": 65000,
+      "tz": "America/New_York"
+    },
+    {
+      "id": "13",
+      "name": "BC Place",
+      "city": "Vancouver",
+      "country": "Canada",
+      "capacity": 54000,
+      "tz": "America/Vancouver"
+    },
+    {
+      "id": "15",
+      "name": "Levi's Stadium",
+      "city": "San Francisco Bay Area (Santa Clara)",
+      "country": "United States",
+      "capacity": 71000,
+      "tz": "America/Los_Angeles"
+    },
+    {
+      "id": "3",
+      "name": "Estadio BBVA",
+      "city": "Monterrey (Guadalupe)",
+      "country": "Mexico",
+      "capacity": 53500,
+      "tz": "America/Monterrey"
+    },
+    {
       "id": "1",
       "name": "Estadio Azteca",
       "city": "Mexico City",
@@ -366,22 +406,6 @@
       "tz": "America/Mexico_City"
     },
     {
-      "id": "3",
-      "name": "Estadio BBVA",
-      "city": "Monterrey (Guadalupe)",
-      "country": "Mexico",
-      "capacity": 53500,
-      "tz": "America/Monterrey"
-    },
-    {
-      "id": "4",
-      "name": "AT&T Stadium",
-      "city": "Dallas (Arlington, Texas)",
-      "country": "United States",
-      "capacity": 94000,
-      "tz": "America/Chicago"
-    },
-    {
       "id": "5",
       "name": "NRG Stadium",
       "city": "Houston",
@@ -390,12 +414,12 @@
       "tz": "America/Chicago"
     },
     {
-      "id": "6",
-      "name": "GEHA Field at Arrowhead Stadium",
-      "city": "Kansas City",
+      "id": "16",
+      "name": "SoFi Stadium",
+      "city": "Los Angeles (Inglewood)",
       "country": "United States",
-      "capacity": 73000,
-      "tz": "America/Chicago"
+      "capacity": 70000,
+      "tz": "America/Los_Angeles"
     },
     {
       "id": "7",
@@ -403,14 +427,6 @@
       "city": "Atlanta",
       "country": "United States",
       "capacity": 75000,
-      "tz": "America/New_York"
-    },
-    {
-      "id": "8",
-      "name": "Hard Rock Stadium",
-      "city": "Miami (Miami Gardens)",
-      "country": "United States",
-      "capacity": 65000,
       "tz": "America/New_York"
     },
     {
@@ -422,12 +438,28 @@
       "tz": "America/New_York"
     },
     {
+      "id": "6",
+      "name": "GEHA Field at Arrowhead Stadium",
+      "city": "Kansas City",
+      "country": "United States",
+      "capacity": 73000,
+      "tz": "America/Chicago"
+    },
+    {
       "id": "10",
       "name": "Lincoln Financial Field",
       "city": "Philadelphia",
       "country": "United States",
       "capacity": 69000,
       "tz": "America/New_York"
+    },
+    {
+      "id": "4",
+      "name": "AT&T Stadium",
+      "city": "Dallas (Arlington, Texas)",
+      "country": "United States",
+      "capacity": 94000,
+      "tz": "America/Chicago"
     },
     {
       "id": "11",
@@ -444,41 +476,174 @@
       "country": "Canada",
       "capacity": 45000,
       "tz": "America/Toronto"
-    },
-    {
-      "id": "13",
-      "name": "BC Place",
-      "city": "Vancouver",
-      "country": "Canada",
-      "capacity": 54000,
-      "tz": "America/Vancouver"
-    },
-    {
-      "id": "14",
-      "name": "Lumen Field",
-      "city": "Seattle",
-      "country": "United States",
-      "capacity": 69000,
-      "tz": "America/Los_Angeles"
-    },
-    {
-      "id": "15",
-      "name": "Levi's Stadium",
-      "city": "San Francisco Bay Area (Santa Clara)",
-      "country": "United States",
-      "capacity": 71000,
-      "tz": "America/Los_Angeles"
-    },
-    {
-      "id": "16",
-      "name": "SoFi Stadium",
-      "city": "Los Angeles (Inglewood)",
-      "country": "United States",
-      "capacity": 70000,
-      "tz": "America/Los_Angeles"
     }
   ],
   "matches": [
+    {
+      "id": "1",
+      "group": "A",
+      "matchday": "1",
+      "type": "group",
+      "home": {
+        "id": "1",
+        "code": "MEX",
+        "name": "Mexico",
+        "flag": "https://flagcdn.com/w80/mx.png"
+      },
+      "away": {
+        "id": "2",
+        "code": "RSA",
+        "name": "South Africa",
+        "flag": "https://flagcdn.com/w80/za.png"
+      },
+      "home_label": null,
+      "away_label": null,
+      "home_score": 2,
+      "away_score": 0,
+      "finished": true,
+      "status": "FT",
+      "time_elapsed": "finished",
+      "stadium": {
+        "id": "1",
+        "name": "Estadio Azteca",
+        "city": "Mexico City",
+        "country": "Mexico"
+      },
+      "kickoff_utc": "2026-06-11T19:00:00Z",
+      "kickoff_local_label": "06/11/2026 13:00"
+    },
+    {
+      "id": "2",
+      "group": "A",
+      "matchday": "1",
+      "type": "group",
+      "home": {
+        "id": "3",
+        "code": "KOR",
+        "name": "South Korea",
+        "flag": "https://flagcdn.com/w80/kr.png"
+      },
+      "away": {
+        "id": "4",
+        "code": "CZE",
+        "name": "Czech Republic",
+        "flag": "https://flagcdn.com/w80/cz.png"
+      },
+      "home_label": null,
+      "away_label": null,
+      "home_score": 2,
+      "away_score": 1,
+      "finished": true,
+      "status": "FT",
+      "time_elapsed": "finished",
+      "stadium": {
+        "id": "2",
+        "name": "Estadio Akron",
+        "city": "Guadalajara (Zapopan)",
+        "country": "Mexico"
+      },
+      "kickoff_utc": "2026-06-12T02:00:00Z",
+      "kickoff_local_label": "06/11/2026 20:00"
+    },
+    {
+      "id": "3",
+      "group": "B",
+      "matchday": "1",
+      "type": "group",
+      "home": {
+        "id": "5",
+        "code": "CAN",
+        "name": "Canada",
+        "flag": "https://flagcdn.com/w80/ca.png"
+      },
+      "away": {
+        "id": "6",
+        "code": "BIH",
+        "name": "Bosnia and Herzegovina",
+        "flag": "https://flagcdn.com/w80/ba.png"
+      },
+      "home_label": null,
+      "away_label": null,
+      "home_score": 1,
+      "away_score": 1,
+      "finished": true,
+      "status": "FT",
+      "time_elapsed": "finished",
+      "stadium": {
+        "id": "12",
+        "name": "BMO Field",
+        "city": "Toronto",
+        "country": "Canada"
+      },
+      "kickoff_utc": "2026-06-12T19:00:00Z",
+      "kickoff_local_label": "06/12/2026 15:00"
+    },
+    {
+      "id": "4",
+      "group": "D",
+      "matchday": "1",
+      "type": "group",
+      "home": {
+        "id": "13",
+        "code": "USA",
+        "name": "United States",
+        "flag": "https://flagcdn.com/w80/us.png"
+      },
+      "away": {
+        "id": "14",
+        "code": "PAR",
+        "name": "Paraguay",
+        "flag": "https://flagcdn.com/w80/py.png"
+      },
+      "home_label": null,
+      "away_label": null,
+      "home_score": 4,
+      "away_score": 1,
+      "finished": true,
+      "status": "FT",
+      "time_elapsed": "finished",
+      "stadium": {
+        "id": "16",
+        "name": "SoFi Stadium",
+        "city": "Los Angeles (Inglewood)",
+        "country": "United States"
+      },
+      "kickoff_utc": "2026-06-13T01:00:00Z",
+      "kickoff_local_label": "06/12/2026 18:00"
+    },
+    {
+      "id": "5",
+      "group": "C",
+      "matchday": "1",
+      "type": "group",
+      "home": {
+        "id": "11",
+        "code": "HAI",
+        "name": "Haiti",
+        "flag": "https://flagcdn.com/w80/ht.png"
+      },
+      "away": {
+        "id": "12",
+        "code": "SCO",
+        "name": "Scotland",
+        "flag": "https://flagcdn.com/w80/gb-sct.png"
+      },
+      "home_label": null,
+      "away_label": null,
+      "home_score": 0,
+      "away_score": 1,
+      "finished": true,
+      "status": "FT",
+      "time_elapsed": "finished",
+      "stadium": {
+        "id": "9",
+        "name": "Gillette Stadium",
+        "city": "Boston (Foxborough)",
+        "country": "United States"
+      },
+      "kickoff_utc": "2026-06-14T01:00:00Z",
+      "kickoff_local_label": "06/13/2026 21:00"
+    },
     {
       "id": "6",
       "group": "D",
@@ -511,6 +676,39 @@
       },
       "kickoff_utc": "2026-06-14T04:00:00Z",
       "kickoff_local_label": "06/13/2026 21:00"
+    },
+    {
+      "id": "7",
+      "group": "C",
+      "matchday": "1",
+      "type": "group",
+      "home": {
+        "id": "9",
+        "code": "BRA",
+        "name": "Brazil",
+        "flag": "https://flagcdn.com/w80/br.png"
+      },
+      "away": {
+        "id": "10",
+        "code": "MAR",
+        "name": "Morocco",
+        "flag": "https://flagcdn.com/w80/ma.png"
+      },
+      "home_label": null,
+      "away_label": null,
+      "home_score": 1,
+      "away_score": 1,
+      "finished": true,
+      "status": "FT",
+      "time_elapsed": "finished",
+      "stadium": {
+        "id": "11",
+        "name": "MetLife Stadium",
+        "city": "New York/New Jersey (East Rutherford)",
+        "country": "United States"
+      },
+      "kickoff_utc": "2026-06-13T22:00:00Z",
+      "kickoff_local_label": "06/13/2026 18:00"
     },
     {
       "id": "8",
@@ -546,6 +744,732 @@
       "kickoff_local_label": "06/13/2026 12:00"
     },
     {
+      "id": "9",
+      "group": "E",
+      "matchday": "1",
+      "type": "group",
+      "home": {
+        "id": "19",
+        "code": "CIV",
+        "name": "Ivory Coast",
+        "flag": "https://flagcdn.com/w80/ci.png"
+      },
+      "away": {
+        "id": "20",
+        "code": "ECU",
+        "name": "Ecuador",
+        "flag": "https://flagcdn.com/w80/ec.png"
+      },
+      "home_label": null,
+      "away_label": null,
+      "home_score": 1,
+      "away_score": 0,
+      "finished": true,
+      "status": "FT",
+      "time_elapsed": "finished",
+      "stadium": {
+        "id": "10",
+        "name": "Lincoln Financial Field",
+        "city": "Philadelphia",
+        "country": "United States"
+      },
+      "kickoff_utc": "2026-06-14T23:00:00Z",
+      "kickoff_local_label": "06/14/2026 19:00"
+    },
+    {
+      "id": "10",
+      "group": "E",
+      "matchday": "1",
+      "type": "group",
+      "home": {
+        "id": "17",
+        "code": "GER",
+        "name": "Germany",
+        "flag": "https://flagcdn.com/w80/de.png"
+      },
+      "away": {
+        "id": "18",
+        "code": "CUW",
+        "name": "Curaçao",
+        "flag": "https://flagcdn.com/w80/cw.png"
+      },
+      "home_label": null,
+      "away_label": null,
+      "home_score": 7,
+      "away_score": 1,
+      "finished": true,
+      "status": "FT",
+      "time_elapsed": "finished",
+      "stadium": {
+        "id": "5",
+        "name": "NRG Stadium",
+        "city": "Houston",
+        "country": "United States"
+      },
+      "kickoff_utc": "2026-06-14T17:00:00Z",
+      "kickoff_local_label": "06/14/2026 12:00"
+    },
+    {
+      "id": "11",
+      "group": "F",
+      "matchday": "1",
+      "type": "group",
+      "home": {
+        "id": "21",
+        "code": "NED",
+        "name": "Netherlands",
+        "flag": "https://flagcdn.com/w80/nl.png"
+      },
+      "away": {
+        "id": "22",
+        "code": "JPN",
+        "name": "Japan",
+        "flag": "https://flagcdn.com/w80/jp.png"
+      },
+      "home_label": null,
+      "away_label": null,
+      "home_score": 2,
+      "away_score": 2,
+      "finished": true,
+      "status": "FT",
+      "time_elapsed": "finished",
+      "stadium": {
+        "id": "4",
+        "name": "AT&T Stadium",
+        "city": "Dallas (Arlington, Texas)",
+        "country": "United States"
+      },
+      "kickoff_utc": "2026-06-14T20:00:00Z",
+      "kickoff_local_label": "06/14/2026 15:00"
+    },
+    {
+      "id": "12",
+      "group": "F",
+      "matchday": "1",
+      "type": "group",
+      "home": {
+        "id": "23",
+        "code": "SWE",
+        "name": "Sweden",
+        "flag": "https://flagcdn.com/w80/se.png"
+      },
+      "away": {
+        "id": "24",
+        "code": "TUN",
+        "name": "Tunisia",
+        "flag": "https://flagcdn.com/w80/tn.png"
+      },
+      "home_label": null,
+      "away_label": null,
+      "home_score": 5,
+      "away_score": 1,
+      "finished": true,
+      "status": "FT",
+      "time_elapsed": "finished",
+      "stadium": {
+        "id": "3",
+        "name": "Estadio BBVA",
+        "city": "Monterrey (Guadalupe)",
+        "country": "Mexico"
+      },
+      "kickoff_utc": "2026-06-15T02:00:00Z",
+      "kickoff_local_label": "06/14/2026 20:00"
+    },
+    {
+      "id": "13",
+      "group": "G",
+      "matchday": "1",
+      "type": "group",
+      "home": {
+        "id": "27",
+        "code": "IRN",
+        "name": "Iran",
+        "flag": "https://flagcdn.com/w80/ir.png"
+      },
+      "away": {
+        "id": "28",
+        "code": "NZL",
+        "name": "New Zealand",
+        "flag": "https://flagcdn.com/w80/nz.png"
+      },
+      "home_label": null,
+      "away_label": null,
+      "home_score": 2,
+      "away_score": 2,
+      "finished": true,
+      "status": "FT",
+      "time_elapsed": "finished",
+      "stadium": {
+        "id": "16",
+        "name": "SoFi Stadium",
+        "city": "Los Angeles (Inglewood)",
+        "country": "United States"
+      },
+      "kickoff_utc": "2026-06-16T01:00:00Z",
+      "kickoff_local_label": "06/15/2026 18:00"
+    },
+    {
+      "id": "14",
+      "group": "H",
+      "matchday": "1",
+      "type": "group",
+      "home": {
+        "id": "29",
+        "code": "ESP",
+        "name": "Spain",
+        "flag": "https://flagcdn.com/w80/es.png"
+      },
+      "away": {
+        "id": "30",
+        "code": "CPV",
+        "name": "Cape Verde",
+        "flag": "https://flagcdn.com/w80/cv.png"
+      },
+      "home_label": null,
+      "away_label": null,
+      "home_score": 0,
+      "away_score": 0,
+      "finished": true,
+      "status": "FT",
+      "time_elapsed": "finished",
+      "stadium": {
+        "id": "7",
+        "name": "Mercedes-Benz Stadium",
+        "city": "Atlanta",
+        "country": "United States"
+      },
+      "kickoff_utc": "2026-06-15T16:00:00Z",
+      "kickoff_local_label": "06/15/2026 12:00"
+    },
+    {
+      "id": "15",
+      "group": "G",
+      "matchday": "1",
+      "type": "group",
+      "home": {
+        "id": "25",
+        "code": "BEL",
+        "name": "Belgium",
+        "flag": "https://flagcdn.com/w80/be.png"
+      },
+      "away": {
+        "id": "26",
+        "code": "EGY",
+        "name": "Egypt",
+        "flag": "https://flagcdn.com/w80/eg.png"
+      },
+      "home_label": null,
+      "away_label": null,
+      "home_score": 1,
+      "away_score": 1,
+      "finished": true,
+      "status": "FT",
+      "time_elapsed": "finished",
+      "stadium": {
+        "id": "14",
+        "name": "Lumen Field",
+        "city": "Seattle",
+        "country": "United States"
+      },
+      "kickoff_utc": "2026-06-15T19:00:00Z",
+      "kickoff_local_label": "06/15/2026 12:00"
+    },
+    {
+      "id": "16",
+      "group": "H",
+      "matchday": "1",
+      "type": "group",
+      "home": {
+        "id": "31",
+        "code": "KSA",
+        "name": "Saudi Arabia",
+        "flag": "https://flagcdn.com/w80/sa.png"
+      },
+      "away": {
+        "id": "32",
+        "code": "URU",
+        "name": "Uruguay",
+        "flag": "https://flagcdn.com/w80/uy.png"
+      },
+      "home_label": null,
+      "away_label": null,
+      "home_score": 1,
+      "away_score": 1,
+      "finished": true,
+      "status": "FT",
+      "time_elapsed": "finished",
+      "stadium": {
+        "id": "8",
+        "name": "Hard Rock Stadium",
+        "city": "Miami (Miami Gardens)",
+        "country": "United States"
+      },
+      "kickoff_utc": "2026-06-15T22:00:00Z",
+      "kickoff_local_label": "06/15/2026 18:00"
+    },
+    {
+      "id": "17",
+      "group": "I",
+      "matchday": "1",
+      "type": "group",
+      "home": {
+        "id": "33",
+        "code": "FRA",
+        "name": "France",
+        "flag": "https://flagcdn.com/w80/fr.png"
+      },
+      "away": {
+        "id": "34",
+        "code": "SEN",
+        "name": "Senegal",
+        "flag": "https://flagcdn.com/w80/sn.png"
+      },
+      "home_label": null,
+      "away_label": null,
+      "home_score": 3,
+      "away_score": 1,
+      "finished": true,
+      "status": "FT",
+      "time_elapsed": "finished",
+      "stadium": {
+        "id": "11",
+        "name": "MetLife Stadium",
+        "city": "New York/New Jersey (East Rutherford)",
+        "country": "United States"
+      },
+      "kickoff_utc": "2026-06-16T19:00:00Z",
+      "kickoff_local_label": "06/16/2026 15:00"
+    },
+    {
+      "id": "18",
+      "group": "I",
+      "matchday": "1",
+      "type": "group",
+      "home": {
+        "id": "35",
+        "code": "IRQ",
+        "name": "Iraq",
+        "flag": "https://flagcdn.com/w80/iq.png"
+      },
+      "away": {
+        "id": "36",
+        "code": "NOR",
+        "name": "Norway",
+        "flag": "https://flagcdn.com/w80/no.png"
+      },
+      "home_label": null,
+      "away_label": null,
+      "home_score": 1,
+      "away_score": 4,
+      "finished": true,
+      "status": "FT",
+      "time_elapsed": "finished",
+      "stadium": {
+        "id": "9",
+        "name": "Gillette Stadium",
+        "city": "Boston (Foxborough)",
+        "country": "United States"
+      },
+      "kickoff_utc": "2026-06-16T22:00:00Z",
+      "kickoff_local_label": "06/16/2026 18:00"
+    },
+    {
+      "id": "19",
+      "group": "J",
+      "matchday": "1",
+      "type": "group",
+      "home": {
+        "id": "37",
+        "code": "ARG",
+        "name": "Argentina",
+        "flag": "https://flagcdn.com/w80/ar.png"
+      },
+      "away": {
+        "id": "38",
+        "code": "ALG",
+        "name": "Algeria",
+        "flag": "https://flagcdn.com/w80/dz.png"
+      },
+      "home_label": null,
+      "away_label": null,
+      "home_score": 3,
+      "away_score": 0,
+      "finished": true,
+      "status": "FT",
+      "time_elapsed": "finished",
+      "stadium": {
+        "id": "6",
+        "name": "GEHA Field at Arrowhead Stadium",
+        "city": "Kansas City",
+        "country": "United States"
+      },
+      "kickoff_utc": "2026-06-17T01:00:00Z",
+      "kickoff_local_label": "06/16/2026 20:00"
+    },
+    {
+      "id": "20",
+      "group": "J",
+      "matchday": "1",
+      "type": "group",
+      "home": {
+        "id": "39",
+        "code": "AUT",
+        "name": "Austria",
+        "flag": "https://flagcdn.com/w80/at.png"
+      },
+      "away": {
+        "id": "40",
+        "code": "JOR",
+        "name": "Jordan",
+        "flag": "https://flagcdn.com/w80/jo.png"
+      },
+      "home_label": null,
+      "away_label": null,
+      "home_score": 3,
+      "away_score": 1,
+      "finished": true,
+      "status": "FT",
+      "time_elapsed": "finished",
+      "stadium": {
+        "id": "15",
+        "name": "Levi's Stadium",
+        "city": "San Francisco Bay Area (Santa Clara)",
+        "country": "United States"
+      },
+      "kickoff_utc": "2026-06-17T04:00:00Z",
+      "kickoff_local_label": "06/16/2026 21:00"
+    },
+    {
+      "id": "21",
+      "group": "K",
+      "matchday": "1",
+      "type": "group",
+      "home": {
+        "id": "41",
+        "code": "POR",
+        "name": "Portugal",
+        "flag": "https://flagcdn.com/w80/pt.png"
+      },
+      "away": {
+        "id": "42",
+        "code": "COD",
+        "name": "Democratic Republic of the Congo",
+        "flag": "https://flagcdn.com/w80/cd.png"
+      },
+      "home_label": null,
+      "away_label": null,
+      "home_score": 1,
+      "away_score": 1,
+      "finished": true,
+      "status": "FT",
+      "time_elapsed": "Finished",
+      "stadium": {
+        "id": "5",
+        "name": "NRG Stadium",
+        "city": "Houston",
+        "country": "United States"
+      },
+      "kickoff_utc": "2026-06-17T17:00:00Z",
+      "kickoff_local_label": "06/17/2026 12:00"
+    },
+    {
+      "id": "22",
+      "group": "L",
+      "matchday": "1",
+      "type": "group",
+      "home": {
+        "id": "45",
+        "code": "ENG",
+        "name": "England",
+        "flag": "https://flagcdn.com/w80/gb-eng.png"
+      },
+      "away": {
+        "id": "46",
+        "code": "CRO",
+        "name": "Croatia",
+        "flag": "https://flagcdn.com/w80/hr.png"
+      },
+      "home_label": null,
+      "away_label": null,
+      "home_score": 4,
+      "away_score": 2,
+      "finished": true,
+      "status": "FT",
+      "time_elapsed": "finished",
+      "stadium": {
+        "id": "4",
+        "name": "AT&T Stadium",
+        "city": "Dallas (Arlington, Texas)",
+        "country": "United States"
+      },
+      "kickoff_utc": "2026-06-17T20:00:00Z",
+      "kickoff_local_label": "06/17/2026 15:00"
+    },
+    {
+      "id": "23",
+      "group": "K",
+      "matchday": "1",
+      "type": "group",
+      "home": {
+        "id": "43",
+        "code": "UZB",
+        "name": "Uzbekistan",
+        "flag": "https://flagcdn.com/w80/uz.png"
+      },
+      "away": {
+        "id": "44",
+        "code": "COL",
+        "name": "Colombia",
+        "flag": "https://flagcdn.com/w80/co.png"
+      },
+      "home_label": null,
+      "away_label": null,
+      "home_score": 1,
+      "away_score": 3,
+      "finished": true,
+      "status": "FT",
+      "time_elapsed": "finished",
+      "stadium": {
+        "id": "1",
+        "name": "Estadio Azteca",
+        "city": "Mexico City",
+        "country": "Mexico"
+      },
+      "kickoff_utc": "2026-06-18T02:00:00Z",
+      "kickoff_local_label": "06/17/2026 20:00"
+    },
+    {
+      "id": "24",
+      "group": "L",
+      "matchday": "1",
+      "type": "group",
+      "home": {
+        "id": "47",
+        "code": "GHA",
+        "name": "Ghana",
+        "flag": "https://flagcdn.com/w80/gh.png"
+      },
+      "away": {
+        "id": "48",
+        "code": "PAN",
+        "name": "Panama",
+        "flag": "https://flagcdn.com/w80/pa.png"
+      },
+      "home_label": null,
+      "away_label": null,
+      "home_score": 1,
+      "away_score": 0,
+      "finished": true,
+      "status": "FT",
+      "time_elapsed": "finished",
+      "stadium": {
+        "id": "12",
+        "name": "BMO Field",
+        "city": "Toronto",
+        "country": "Canada"
+      },
+      "kickoff_utc": "2026-06-17T23:00:00Z",
+      "kickoff_local_label": "06/17/2026 19:00"
+    },
+    {
+      "id": "25",
+      "group": "A",
+      "matchday": "2",
+      "type": "group",
+      "home": {
+        "id": "1",
+        "code": "MEX",
+        "name": "Mexico",
+        "flag": "https://flagcdn.com/w80/mx.png"
+      },
+      "away": {
+        "id": "3",
+        "code": "KOR",
+        "name": "South Korea",
+        "flag": "https://flagcdn.com/w80/kr.png"
+      },
+      "home_label": null,
+      "away_label": null,
+      "home_score": 1,
+      "away_score": 0,
+      "finished": true,
+      "status": "FT",
+      "time_elapsed": "finished",
+      "stadium": {
+        "id": "2",
+        "name": "Estadio Akron",
+        "city": "Guadalajara (Zapopan)",
+        "country": "Mexico"
+      },
+      "kickoff_utc": "2026-06-19T01:00:00Z",
+      "kickoff_local_label": "06/18/2026 19:00"
+    },
+    {
+      "id": "26",
+      "group": "B",
+      "matchday": "2",
+      "type": "group",
+      "home": {
+        "id": "8",
+        "code": "SUI",
+        "name": "Switzerland",
+        "flag": "https://flagcdn.com/w80/ch.png"
+      },
+      "away": {
+        "id": "6",
+        "code": "BIH",
+        "name": "Bosnia and Herzegovina",
+        "flag": "https://flagcdn.com/w80/ba.png"
+      },
+      "home_label": null,
+      "away_label": null,
+      "home_score": 4,
+      "away_score": 1,
+      "finished": true,
+      "status": "FT",
+      "time_elapsed": "finished",
+      "stadium": {
+        "id": "16",
+        "name": "SoFi Stadium",
+        "city": "Los Angeles (Inglewood)",
+        "country": "United States"
+      },
+      "kickoff_utc": "2026-06-18T19:00:00Z",
+      "kickoff_local_label": "06/18/2026 12:00"
+    },
+    {
+      "id": "27",
+      "group": "B",
+      "matchday": "2",
+      "type": "group",
+      "home": {
+        "id": "5",
+        "code": "CAN",
+        "name": "Canada",
+        "flag": "https://flagcdn.com/w80/ca.png"
+      },
+      "away": {
+        "id": "7",
+        "code": "QAT",
+        "name": "Qatar",
+        "flag": "https://flagcdn.com/w80/qa.png"
+      },
+      "home_label": null,
+      "away_label": null,
+      "home_score": 6,
+      "away_score": 0,
+      "finished": true,
+      "status": "FT",
+      "time_elapsed": "finished",
+      "stadium": {
+        "id": "13",
+        "name": "BC Place",
+        "city": "Vancouver",
+        "country": "Canada"
+      },
+      "kickoff_utc": "2026-06-18T22:00:00Z",
+      "kickoff_local_label": "06/18/2026 15:00"
+    },
+    {
+      "id": "28",
+      "group": "A",
+      "matchday": "2",
+      "type": "group",
+      "home": {
+        "id": "4",
+        "code": "CZE",
+        "name": "Czech Republic",
+        "flag": "https://flagcdn.com/w80/cz.png"
+      },
+      "away": {
+        "id": "2",
+        "code": "RSA",
+        "name": "South Africa",
+        "flag": "https://flagcdn.com/w80/za.png"
+      },
+      "home_label": null,
+      "away_label": null,
+      "home_score": 1,
+      "away_score": 1,
+      "finished": true,
+      "status": "FT",
+      "time_elapsed": "finished",
+      "stadium": {
+        "id": "7",
+        "name": "Mercedes-Benz Stadium",
+        "city": "Atlanta",
+        "country": "United States"
+      },
+      "kickoff_utc": "2026-06-18T16:00:00Z",
+      "kickoff_local_label": "06/18/2026 12:00"
+    },
+    {
+      "id": "29",
+      "group": "C",
+      "matchday": "2",
+      "type": "group",
+      "home": {
+        "id": "9",
+        "code": "BRA",
+        "name": "Brazil",
+        "flag": "https://flagcdn.com/w80/br.png"
+      },
+      "away": {
+        "id": "11",
+        "code": "HAI",
+        "name": "Haiti",
+        "flag": "https://flagcdn.com/w80/ht.png"
+      },
+      "home_label": null,
+      "away_label": null,
+      "home_score": 3,
+      "away_score": 0,
+      "finished": true,
+      "status": "FT",
+      "time_elapsed": "finished",
+      "stadium": {
+        "id": "10",
+        "name": "Lincoln Financial Field",
+        "city": "Philadelphia",
+        "country": "United States"
+      },
+      "kickoff_utc": "2026-06-20T01:00:00Z",
+      "kickoff_local_label": "06/19/2026 21:00"
+    },
+    {
+      "id": "30",
+      "group": "C",
+      "matchday": "2",
+      "type": "group",
+      "home": {
+        "id": "12",
+        "code": "SCO",
+        "name": "Scotland",
+        "flag": "https://flagcdn.com/w80/gb-sct.png"
+      },
+      "away": {
+        "id": "10",
+        "code": "MAR",
+        "name": "Morocco",
+        "flag": "https://flagcdn.com/w80/ma.png"
+      },
+      "home_label": null,
+      "away_label": null,
+      "home_score": 0,
+      "away_score": 1,
+      "finished": true,
+      "status": "FT",
+      "time_elapsed": "finished",
+      "stadium": {
+        "id": "9",
+        "name": "Gillette Stadium",
+        "city": "Boston (Foxborough)",
+        "country": "United States"
+      },
+      "kickoff_utc": "2026-06-19T22:00:00Z",
+      "kickoff_local_label": "06/19/2026 18:00"
+    },
+    {
       "id": "31",
       "group": "D",
       "matchday": "2",
@@ -577,6 +1501,39 @@
       },
       "kickoff_utc": "2026-06-19T19:00:00Z",
       "kickoff_local_label": "06/19/2026 12:00"
+    },
+    {
+      "id": "32",
+      "group": "D",
+      "matchday": "2",
+      "type": "group",
+      "home": {
+        "id": "16",
+        "code": "TUR",
+        "name": "Turkey",
+        "flag": "https://flagcdn.com/w80/tr.png"
+      },
+      "away": {
+        "id": "14",
+        "code": "PAR",
+        "name": "Paraguay",
+        "flag": "https://flagcdn.com/w80/py.png"
+      },
+      "home_label": null,
+      "away_label": null,
+      "home_score": 0,
+      "away_score": 1,
+      "finished": true,
+      "status": "FT",
+      "time_elapsed": "finished",
+      "stadium": {
+        "id": "15",
+        "name": "Levi's Stadium",
+        "city": "San Francisco Bay Area (Santa Clara)",
+        "country": "United States"
+      },
+      "kickoff_utc": "2026-06-20T03:00:00Z",
+      "kickoff_local_label": "06/19/2026 20:00"
     },
     {
       "id": "33",
@@ -612,6 +1569,39 @@
       "kickoff_local_label": "06/20/2026 16:00"
     },
     {
+      "id": "34",
+      "group": "E",
+      "matchday": "2",
+      "type": "group",
+      "home": {
+        "id": "20",
+        "code": "ECU",
+        "name": "Ecuador",
+        "flag": "https://flagcdn.com/w80/ec.png"
+      },
+      "away": {
+        "id": "18",
+        "code": "CUW",
+        "name": "Curaçao",
+        "flag": "https://flagcdn.com/w80/cw.png"
+      },
+      "home_label": null,
+      "away_label": null,
+      "home_score": 0,
+      "away_score": 0,
+      "finished": true,
+      "status": "FT",
+      "time_elapsed": "finished",
+      "stadium": {
+        "id": "6",
+        "name": "GEHA Field at Arrowhead Stadium",
+        "city": "Kansas City",
+        "country": "United States"
+      },
+      "kickoff_utc": "2026-06-21T00:00:00Z",
+      "kickoff_local_label": "06/20/2026 19:00"
+    },
+    {
       "id": "35",
       "group": "F",
       "matchday": "2",
@@ -643,6 +1633,171 @@
       },
       "kickoff_utc": "2026-06-20T17:00:00Z",
       "kickoff_local_label": "06/20/2026 12:00"
+    },
+    {
+      "id": "36",
+      "group": "F",
+      "matchday": "2",
+      "type": "group",
+      "home": {
+        "id": "24",
+        "code": "TUN",
+        "name": "Tunisia",
+        "flag": "https://flagcdn.com/w80/tn.png"
+      },
+      "away": {
+        "id": "22",
+        "code": "JPN",
+        "name": "Japan",
+        "flag": "https://flagcdn.com/w80/jp.png"
+      },
+      "home_label": null,
+      "away_label": null,
+      "home_score": 0,
+      "away_score": 4,
+      "finished": true,
+      "status": "FT",
+      "time_elapsed": "finished",
+      "stadium": {
+        "id": "3",
+        "name": "Estadio BBVA",
+        "city": "Monterrey (Guadalupe)",
+        "country": "Mexico"
+      },
+      "kickoff_utc": "2026-06-21T04:00:00Z",
+      "kickoff_local_label": "06/20/2026 22:00"
+    },
+    {
+      "id": "37",
+      "group": "G",
+      "matchday": "2",
+      "type": "group",
+      "home": {
+        "id": "25",
+        "code": "BEL",
+        "name": "Belgium",
+        "flag": "https://flagcdn.com/w80/be.png"
+      },
+      "away": {
+        "id": "27",
+        "code": "IRN",
+        "name": "Iran",
+        "flag": "https://flagcdn.com/w80/ir.png"
+      },
+      "home_label": null,
+      "away_label": null,
+      "home_score": 0,
+      "away_score": 0,
+      "finished": true,
+      "status": "FT",
+      "time_elapsed": "finished",
+      "stadium": {
+        "id": "16",
+        "name": "SoFi Stadium",
+        "city": "Los Angeles (Inglewood)",
+        "country": "United States"
+      },
+      "kickoff_utc": "2026-06-21T19:00:00Z",
+      "kickoff_local_label": "06/21/2026 12:00"
+    },
+    {
+      "id": "38",
+      "group": "G",
+      "matchday": "2",
+      "type": "group",
+      "home": {
+        "id": "28",
+        "code": "NZL",
+        "name": "New Zealand",
+        "flag": "https://flagcdn.com/w80/nz.png"
+      },
+      "away": {
+        "id": "26",
+        "code": "EGY",
+        "name": "Egypt",
+        "flag": "https://flagcdn.com/w80/eg.png"
+      },
+      "home_label": null,
+      "away_label": null,
+      "home_score": 1,
+      "away_score": 3,
+      "finished": true,
+      "status": "FT",
+      "time_elapsed": "finished",
+      "stadium": {
+        "id": "13",
+        "name": "BC Place",
+        "city": "Vancouver",
+        "country": "Canada"
+      },
+      "kickoff_utc": "2026-06-22T01:00:00Z",
+      "kickoff_local_label": "06/21/2026 18:00"
+    },
+    {
+      "id": "39",
+      "group": "H",
+      "matchday": "2",
+      "type": "group",
+      "home": {
+        "id": "29",
+        "code": "ESP",
+        "name": "Spain",
+        "flag": "https://flagcdn.com/w80/es.png"
+      },
+      "away": {
+        "id": "31",
+        "code": "KSA",
+        "name": "Saudi Arabia",
+        "flag": "https://flagcdn.com/w80/sa.png"
+      },
+      "home_label": null,
+      "away_label": null,
+      "home_score": 4,
+      "away_score": 0,
+      "finished": true,
+      "status": "FT",
+      "time_elapsed": "finished",
+      "stadium": {
+        "id": "7",
+        "name": "Mercedes-Benz Stadium",
+        "city": "Atlanta",
+        "country": "United States"
+      },
+      "kickoff_utc": "2026-06-21T16:00:00Z",
+      "kickoff_local_label": "06/21/2026 12:00"
+    },
+    {
+      "id": "40",
+      "group": "H",
+      "matchday": "2",
+      "type": "group",
+      "home": {
+        "id": "32",
+        "code": "URU",
+        "name": "Uruguay",
+        "flag": "https://flagcdn.com/w80/uy.png"
+      },
+      "away": {
+        "id": "30",
+        "code": "CPV",
+        "name": "Cape Verde",
+        "flag": "https://flagcdn.com/w80/cv.png"
+      },
+      "home_label": null,
+      "away_label": null,
+      "home_score": 2,
+      "away_score": 2,
+      "finished": true,
+      "status": "FT",
+      "time_elapsed": "finished",
+      "stadium": {
+        "id": "8",
+        "name": "Hard Rock Stadium",
+        "city": "Miami (Miami Gardens)",
+        "country": "United States"
+      },
+      "kickoff_utc": "2026-06-21T22:00:00Z",
+      "kickoff_local_label": "06/21/2026 18:00"
     },
     {
       "id": "41",
@@ -711,235 +1866,37 @@
       "kickoff_local_label": "06/22/2026 20:00"
     },
     {
-      "id": "59",
-      "group": "F",
-      "matchday": "3",
-      "type": "group",
-      "home": {
-        "id": "22",
-        "code": "JPN",
-        "name": "Japan",
-        "flag": "https://flagcdn.com/w80/jp.png"
-      },
-      "away": {
-        "id": "23",
-        "code": "SWE",
-        "name": "Sweden",
-        "flag": "https://flagcdn.com/w80/se.png"
-      },
-      "home_label": null,
-      "away_label": null,
-      "home_score": 1,
-      "away_score": 1,
-      "finished": true,
-      "status": "FT",
-      "time_elapsed": "finished",
-      "stadium": {
-        "id": "4",
-        "name": "AT&T Stadium",
-        "city": "Dallas (Arlington, Texas)",
-        "country": "United States"
-      },
-      "kickoff_utc": "2026-06-25T23:00:00Z",
-      "kickoff_local_label": "06/25/2026 18:00"
-    },
-    {
-      "id": "95",
-      "group": "R16",
-      "matchday": "5",
-      "type": "r16",
-      "home": {
-        "id": "37",
-        "code": "ARG",
-        "name": "Argentina",
-        "flag": "https://flagcdn.com/w80/ar.png"
-      },
-      "away": {
-        "id": "26",
-        "code": "EGY",
-        "name": "Egypt",
-        "flag": "https://flagcdn.com/w80/eg.png"
-      },
-      "home_label": "Winner Match 86",
-      "away_label": "Winner Match 88",
-      "home_score": 3,
-      "away_score": 2,
-      "finished": true,
-      "status": "FT",
-      "time_elapsed": "finished",
-      "stadium": {
-        "id": "7",
-        "name": "Mercedes-Benz Stadium",
-        "city": "Atlanta",
-        "country": "United States"
-      },
-      "kickoff_utc": "2026-07-07T16:00:00Z",
-      "kickoff_local_label": "07/07/2026 12:00"
-    },
-    {
-      "id": "101",
-      "group": "SF",
-      "matchday": "7",
-      "type": "sf",
-      "home": {
-        "id": "33",
-        "code": "FRA",
-        "name": "France",
-        "flag": "https://flagcdn.com/w80/fr.png"
-      },
-      "away": {
-        "id": "29",
-        "code": "ESP",
-        "name": "Spain",
-        "flag": "https://flagcdn.com/w80/es.png"
-      },
-      "home_label": "Winner Match 97",
-      "away_label": "Winner Match 98",
-      "home_score": 0,
-      "away_score": 2,
-      "finished": true,
-      "status": "FT",
-      "time_elapsed": "finished",
-      "stadium": {
-        "id": "4",
-        "name": "AT&T Stadium",
-        "city": "Dallas (Arlington, Texas)",
-        "country": "United States"
-      },
-      "kickoff_utc": "2026-07-14T19:00:00Z",
-      "kickoff_local_label": "07/14/2026 14:00"
-    },
-    {
-      "id": "102",
-      "group": "SF",
-      "matchday": "7",
-      "type": "sf",
-      "home": {
-        "id": "45",
-        "code": "ENG",
-        "name": "England",
-        "flag": "https://flagcdn.com/w80/gb-eng.png"
-      },
-      "away": {
-        "id": "37",
-        "code": "ARG",
-        "name": "Argentina",
-        "flag": "https://flagcdn.com/w80/ar.png"
-      },
-      "home_label": "Winner Match 99",
-      "away_label": "Winner Match 100",
-      "home_score": 1,
-      "away_score": 2,
-      "finished": true,
-      "status": "FT",
-      "time_elapsed": "finished",
-      "stadium": {
-        "id": "7",
-        "name": "Mercedes-Benz Stadium",
-        "city": "Atlanta",
-        "country": "United States"
-      },
-      "kickoff_utc": "2026-07-15T19:00:00Z",
-      "kickoff_local_label": "07/15/2026 15:00"
-    },
-    {
-      "id": "5",
-      "group": "C",
-      "matchday": "1",
-      "type": "group",
-      "home": {
-        "id": "11",
-        "code": "HAI",
-        "name": "Haiti",
-        "flag": "https://flagcdn.com/w80/ht.png"
-      },
-      "away": {
-        "id": "12",
-        "code": "SCO",
-        "name": "Scotland",
-        "flag": "https://flagcdn.com/w80/gb-sct.png"
-      },
-      "home_label": null,
-      "away_label": null,
-      "home_score": 0,
-      "away_score": 1,
-      "finished": true,
-      "status": "FT",
-      "time_elapsed": "finished",
-      "stadium": {
-        "id": "9",
-        "name": "Gillette Stadium",
-        "city": "Boston (Foxborough)",
-        "country": "United States"
-      },
-      "kickoff_utc": "2026-06-14T01:00:00Z",
-      "kickoff_local_label": "06/13/2026 21:00"
-    },
-    {
-      "id": "22",
-      "group": "L",
-      "matchday": "1",
-      "type": "group",
-      "home": {
-        "id": "45",
-        "code": "ENG",
-        "name": "England",
-        "flag": "https://flagcdn.com/w80/gb-eng.png"
-      },
-      "away": {
-        "id": "46",
-        "code": "CRO",
-        "name": "Croatia",
-        "flag": "https://flagcdn.com/w80/hr.png"
-      },
-      "home_label": null,
-      "away_label": null,
-      "home_score": 4,
-      "away_score": 2,
-      "finished": true,
-      "status": "FT",
-      "time_elapsed": "finished",
-      "stadium": {
-        "id": "4",
-        "name": "AT&T Stadium",
-        "city": "Dallas (Arlington, Texas)",
-        "country": "United States"
-      },
-      "kickoff_utc": "2026-06-17T20:00:00Z",
-      "kickoff_local_label": "06/17/2026 15:00"
-    },
-    {
-      "id": "39",
-      "group": "H",
+      "id": "43",
+      "group": "J",
       "matchday": "2",
       "type": "group",
       "home": {
-        "id": "29",
-        "code": "ESP",
-        "name": "Spain",
-        "flag": "https://flagcdn.com/w80/es.png"
+        "id": "37",
+        "code": "ARG",
+        "name": "Argentina",
+        "flag": "https://flagcdn.com/w80/ar.png"
       },
       "away": {
-        "id": "31",
-        "code": "KSA",
-        "name": "Saudi Arabia",
-        "flag": "https://flagcdn.com/w80/sa.png"
+        "id": "39",
+        "code": "AUT",
+        "name": "Austria",
+        "flag": "https://flagcdn.com/w80/at.png"
       },
       "home_label": null,
       "away_label": null,
-      "home_score": 4,
+      "home_score": 2,
       "away_score": 0,
       "finished": true,
       "status": "FT",
       "time_elapsed": "finished",
       "stadium": {
-        "id": "7",
-        "name": "Mercedes-Benz Stadium",
-        "city": "Atlanta",
+        "id": "4",
+        "name": "AT&T Stadium",
+        "city": "Dallas (Arlington, Texas)",
         "country": "United States"
       },
-      "kickoff_utc": "2026-06-21T16:00:00Z",
-      "kickoff_local_label": "06/21/2026 12:00"
+      "kickoff_utc": "2026-06-22T17:00:00Z",
+      "kickoff_local_label": "06/22/2026 12:00"
     },
     {
       "id": "44",
@@ -1041,290 +1998,26 @@
       "kickoff_local_label": "06/23/2026 19:00"
     },
     {
-      "id": "52",
-      "group": "A",
-      "matchday": "3",
-      "type": "group",
-      "home": {
-        "id": "4",
-        "code": "CZE",
-        "name": "Czech Republic",
-        "flag": "https://flagcdn.com/w80/cz.png"
-      },
-      "away": {
-        "id": "1",
-        "code": "MEX",
-        "name": "Mexico",
-        "flag": "https://flagcdn.com/w80/mx.png"
-      },
-      "home_label": null,
-      "away_label": null,
-      "home_score": 0,
-      "away_score": 3,
-      "finished": true,
-      "status": "FT",
-      "time_elapsed": "finished",
-      "stadium": {
-        "id": "1",
-        "name": "Estadio Azteca",
-        "city": "Mexico City",
-        "country": "Mexico"
-      },
-      "kickoff_utc": "2026-06-25T01:00:00Z",
-      "kickoff_local_label": "06/24/2026 19:00"
-    },
-    {
-      "id": "60",
-      "group": "F",
-      "matchday": "3",
-      "type": "group",
-      "home": {
-        "id": "24",
-        "code": "TUN",
-        "name": "Tunisia",
-        "flag": "https://flagcdn.com/w80/tn.png"
-      },
-      "away": {
-        "id": "21",
-        "code": "NED",
-        "name": "Netherlands",
-        "flag": "https://flagcdn.com/w80/nl.png"
-      },
-      "home_label": null,
-      "away_label": null,
-      "home_score": 1,
-      "away_score": 3,
-      "finished": true,
-      "status": "FT",
-      "time_elapsed": "finished",
-      "stadium": {
-        "id": "6",
-        "name": "GEHA Field at Arrowhead Stadium",
-        "city": "Kansas City",
-        "country": "United States"
-      },
-      "kickoff_utc": "2026-06-25T23:00:00Z",
-      "kickoff_local_label": "06/25/2026 18:00"
-    },
-    {
-      "id": "61",
-      "group": "I",
-      "matchday": "3",
-      "type": "group",
-      "home": {
-        "id": "34",
-        "code": "SEN",
-        "name": "Senegal",
-        "flag": "https://flagcdn.com/w80/sn.png"
-      },
-      "away": {
-        "id": "35",
-        "code": "IRQ",
-        "name": "Iraq",
-        "flag": "https://flagcdn.com/w80/iq.png"
-      },
-      "home_label": null,
-      "away_label": null,
-      "home_score": 5,
-      "away_score": 0,
-      "finished": true,
-      "status": "FT",
-      "time_elapsed": "finished",
-      "stadium": {
-        "id": "12",
-        "name": "BMO Field",
-        "city": "Toronto",
-        "country": "Canada"
-      },
-      "kickoff_utc": "2026-06-26T19:00:00Z",
-      "kickoff_local_label": "06/26/2026 15:00"
-    },
-    {
-      "id": "67",
-      "group": "L",
-      "matchday": "3",
-      "type": "group",
-      "home": {
-        "id": "48",
-        "code": "PAN",
-        "name": "Panama",
-        "flag": "https://flagcdn.com/w80/pa.png"
-      },
-      "away": {
-        "id": "45",
-        "code": "ENG",
-        "name": "England",
-        "flag": "https://flagcdn.com/w80/gb-eng.png"
-      },
-      "home_label": null,
-      "away_label": null,
-      "home_score": 0,
-      "away_score": 2,
-      "finished": true,
-      "status": "FT",
-      "time_elapsed": "finished",
-      "stadium": {
-        "id": "11",
-        "name": "MetLife Stadium",
-        "city": "New York/New Jersey (East Rutherford)",
-        "country": "United States"
-      },
-      "kickoff_utc": "2026-06-27T21:00:00Z",
-      "kickoff_local_label": "06/27/2026 17:00"
-    },
-    {
-      "id": "72",
+      "id": "47",
       "group": "K",
-      "matchday": "3",
+      "matchday": "2",
       "type": "group",
       "home": {
+        "id": "44",
+        "code": "COL",
+        "name": "Colombia",
+        "flag": "https://flagcdn.com/w80/co.png"
+      },
+      "away": {
         "id": "42",
         "code": "COD",
         "name": "Democratic Republic of the Congo",
         "flag": "https://flagcdn.com/w80/cd.png"
       },
-      "away": {
-        "id": "43",
-        "code": "UZB",
-        "name": "Uzbekistan",
-        "flag": "https://flagcdn.com/w80/uz.png"
-      },
       "home_label": null,
       "away_label": null,
-      "home_score": 3,
-      "away_score": 1,
-      "finished": true,
-      "status": "FT",
-      "time_elapsed": "finished",
-      "stadium": {
-        "id": "7",
-        "name": "Mercedes-Benz Stadium",
-        "city": "Atlanta",
-        "country": "United States"
-      },
-      "kickoff_utc": "2026-06-27T23:30:00Z",
-      "kickoff_local_label": "06/27/2026 19:30"
-    },
-    {
-      "id": "86",
-      "group": "R32",
-      "matchday": "4",
-      "type": "r32",
-      "home": {
-        "id": "37",
-        "code": "ARG",
-        "name": "Argentina",
-        "flag": "https://flagcdn.com/w80/ar.png"
-      },
-      "away": {
-        "id": "30",
-        "code": "CPV",
-        "name": "Cape Verde",
-        "flag": "https://flagcdn.com/w80/cv.png"
-      },
-      "home_label": "Winner Group J",
-      "away_label": "Runner-up Group H",
-      "home_score": 3,
-      "away_score": 2,
-      "finished": true,
-      "status": "FT",
-      "time_elapsed": "finished",
-      "stadium": {
-        "id": "8",
-        "name": "Hard Rock Stadium",
-        "city": "Miami (Miami Gardens)",
-        "country": "United States"
-      },
-      "kickoff_utc": "2026-07-03T22:00:00Z",
-      "kickoff_local_label": "07/03/2026 18:00"
-    },
-    {
-      "id": "88",
-      "group": "R32",
-      "matchday": "4",
-      "type": "r32",
-      "home": {
-        "id": "15",
-        "code": "AUS",
-        "name": "Australia",
-        "flag": "https://flagcdn.com/w80/au.png"
-      },
-      "away": {
-        "id": "26",
-        "code": "EGY",
-        "name": "Egypt",
-        "flag": "https://flagcdn.com/w80/eg.png"
-      },
-      "home_label": "Runner-up Group D",
-      "away_label": "Runner-up Group G",
       "home_score": 1,
-      "away_score": 1,
-      "finished": true,
-      "status": "FT",
-      "time_elapsed": "finished",
-      "stadium": {
-        "id": "4",
-        "name": "AT&T Stadium",
-        "city": "Dallas (Arlington, Texas)",
-        "country": "United States"
-      },
-      "kickoff_utc": "2026-07-03T18:00:00Z",
-      "kickoff_local_label": "07/03/2026 13:00"
-    },
-    {
-      "id": "100",
-      "group": "QF",
-      "matchday": "6",
-      "type": "qf",
-      "home": {
-        "id": "37",
-        "code": "ARG",
-        "name": "Argentina",
-        "flag": "https://flagcdn.com/w80/ar.png"
-      },
-      "away": {
-        "id": "8",
-        "code": "SUI",
-        "name": "Switzerland",
-        "flag": "https://flagcdn.com/w80/ch.png"
-      },
-      "home_label": "Winner Match 95",
-      "away_label": "Winner Match 96",
-      "home_score": 3,
-      "away_score": 1,
-      "finished": true,
-      "status": "FT",
-      "time_elapsed": "finished",
-      "stadium": {
-        "id": "6",
-        "name": "GEHA Field at Arrowhead Stadium",
-        "city": "Kansas City",
-        "country": "United States"
-      },
-      "kickoff_utc": "2026-07-12T01:00:00Z",
-      "kickoff_local_label": "07/11/2026 20:00"
-    },
-    {
-      "id": "2",
-      "group": "A",
-      "matchday": "1",
-      "type": "group",
-      "home": {
-        "id": "3",
-        "code": "KOR",
-        "name": "South Korea",
-        "flag": "https://flagcdn.com/w80/kr.png"
-      },
-      "away": {
-        "id": "4",
-        "code": "CZE",
-        "name": "Czech Republic",
-        "flag": "https://flagcdn.com/w80/cz.png"
-      },
-      "home_label": null,
-      "away_label": null,
-      "home_score": 2,
-      "away_score": 1,
+      "away_score": 0,
       "finished": true,
       "status": "FT",
       "time_elapsed": "finished",
@@ -1334,157 +2027,25 @@
         "city": "Guadalajara (Zapopan)",
         "country": "Mexico"
       },
-      "kickoff_utc": "2026-06-12T02:00:00Z",
-      "kickoff_local_label": "06/11/2026 20:00"
+      "kickoff_utc": "2026-06-24T02:00:00Z",
+      "kickoff_local_label": "06/23/2026 20:00"
     },
     {
-      "id": "4",
-      "group": "D",
-      "matchday": "1",
-      "type": "group",
-      "home": {
-        "id": "13",
-        "code": "USA",
-        "name": "United States",
-        "flag": "https://flagcdn.com/w80/us.png"
-      },
-      "away": {
-        "id": "14",
-        "code": "PAR",
-        "name": "Paraguay",
-        "flag": "https://flagcdn.com/w80/py.png"
-      },
-      "home_label": null,
-      "away_label": null,
-      "home_score": 4,
-      "away_score": 1,
-      "finished": true,
-      "status": "FT",
-      "time_elapsed": "finished",
-      "stadium": {
-        "id": "16",
-        "name": "SoFi Stadium",
-        "city": "Los Angeles (Inglewood)",
-        "country": "United States"
-      },
-      "kickoff_utc": "2026-06-13T01:00:00Z",
-      "kickoff_local_label": "06/12/2026 18:00"
-    },
-    {
-      "id": "17",
-      "group": "I",
-      "matchday": "1",
-      "type": "group",
-      "home": {
-        "id": "33",
-        "code": "FRA",
-        "name": "France",
-        "flag": "https://flagcdn.com/w80/fr.png"
-      },
-      "away": {
-        "id": "34",
-        "code": "SEN",
-        "name": "Senegal",
-        "flag": "https://flagcdn.com/w80/sn.png"
-      },
-      "home_label": null,
-      "away_label": null,
-      "home_score": 3,
-      "away_score": 1,
-      "finished": true,
-      "status": "FT",
-      "time_elapsed": "finished",
-      "stadium": {
-        "id": "11",
-        "name": "MetLife Stadium",
-        "city": "New York/New Jersey (East Rutherford)",
-        "country": "United States"
-      },
-      "kickoff_utc": "2026-06-16T19:00:00Z",
-      "kickoff_local_label": "06/16/2026 15:00"
-    },
-    {
-      "id": "18",
-      "group": "I",
-      "matchday": "1",
-      "type": "group",
-      "home": {
-        "id": "35",
-        "code": "IRQ",
-        "name": "Iraq",
-        "flag": "https://flagcdn.com/w80/iq.png"
-      },
-      "away": {
-        "id": "36",
-        "code": "NOR",
-        "name": "Norway",
-        "flag": "https://flagcdn.com/w80/no.png"
-      },
-      "home_label": null,
-      "away_label": null,
-      "home_score": 1,
-      "away_score": 4,
-      "finished": true,
-      "status": "FT",
-      "time_elapsed": "finished",
-      "stadium": {
-        "id": "9",
-        "name": "Gillette Stadium",
-        "city": "Boston (Foxborough)",
-        "country": "United States"
-      },
-      "kickoff_utc": "2026-06-16T22:00:00Z",
-      "kickoff_local_label": "06/16/2026 18:00"
-    },
-    {
-      "id": "21",
-      "group": "K",
-      "matchday": "1",
-      "type": "group",
-      "home": {
-        "id": "41",
-        "code": "POR",
-        "name": "Portugal",
-        "flag": "https://flagcdn.com/w80/pt.png"
-      },
-      "away": {
-        "id": "42",
-        "code": "COD",
-        "name": "Democratic Republic of the Congo",
-        "flag": "https://flagcdn.com/w80/cd.png"
-      },
-      "home_label": null,
-      "away_label": null,
-      "home_score": 1,
-      "away_score": 1,
-      "finished": true,
-      "status": "FT",
-      "time_elapsed": "Finished",
-      "stadium": {
-        "id": "5",
-        "name": "NRG Stadium",
-        "city": "Houston",
-        "country": "United States"
-      },
-      "kickoff_utc": "2026-06-17T17:00:00Z",
-      "kickoff_local_label": "06/17/2026 12:00"
-    },
-    {
-      "id": "37",
-      "group": "G",
+      "id": "48",
+      "group": "L",
       "matchday": "2",
       "type": "group",
       "home": {
-        "id": "25",
-        "code": "BEL",
-        "name": "Belgium",
-        "flag": "https://flagcdn.com/w80/be.png"
+        "id": "45",
+        "code": "ENG",
+        "name": "England",
+        "flag": "https://flagcdn.com/w80/gb-eng.png"
       },
       "away": {
-        "id": "27",
-        "code": "IRN",
-        "name": "Iran",
-        "flag": "https://flagcdn.com/w80/ir.png"
+        "id": "47",
+        "code": "GHA",
+        "name": "Ghana",
+        "flag": "https://flagcdn.com/w80/gh.png"
       },
       "home_label": null,
       "away_label": null,
@@ -1494,13 +2055,46 @@
       "status": "FT",
       "time_elapsed": "finished",
       "stadium": {
-        "id": "16",
-        "name": "SoFi Stadium",
-        "city": "Los Angeles (Inglewood)",
+        "id": "9",
+        "name": "Gillette Stadium",
+        "city": "Boston (Foxborough)",
         "country": "United States"
       },
-      "kickoff_utc": "2026-06-21T19:00:00Z",
-      "kickoff_local_label": "06/21/2026 12:00"
+      "kickoff_utc": "2026-06-23T20:00:00Z",
+      "kickoff_local_label": "06/23/2026 16:00"
+    },
+    {
+      "id": "49",
+      "group": "C",
+      "matchday": "3",
+      "type": "group",
+      "home": {
+        "id": "12",
+        "code": "SCO",
+        "name": "Scotland",
+        "flag": "https://flagcdn.com/w80/gb-sct.png"
+      },
+      "away": {
+        "id": "9",
+        "code": "BRA",
+        "name": "Brazil",
+        "flag": "https://flagcdn.com/w80/br.png"
+      },
+      "home_label": null,
+      "away_label": null,
+      "home_score": 0,
+      "away_score": 3,
+      "finished": true,
+      "status": "FT",
+      "time_elapsed": "finished",
+      "stadium": {
+        "id": "8",
+        "name": "Hard Rock Stadium",
+        "city": "Miami (Miami Gardens)",
+        "country": "United States"
+      },
+      "kickoff_utc": "2026-06-24T22:00:00Z",
+      "kickoff_local_label": "06/24/2026 18:00"
     },
     {
       "id": "50",
@@ -1569,351 +2163,21 @@
       "kickoff_local_label": "06/24/2026 19:00"
     },
     {
-      "id": "87",
-      "group": "R32",
-      "matchday": "4",
-      "type": "r32",
-      "home": {
-        "id": "44",
-        "code": "COL",
-        "name": "Colombia",
-        "flag": "https://flagcdn.com/w80/co.png"
-      },
-      "away": {
-        "id": "47",
-        "code": "GHA",
-        "name": "Ghana",
-        "flag": "https://flagcdn.com/w80/gh.png"
-      },
-      "home_label": "Winner Group K",
-      "away_label": "3rd Group D/E/I/J/L",
-      "home_score": 1,
-      "away_score": 0,
-      "finished": true,
-      "status": "FT",
-      "time_elapsed": "finished",
-      "stadium": {
-        "id": "6",
-        "name": "GEHA Field at Arrowhead Stadium",
-        "city": "Kansas City",
-        "country": "United States"
-      },
-      "kickoff_utc": "2026-07-04T01:30:00Z",
-      "kickoff_local_label": "07/03/2026 20:30"
-    },
-    {
-      "id": "98",
-      "group": "QF",
-      "matchday": "6",
-      "type": "qf",
-      "home": {
-        "id": "29",
-        "code": "ESP",
-        "name": "Spain",
-        "flag": "https://flagcdn.com/w80/es.png"
-      },
-      "away": {
-        "id": "25",
-        "code": "BEL",
-        "name": "Belgium",
-        "flag": "https://flagcdn.com/w80/be.png"
-      },
-      "home_label": "Winner Match 93",
-      "away_label": "Winner Match 94",
-      "home_score": 2,
-      "away_score": 1,
-      "finished": true,
-      "status": "FT",
-      "time_elapsed": "finished",
-      "stadium": {
-        "id": "16",
-        "name": "SoFi Stadium",
-        "city": "Los Angeles (Inglewood)",
-        "country": "United States"
-      },
-      "kickoff_utc": "2026-07-10T19:00:00Z",
-      "kickoff_local_label": "07/10/2026 12:00"
-    },
-    {
-      "id": "9",
-      "group": "E",
-      "matchday": "1",
-      "type": "group",
-      "home": {
-        "id": "19",
-        "code": "CIV",
-        "name": "Ivory Coast",
-        "flag": "https://flagcdn.com/w80/ci.png"
-      },
-      "away": {
-        "id": "20",
-        "code": "ECU",
-        "name": "Ecuador",
-        "flag": "https://flagcdn.com/w80/ec.png"
-      },
-      "home_label": null,
-      "away_label": null,
-      "home_score": 1,
-      "away_score": 0,
-      "finished": true,
-      "status": "FT",
-      "time_elapsed": "finished",
-      "stadium": {
-        "id": "10",
-        "name": "Lincoln Financial Field",
-        "city": "Philadelphia",
-        "country": "United States"
-      },
-      "kickoff_utc": "2026-06-14T23:00:00Z",
-      "kickoff_local_label": "06/14/2026 19:00"
-    },
-    {
-      "id": "10",
-      "group": "E",
-      "matchday": "1",
-      "type": "group",
-      "home": {
-        "id": "17",
-        "code": "GER",
-        "name": "Germany",
-        "flag": "https://flagcdn.com/w80/de.png"
-      },
-      "away": {
-        "id": "18",
-        "code": "CUW",
-        "name": "Curaçao",
-        "flag": "https://flagcdn.com/w80/cw.png"
-      },
-      "home_label": null,
-      "away_label": null,
-      "home_score": 7,
-      "away_score": 1,
-      "finished": true,
-      "status": "FT",
-      "time_elapsed": "finished",
-      "stadium": {
-        "id": "5",
-        "name": "NRG Stadium",
-        "city": "Houston",
-        "country": "United States"
-      },
-      "kickoff_utc": "2026-06-14T17:00:00Z",
-      "kickoff_local_label": "06/14/2026 12:00"
-    },
-    {
-      "id": "12",
-      "group": "F",
-      "matchday": "1",
-      "type": "group",
-      "home": {
-        "id": "23",
-        "code": "SWE",
-        "name": "Sweden",
-        "flag": "https://flagcdn.com/w80/se.png"
-      },
-      "away": {
-        "id": "24",
-        "code": "TUN",
-        "name": "Tunisia",
-        "flag": "https://flagcdn.com/w80/tn.png"
-      },
-      "home_label": null,
-      "away_label": null,
-      "home_score": 5,
-      "away_score": 1,
-      "finished": true,
-      "status": "FT",
-      "time_elapsed": "finished",
-      "stadium": {
-        "id": "3",
-        "name": "Estadio BBVA",
-        "city": "Monterrey (Guadalupe)",
-        "country": "Mexico"
-      },
-      "kickoff_utc": "2026-06-15T02:00:00Z",
-      "kickoff_local_label": "06/14/2026 20:00"
-    },
-    {
-      "id": "25",
+      "id": "52",
       "group": "A",
-      "matchday": "2",
+      "matchday": "3",
       "type": "group",
       "home": {
+        "id": "4",
+        "code": "CZE",
+        "name": "Czech Republic",
+        "flag": "https://flagcdn.com/w80/cz.png"
+      },
+      "away": {
         "id": "1",
         "code": "MEX",
         "name": "Mexico",
         "flag": "https://flagcdn.com/w80/mx.png"
-      },
-      "away": {
-        "id": "3",
-        "code": "KOR",
-        "name": "South Korea",
-        "flag": "https://flagcdn.com/w80/kr.png"
-      },
-      "home_label": null,
-      "away_label": null,
-      "home_score": 1,
-      "away_score": 0,
-      "finished": true,
-      "status": "FT",
-      "time_elapsed": "finished",
-      "stadium": {
-        "id": "2",
-        "name": "Estadio Akron",
-        "city": "Guadalajara (Zapopan)",
-        "country": "Mexico"
-      },
-      "kickoff_utc": "2026-06-19T01:00:00Z",
-      "kickoff_local_label": "06/18/2026 19:00"
-    },
-    {
-      "id": "27",
-      "group": "B",
-      "matchday": "2",
-      "type": "group",
-      "home": {
-        "id": "5",
-        "code": "CAN",
-        "name": "Canada",
-        "flag": "https://flagcdn.com/w80/ca.png"
-      },
-      "away": {
-        "id": "7",
-        "code": "QAT",
-        "name": "Qatar",
-        "flag": "https://flagcdn.com/w80/qa.png"
-      },
-      "home_label": null,
-      "away_label": null,
-      "home_score": 6,
-      "away_score": 0,
-      "finished": true,
-      "status": "FT",
-      "time_elapsed": "finished",
-      "stadium": {
-        "id": "13",
-        "name": "BC Place",
-        "city": "Vancouver",
-        "country": "Canada"
-      },
-      "kickoff_utc": "2026-06-18T22:00:00Z",
-      "kickoff_local_label": "06/18/2026 15:00"
-    },
-    {
-      "id": "30",
-      "group": "C",
-      "matchday": "2",
-      "type": "group",
-      "home": {
-        "id": "12",
-        "code": "SCO",
-        "name": "Scotland",
-        "flag": "https://flagcdn.com/w80/gb-sct.png"
-      },
-      "away": {
-        "id": "10",
-        "code": "MAR",
-        "name": "Morocco",
-        "flag": "https://flagcdn.com/w80/ma.png"
-      },
-      "home_label": null,
-      "away_label": null,
-      "home_score": 0,
-      "away_score": 1,
-      "finished": true,
-      "status": "FT",
-      "time_elapsed": "finished",
-      "stadium": {
-        "id": "9",
-        "name": "Gillette Stadium",
-        "city": "Boston (Foxborough)",
-        "country": "United States"
-      },
-      "kickoff_utc": "2026-06-19T22:00:00Z",
-      "kickoff_local_label": "06/19/2026 18:00"
-    },
-    {
-      "id": "32",
-      "group": "D",
-      "matchday": "2",
-      "type": "group",
-      "home": {
-        "id": "16",
-        "code": "TUR",
-        "name": "Turkey",
-        "flag": "https://flagcdn.com/w80/tr.png"
-      },
-      "away": {
-        "id": "14",
-        "code": "PAR",
-        "name": "Paraguay",
-        "flag": "https://flagcdn.com/w80/py.png"
-      },
-      "home_label": null,
-      "away_label": null,
-      "home_score": 0,
-      "away_score": 1,
-      "finished": true,
-      "status": "FT",
-      "time_elapsed": "finished",
-      "stadium": {
-        "id": "15",
-        "name": "Levi's Stadium",
-        "city": "San Francisco Bay Area (Santa Clara)",
-        "country": "United States"
-      },
-      "kickoff_utc": "2026-06-20T03:00:00Z",
-      "kickoff_local_label": "06/19/2026 20:00"
-    },
-    {
-      "id": "43",
-      "group": "J",
-      "matchday": "2",
-      "type": "group",
-      "home": {
-        "id": "37",
-        "code": "ARG",
-        "name": "Argentina",
-        "flag": "https://flagcdn.com/w80/ar.png"
-      },
-      "away": {
-        "id": "39",
-        "code": "AUT",
-        "name": "Austria",
-        "flag": "https://flagcdn.com/w80/at.png"
-      },
-      "home_label": null,
-      "away_label": null,
-      "home_score": 2,
-      "away_score": 0,
-      "finished": true,
-      "status": "FT",
-      "time_elapsed": "finished",
-      "stadium": {
-        "id": "4",
-        "name": "AT&T Stadium",
-        "city": "Dallas (Arlington, Texas)",
-        "country": "United States"
-      },
-      "kickoff_utc": "2026-06-22T17:00:00Z",
-      "kickoff_local_label": "06/22/2026 12:00"
-    },
-    {
-      "id": "49",
-      "group": "C",
-      "matchday": "3",
-      "type": "group",
-      "home": {
-        "id": "12",
-        "code": "SCO",
-        "name": "Scotland",
-        "flag": "https://flagcdn.com/w80/gb-sct.png"
-      },
-      "away": {
-        "id": "9",
-        "code": "BRA",
-        "name": "Brazil",
-        "flag": "https://flagcdn.com/w80/br.png"
       },
       "home_label": null,
       "away_label": null,
@@ -1923,13 +2187,13 @@
       "status": "FT",
       "time_elapsed": "finished",
       "stadium": {
-        "id": "8",
-        "name": "Hard Rock Stadium",
-        "city": "Miami (Miami Gardens)",
-        "country": "United States"
+        "id": "1",
+        "name": "Estadio Azteca",
+        "city": "Mexico City",
+        "country": "Mexico"
       },
-      "kickoff_utc": "2026-06-24T22:00:00Z",
-      "kickoff_local_label": "06/24/2026 18:00"
+      "kickoff_utc": "2026-06-25T01:00:00Z",
+      "kickoff_local_label": "06/24/2026 19:00"
     },
     {
       "id": "53",
@@ -1965,6 +2229,138 @@
       "kickoff_local_label": "06/24/2026 12:00"
     },
     {
+      "id": "54",
+      "group": "B",
+      "matchday": "3",
+      "type": "group",
+      "home": {
+        "id": "8",
+        "code": "SUI",
+        "name": "Switzerland",
+        "flag": "https://flagcdn.com/w80/ch.png"
+      },
+      "away": {
+        "id": "5",
+        "code": "CAN",
+        "name": "Canada",
+        "flag": "https://flagcdn.com/w80/ca.png"
+      },
+      "home_label": null,
+      "away_label": null,
+      "home_score": 2,
+      "away_score": 1,
+      "finished": true,
+      "status": "FT",
+      "time_elapsed": "finished",
+      "stadium": {
+        "id": "13",
+        "name": "BC Place",
+        "city": "Vancouver",
+        "country": "Canada"
+      },
+      "kickoff_utc": "2026-06-24T19:00:00Z",
+      "kickoff_local_label": "06/24/2026 12:00"
+    },
+    {
+      "id": "55",
+      "group": "E",
+      "matchday": "3",
+      "type": "group",
+      "home": {
+        "id": "18",
+        "code": "CUW",
+        "name": "Curaçao",
+        "flag": "https://flagcdn.com/w80/cw.png"
+      },
+      "away": {
+        "id": "19",
+        "code": "CIV",
+        "name": "Ivory Coast",
+        "flag": "https://flagcdn.com/w80/ci.png"
+      },
+      "home_label": null,
+      "away_label": null,
+      "home_score": 0,
+      "away_score": 2,
+      "finished": true,
+      "status": "FT",
+      "time_elapsed": "finished",
+      "stadium": {
+        "id": "10",
+        "name": "Lincoln Financial Field",
+        "city": "Philadelphia",
+        "country": "United States"
+      },
+      "kickoff_utc": "2026-06-25T20:00:00Z",
+      "kickoff_local_label": "06/25/2026 16:00"
+    },
+    {
+      "id": "56",
+      "group": "E",
+      "matchday": "3",
+      "type": "group",
+      "home": {
+        "id": "20",
+        "code": "ECU",
+        "name": "Ecuador",
+        "flag": "https://flagcdn.com/w80/ec.png"
+      },
+      "away": {
+        "id": "17",
+        "code": "GER",
+        "name": "Germany",
+        "flag": "https://flagcdn.com/w80/de.png"
+      },
+      "home_label": null,
+      "away_label": null,
+      "home_score": 2,
+      "away_score": 1,
+      "finished": true,
+      "status": "FT",
+      "time_elapsed": "finished",
+      "stadium": {
+        "id": "11",
+        "name": "MetLife Stadium",
+        "city": "New York/New Jersey (East Rutherford)",
+        "country": "United States"
+      },
+      "kickoff_utc": "2026-06-25T20:00:00Z",
+      "kickoff_local_label": "06/25/2026 16:00"
+    },
+    {
+      "id": "57",
+      "group": "D",
+      "matchday": "3",
+      "type": "group",
+      "home": {
+        "id": "14",
+        "code": "PAR",
+        "name": "Paraguay",
+        "flag": "https://flagcdn.com/w80/py.png"
+      },
+      "away": {
+        "id": "15",
+        "code": "AUS",
+        "name": "Australia",
+        "flag": "https://flagcdn.com/w80/au.png"
+      },
+      "home_label": null,
+      "away_label": null,
+      "home_score": 0,
+      "away_score": 0,
+      "finished": true,
+      "status": "FT",
+      "time_elapsed": "finished",
+      "stadium": {
+        "id": "15",
+        "name": "Levi's Stadium",
+        "city": "San Francisco Bay Area (Santa Clara)",
+        "country": "United States"
+      },
+      "kickoff_utc": "2026-06-26T02:00:00Z",
+      "kickoff_local_label": "06/25/2026 19:00"
+    },
+    {
       "id": "58",
       "group": "D",
       "matchday": "3",
@@ -1996,6 +2392,105 @@
       },
       "kickoff_utc": "2026-06-26T02:00:00Z",
       "kickoff_local_label": "06/25/2026 19:00"
+    },
+    {
+      "id": "59",
+      "group": "F",
+      "matchday": "3",
+      "type": "group",
+      "home": {
+        "id": "22",
+        "code": "JPN",
+        "name": "Japan",
+        "flag": "https://flagcdn.com/w80/jp.png"
+      },
+      "away": {
+        "id": "23",
+        "code": "SWE",
+        "name": "Sweden",
+        "flag": "https://flagcdn.com/w80/se.png"
+      },
+      "home_label": null,
+      "away_label": null,
+      "home_score": 1,
+      "away_score": 1,
+      "finished": true,
+      "status": "FT",
+      "time_elapsed": "finished",
+      "stadium": {
+        "id": "4",
+        "name": "AT&T Stadium",
+        "city": "Dallas (Arlington, Texas)",
+        "country": "United States"
+      },
+      "kickoff_utc": "2026-06-25T23:00:00Z",
+      "kickoff_local_label": "06/25/2026 18:00"
+    },
+    {
+      "id": "60",
+      "group": "F",
+      "matchday": "3",
+      "type": "group",
+      "home": {
+        "id": "24",
+        "code": "TUN",
+        "name": "Tunisia",
+        "flag": "https://flagcdn.com/w80/tn.png"
+      },
+      "away": {
+        "id": "21",
+        "code": "NED",
+        "name": "Netherlands",
+        "flag": "https://flagcdn.com/w80/nl.png"
+      },
+      "home_label": null,
+      "away_label": null,
+      "home_score": 1,
+      "away_score": 3,
+      "finished": true,
+      "status": "FT",
+      "time_elapsed": "finished",
+      "stadium": {
+        "id": "6",
+        "name": "GEHA Field at Arrowhead Stadium",
+        "city": "Kansas City",
+        "country": "United States"
+      },
+      "kickoff_utc": "2026-06-25T23:00:00Z",
+      "kickoff_local_label": "06/25/2026 18:00"
+    },
+    {
+      "id": "61",
+      "group": "I",
+      "matchday": "3",
+      "type": "group",
+      "home": {
+        "id": "34",
+        "code": "SEN",
+        "name": "Senegal",
+        "flag": "https://flagcdn.com/w80/sn.png"
+      },
+      "away": {
+        "id": "35",
+        "code": "IRQ",
+        "name": "Iraq",
+        "flag": "https://flagcdn.com/w80/iq.png"
+      },
+      "home_label": null,
+      "away_label": null,
+      "home_score": 5,
+      "away_score": 0,
+      "finished": true,
+      "status": "FT",
+      "time_elapsed": "finished",
+      "stadium": {
+        "id": "12",
+        "name": "BMO Field",
+        "city": "Toronto",
+        "country": "Canada"
+      },
+      "kickoff_utc": "2026-06-26T19:00:00Z",
+      "kickoff_local_label": "06/26/2026 15:00"
     },
     {
       "id": "62",
@@ -2059,6 +2554,39 @@
         "name": "Lumen Field",
         "city": "Seattle",
         "country": "United States"
+      },
+      "kickoff_utc": "2026-06-27T03:00:00Z",
+      "kickoff_local_label": "06/26/2026 20:00"
+    },
+    {
+      "id": "64",
+      "group": "G",
+      "matchday": "3",
+      "type": "group",
+      "home": {
+        "id": "28",
+        "code": "NZL",
+        "name": "New Zealand",
+        "flag": "https://flagcdn.com/w80/nz.png"
+      },
+      "away": {
+        "id": "25",
+        "code": "BEL",
+        "name": "Belgium",
+        "flag": "https://flagcdn.com/w80/be.png"
+      },
+      "home_label": null,
+      "away_label": null,
+      "home_score": 1,
+      "away_score": 5,
+      "finished": true,
+      "status": "FT",
+      "time_elapsed": "finished",
+      "stadium": {
+        "id": "13",
+        "name": "BC Place",
+        "city": "Vancouver",
+        "country": "Canada"
       },
       "kickoff_utc": "2026-06-27T03:00:00Z",
       "kickoff_local_label": "06/26/2026 20:00"
@@ -2130,1176 +2658,21 @@
       "kickoff_local_label": "06/26/2026 18:00"
     },
     {
-      "id": "70",
-      "group": "J",
-      "matchday": "3",
-      "type": "group",
-      "home": {
-        "id": "40",
-        "code": "JOR",
-        "name": "Jordan",
-        "flag": "https://flagcdn.com/w80/jo.png"
-      },
-      "away": {
-        "id": "37",
-        "code": "ARG",
-        "name": "Argentina",
-        "flag": "https://flagcdn.com/w80/ar.png"
-      },
-      "home_label": null,
-      "away_label": null,
-      "home_score": 1,
-      "away_score": 3,
-      "finished": true,
-      "status": "FT",
-      "time_elapsed": "finished",
-      "stadium": {
-        "id": "4",
-        "name": "AT&T Stadium",
-        "city": "Dallas (Arlington, Texas)",
-        "country": "United States"
-      },
-      "kickoff_utc": "2026-06-28T02:00:00Z",
-      "kickoff_local_label": "06/27/2026 21:00"
-    },
-    {
-      "id": "76",
-      "group": "R32",
-      "matchday": "4",
-      "type": "r32",
-      "home": {
-        "id": "9",
-        "code": "BRA",
-        "name": "Brazil",
-        "flag": "https://flagcdn.com/w80/br.png"
-      },
-      "away": {
-        "id": "22",
-        "code": "JPN",
-        "name": "Japan",
-        "flag": "https://flagcdn.com/w80/jp.png"
-      },
-      "home_label": "Winner Group C",
-      "away_label": "Runner-up Group F",
-      "home_score": 2,
-      "away_score": 1,
-      "finished": true,
-      "status": "FT",
-      "time_elapsed": "finished",
-      "stadium": {
-        "id": "5",
-        "name": "NRG Stadium",
-        "city": "Houston",
-        "country": "United States"
-      },
-      "kickoff_utc": "2026-06-29T17:00:00Z",
-      "kickoff_local_label": "06/29/2026 12:00"
-    },
-    {
-      "id": "83",
-      "group": "R32",
-      "matchday": "4",
-      "type": "r32",
-      "home": {
-        "id": "41",
-        "code": "POR",
-        "name": "Portugal",
-        "flag": "https://flagcdn.com/w80/pt.png"
-      },
-      "away": {
-        "id": "46",
-        "code": "CRO",
-        "name": "Croatia",
-        "flag": "https://flagcdn.com/w80/hr.png"
-      },
-      "home_label": "Runner-up Group K",
-      "away_label": "Runner-up Group L",
-      "home_score": 2,
-      "away_score": 1,
-      "finished": true,
-      "status": "FT",
-      "time_elapsed": "finished",
-      "stadium": {
-        "id": "12",
-        "name": "BMO Field",
-        "city": "Toronto",
-        "country": "Canada"
-      },
-      "kickoff_utc": "2026-07-02T23:00:00Z",
-      "kickoff_local_label": "07/02/2026 19:00"
-    },
-    {
-      "id": "85",
-      "group": "R32",
-      "matchday": "4",
-      "type": "r32",
-      "home": {
-        "id": "8",
-        "code": "SUI",
-        "name": "Switzerland",
-        "flag": "https://flagcdn.com/w80/ch.png"
-      },
-      "away": {
-        "id": "38",
-        "code": "ALG",
-        "name": "Algeria",
-        "flag": "https://flagcdn.com/w80/dz.png"
-      },
-      "home_label": "Winner Group B",
-      "away_label": "3rd Group E/F/G/I/J",
-      "home_score": 2,
-      "away_score": 0,
-      "finished": true,
-      "status": "FT",
-      "time_elapsed": "finished",
-      "stadium": {
-        "id": "13",
-        "name": "BC Place",
-        "city": "Vancouver",
-        "country": "Canada"
-      },
-      "kickoff_utc": "2026-07-03T03:00:00Z",
-      "kickoff_local_label": "07/02/2026 20:00"
-    },
-    {
-      "id": "93",
-      "group": "R16",
-      "matchday": "5",
-      "type": "r16",
-      "home": {
-        "id": "41",
-        "code": "POR",
-        "name": "Portugal",
-        "flag": "https://flagcdn.com/w80/pt.png"
-      },
-      "away": {
-        "id": "29",
-        "code": "ESP",
-        "name": "Spain",
-        "flag": "https://flagcdn.com/w80/es.png"
-      },
-      "home_label": "Winner Match 83",
-      "away_label": "Winner Match 84",
-      "home_score": 0,
-      "away_score": 1,
-      "finished": true,
-      "status": "FT",
-      "time_elapsed": "finished",
-      "stadium": {
-        "id": "4",
-        "name": "AT&T Stadium",
-        "city": "Dallas (Arlington, Texas)",
-        "country": "United States"
-      },
-      "kickoff_utc": "2026-07-06T19:00:00Z",
-      "kickoff_local_label": "07/06/2026 14:00"
-    },
-    {
-      "id": "96",
-      "group": "R16",
-      "matchday": "5",
-      "type": "r16",
-      "home": {
-        "id": "8",
-        "code": "SUI",
-        "name": "Switzerland",
-        "flag": "https://flagcdn.com/w80/ch.png"
-      },
-      "away": {
-        "id": "44",
-        "code": "COL",
-        "name": "Colombia",
-        "flag": "https://flagcdn.com/w80/co.png"
-      },
-      "home_label": "Winner Match 85",
-      "away_label": "Winner Match 87",
-      "home_score": 0,
-      "away_score": 0,
-      "finished": true,
-      "status": "FT",
-      "time_elapsed": "finished",
-      "stadium": {
-        "id": "13",
-        "name": "BC Place",
-        "city": "Vancouver",
-        "country": "Canada"
-      },
-      "kickoff_utc": "2026-07-07T20:00:00Z",
-      "kickoff_local_label": "07/07/2026 13:00"
-    },
-    {
-      "id": "1",
-      "group": "A",
-      "matchday": "1",
-      "type": "group",
-      "home": {
-        "id": "1",
-        "code": "MEX",
-        "name": "Mexico",
-        "flag": "https://flagcdn.com/w80/mx.png"
-      },
-      "away": {
-        "id": "2",
-        "code": "RSA",
-        "name": "South Africa",
-        "flag": "https://flagcdn.com/w80/za.png"
-      },
-      "home_label": null,
-      "away_label": null,
-      "home_score": 2,
-      "away_score": 0,
-      "finished": true,
-      "status": "FT",
-      "time_elapsed": "finished",
-      "stadium": {
-        "id": "1",
-        "name": "Estadio Azteca",
-        "city": "Mexico City",
-        "country": "Mexico"
-      },
-      "kickoff_utc": "2026-06-11T19:00:00Z",
-      "kickoff_local_label": "06/11/2026 13:00"
-    },
-    {
-      "id": "7",
-      "group": "C",
-      "matchday": "1",
-      "type": "group",
-      "home": {
-        "id": "9",
-        "code": "BRA",
-        "name": "Brazil",
-        "flag": "https://flagcdn.com/w80/br.png"
-      },
-      "away": {
-        "id": "10",
-        "code": "MAR",
-        "name": "Morocco",
-        "flag": "https://flagcdn.com/w80/ma.png"
-      },
-      "home_label": null,
-      "away_label": null,
-      "home_score": 1,
-      "away_score": 1,
-      "finished": true,
-      "status": "FT",
-      "time_elapsed": "finished",
-      "stadium": {
-        "id": "11",
-        "name": "MetLife Stadium",
-        "city": "New York/New Jersey (East Rutherford)",
-        "country": "United States"
-      },
-      "kickoff_utc": "2026-06-13T22:00:00Z",
-      "kickoff_local_label": "06/13/2026 18:00"
-    },
-    {
-      "id": "11",
-      "group": "F",
-      "matchday": "1",
-      "type": "group",
-      "home": {
-        "id": "21",
-        "code": "NED",
-        "name": "Netherlands",
-        "flag": "https://flagcdn.com/w80/nl.png"
-      },
-      "away": {
-        "id": "22",
-        "code": "JPN",
-        "name": "Japan",
-        "flag": "https://flagcdn.com/w80/jp.png"
-      },
-      "home_label": null,
-      "away_label": null,
-      "home_score": 2,
-      "away_score": 2,
-      "finished": true,
-      "status": "FT",
-      "time_elapsed": "finished",
-      "stadium": {
-        "id": "4",
-        "name": "AT&T Stadium",
-        "city": "Dallas (Arlington, Texas)",
-        "country": "United States"
-      },
-      "kickoff_utc": "2026-06-14T20:00:00Z",
-      "kickoff_local_label": "06/14/2026 15:00"
-    },
-    {
-      "id": "26",
-      "group": "B",
-      "matchday": "2",
-      "type": "group",
-      "home": {
-        "id": "8",
-        "code": "SUI",
-        "name": "Switzerland",
-        "flag": "https://flagcdn.com/w80/ch.png"
-      },
-      "away": {
-        "id": "6",
-        "code": "BIH",
-        "name": "Bosnia and Herzegovina",
-        "flag": "https://flagcdn.com/w80/ba.png"
-      },
-      "home_label": null,
-      "away_label": null,
-      "home_score": 4,
-      "away_score": 1,
-      "finished": true,
-      "status": "FT",
-      "time_elapsed": "finished",
-      "stadium": {
-        "id": "16",
-        "name": "SoFi Stadium",
-        "city": "Los Angeles (Inglewood)",
-        "country": "United States"
-      },
-      "kickoff_utc": "2026-06-18T19:00:00Z",
-      "kickoff_local_label": "06/18/2026 12:00"
-    },
-    {
-      "id": "29",
-      "group": "C",
-      "matchday": "2",
-      "type": "group",
-      "home": {
-        "id": "9",
-        "code": "BRA",
-        "name": "Brazil",
-        "flag": "https://flagcdn.com/w80/br.png"
-      },
-      "away": {
-        "id": "11",
-        "code": "HAI",
-        "name": "Haiti",
-        "flag": "https://flagcdn.com/w80/ht.png"
-      },
-      "home_label": null,
-      "away_label": null,
-      "home_score": 3,
-      "away_score": 0,
-      "finished": true,
-      "status": "FT",
-      "time_elapsed": "finished",
-      "stadium": {
-        "id": "10",
-        "name": "Lincoln Financial Field",
-        "city": "Philadelphia",
-        "country": "United States"
-      },
-      "kickoff_utc": "2026-06-20T01:00:00Z",
-      "kickoff_local_label": "06/19/2026 21:00"
-    },
-    {
-      "id": "36",
-      "group": "F",
-      "matchday": "2",
-      "type": "group",
-      "home": {
-        "id": "24",
-        "code": "TUN",
-        "name": "Tunisia",
-        "flag": "https://flagcdn.com/w80/tn.png"
-      },
-      "away": {
-        "id": "22",
-        "code": "JPN",
-        "name": "Japan",
-        "flag": "https://flagcdn.com/w80/jp.png"
-      },
-      "home_label": null,
-      "away_label": null,
-      "home_score": 0,
-      "away_score": 4,
-      "finished": true,
-      "status": "FT",
-      "time_elapsed": "finished",
-      "stadium": {
-        "id": "3",
-        "name": "Estadio BBVA",
-        "city": "Monterrey (Guadalupe)",
-        "country": "Mexico"
-      },
-      "kickoff_utc": "2026-06-21T04:00:00Z",
-      "kickoff_local_label": "06/20/2026 22:00"
-    },
-    {
-      "id": "38",
-      "group": "G",
-      "matchday": "2",
-      "type": "group",
-      "home": {
-        "id": "28",
-        "code": "NZL",
-        "name": "New Zealand",
-        "flag": "https://flagcdn.com/w80/nz.png"
-      },
-      "away": {
-        "id": "26",
-        "code": "EGY",
-        "name": "Egypt",
-        "flag": "https://flagcdn.com/w80/eg.png"
-      },
-      "home_label": null,
-      "away_label": null,
-      "home_score": 1,
-      "away_score": 3,
-      "finished": true,
-      "status": "FT",
-      "time_elapsed": "finished",
-      "stadium": {
-        "id": "13",
-        "name": "BC Place",
-        "city": "Vancouver",
-        "country": "Canada"
-      },
-      "kickoff_utc": "2026-06-22T01:00:00Z",
-      "kickoff_local_label": "06/21/2026 18:00"
-    },
-    {
-      "id": "40",
-      "group": "H",
-      "matchday": "2",
-      "type": "group",
-      "home": {
-        "id": "32",
-        "code": "URU",
-        "name": "Uruguay",
-        "flag": "https://flagcdn.com/w80/uy.png"
-      },
-      "away": {
-        "id": "30",
-        "code": "CPV",
-        "name": "Cape Verde",
-        "flag": "https://flagcdn.com/w80/cv.png"
-      },
-      "home_label": null,
-      "away_label": null,
-      "home_score": 2,
-      "away_score": 2,
-      "finished": true,
-      "status": "FT",
-      "time_elapsed": "finished",
-      "stadium": {
-        "id": "8",
-        "name": "Hard Rock Stadium",
-        "city": "Miami (Miami Gardens)",
-        "country": "United States"
-      },
-      "kickoff_utc": "2026-06-21T22:00:00Z",
-      "kickoff_local_label": "06/21/2026 18:00"
-    },
-    {
-      "id": "47",
-      "group": "K",
-      "matchday": "2",
-      "type": "group",
-      "home": {
-        "id": "44",
-        "code": "COL",
-        "name": "Colombia",
-        "flag": "https://flagcdn.com/w80/co.png"
-      },
-      "away": {
-        "id": "42",
-        "code": "COD",
-        "name": "Democratic Republic of the Congo",
-        "flag": "https://flagcdn.com/w80/cd.png"
-      },
-      "home_label": null,
-      "away_label": null,
-      "home_score": 1,
-      "away_score": 0,
-      "finished": true,
-      "status": "FT",
-      "time_elapsed": "finished",
-      "stadium": {
-        "id": "2",
-        "name": "Estadio Akron",
-        "city": "Guadalajara (Zapopan)",
-        "country": "Mexico"
-      },
-      "kickoff_utc": "2026-06-24T02:00:00Z",
-      "kickoff_local_label": "06/23/2026 20:00"
-    },
-    {
-      "id": "71",
-      "group": "K",
-      "matchday": "3",
-      "type": "group",
-      "home": {
-        "id": "44",
-        "code": "COL",
-        "name": "Colombia",
-        "flag": "https://flagcdn.com/w80/co.png"
-      },
-      "away": {
-        "id": "41",
-        "code": "POR",
-        "name": "Portugal",
-        "flag": "https://flagcdn.com/w80/pt.png"
-      },
-      "home_label": null,
-      "away_label": null,
-      "home_score": 0,
-      "away_score": 0,
-      "finished": true,
-      "status": "FT",
-      "time_elapsed": "finished",
-      "stadium": {
-        "id": "8",
-        "name": "Hard Rock Stadium",
-        "city": "Miami (Miami Gardens)",
-        "country": "United States"
-      },
-      "kickoff_utc": "2026-06-27T23:30:00Z",
-      "kickoff_local_label": "06/27/2026 19:30"
-    },
-    {
-      "id": "73",
-      "group": "R32",
-      "matchday": "4",
-      "type": "r32",
-      "home": {
-        "id": "2",
-        "code": "RSA",
-        "name": "South Africa",
-        "flag": "https://flagcdn.com/w80/za.png"
-      },
-      "away": {
-        "id": "5",
-        "code": "CAN",
-        "name": "Canada",
-        "flag": "https://flagcdn.com/w80/ca.png"
-      },
-      "home_label": "Runner-up Group A",
-      "away_label": "Runner-up Group B",
-      "home_score": 0,
-      "away_score": 1,
-      "finished": true,
-      "status": "FT",
-      "time_elapsed": "finished",
-      "stadium": {
-        "id": "16",
-        "name": "SoFi Stadium",
-        "city": "Los Angeles (Inglewood)",
-        "country": "United States"
-      },
-      "kickoff_utc": "2026-06-28T19:00:00Z",
-      "kickoff_local_label": "06/28/2026 12:00"
-    },
-    {
-      "id": "77",
-      "group": "R32",
-      "matchday": "4",
-      "type": "r32",
-      "home": {
-        "id": "33",
-        "code": "FRA",
-        "name": "France",
-        "flag": "https://flagcdn.com/w80/fr.png"
-      },
-      "away": {
-        "id": "23",
-        "code": "SWE",
-        "name": "Sweden",
-        "flag": "https://flagcdn.com/w80/se.png"
-      },
-      "home_label": "Winner Group I",
-      "away_label": "3rd Group C/D/F/G/H",
-      "home_score": 3,
-      "away_score": 0,
-      "finished": true,
-      "status": "FT",
-      "time_elapsed": "finished",
-      "stadium": {
-        "id": "11",
-        "name": "MetLife Stadium",
-        "city": "New York/New Jersey (East Rutherford)",
-        "country": "United States"
-      },
-      "kickoff_utc": "2026-06-30T21:00:00Z",
-      "kickoff_local_label": "06/30/2026 17:00"
-    },
-    {
-      "id": "84",
-      "group": "R32",
-      "matchday": "4",
-      "type": "r32",
-      "home": {
-        "id": "29",
-        "code": "ESP",
-        "name": "Spain",
-        "flag": "https://flagcdn.com/w80/es.png"
-      },
-      "away": {
-        "id": "39",
-        "code": "AUT",
-        "name": "Austria",
-        "flag": "https://flagcdn.com/w80/at.png"
-      },
-      "home_label": "Winner Group H",
-      "away_label": "Runner-up Group J",
-      "home_score": 3,
-      "away_score": 0,
-      "finished": true,
-      "status": "FT",
-      "time_elapsed": "finished",
-      "stadium": {
-        "id": "16",
-        "name": "SoFi Stadium",
-        "city": "Los Angeles (Inglewood)",
-        "country": "United States"
-      },
-      "kickoff_utc": "2026-07-02T19:00:00Z",
-      "kickoff_local_label": "07/02/2026 12:00"
-    },
-    {
-      "id": "90",
-      "group": "R16",
-      "matchday": "5",
-      "type": "r16",
-      "home": {
-        "id": "5",
-        "code": "CAN",
-        "name": "Canada",
-        "flag": "https://flagcdn.com/w80/ca.png"
-      },
-      "away": {
-        "id": "10",
-        "code": "MAR",
-        "name": "Morocco",
-        "flag": "https://flagcdn.com/w80/ma.png"
-      },
-      "home_label": "Winner Match 73",
-      "away_label": "Winner Match 75",
-      "home_score": 0,
-      "away_score": 3,
-      "finished": true,
-      "status": "FT",
-      "time_elapsed": "finished",
-      "stadium": {
-        "id": "5",
-        "name": "NRG Stadium",
-        "city": "Houston",
-        "country": "United States"
-      },
-      "kickoff_utc": "2026-07-04T17:00:00Z",
-      "kickoff_local_label": "07/04/2026 12:00"
-    },
-    {
-      "id": "92",
-      "group": "R16",
-      "matchday": "5",
-      "type": "r16",
-      "home": {
-        "id": "1",
-        "code": "MEX",
-        "name": "Mexico",
-        "flag": "https://flagcdn.com/w80/mx.png"
-      },
-      "away": {
-        "id": "45",
-        "code": "ENG",
-        "name": "England",
-        "flag": "https://flagcdn.com/w80/gb-eng.png"
-      },
-      "home_label": "Winner Match 79",
-      "away_label": "Winner Match 80",
-      "home_score": 2,
-      "away_score": 3,
-      "finished": true,
-      "status": "FT",
-      "time_elapsed": "finished",
-      "stadium": {
-        "id": "1",
-        "name": "Estadio Azteca",
-        "city": "Mexico City",
-        "country": "Mexico"
-      },
-      "kickoff_utc": "2026-07-06T00:00:00Z",
-      "kickoff_local_label": "07/05/2026 18:00"
-    },
-    {
-      "id": "94",
-      "group": "R16",
-      "matchday": "5",
-      "type": "r16",
-      "home": {
-        "id": "13",
-        "code": "USA",
-        "name": "United States",
-        "flag": "https://flagcdn.com/w80/us.png"
-      },
-      "away": {
-        "id": "25",
-        "code": "BEL",
-        "name": "Belgium",
-        "flag": "https://flagcdn.com/w80/be.png"
-      },
-      "home_label": "Winner Match 81",
-      "away_label": "Winner Match 82",
-      "home_score": 1,
-      "away_score": 4,
-      "finished": true,
-      "status": "FT",
-      "time_elapsed": "finished",
-      "stadium": {
-        "id": "14",
-        "name": "Lumen Field",
-        "city": "Seattle",
-        "country": "United States"
-      },
-      "kickoff_utc": "2026-07-07T00:00:00Z",
-      "kickoff_local_label": "07/06/2026 17:00"
-    },
-    {
-      "id": "14",
-      "group": "H",
-      "matchday": "1",
-      "type": "group",
-      "home": {
-        "id": "29",
-        "code": "ESP",
-        "name": "Spain",
-        "flag": "https://flagcdn.com/w80/es.png"
-      },
-      "away": {
-        "id": "30",
-        "code": "CPV",
-        "name": "Cape Verde",
-        "flag": "https://flagcdn.com/w80/cv.png"
-      },
-      "home_label": null,
-      "away_label": null,
-      "home_score": 0,
-      "away_score": 0,
-      "finished": true,
-      "status": "FT",
-      "time_elapsed": "finished",
-      "stadium": {
-        "id": "7",
-        "name": "Mercedes-Benz Stadium",
-        "city": "Atlanta",
-        "country": "United States"
-      },
-      "kickoff_utc": "2026-06-15T16:00:00Z",
-      "kickoff_local_label": "06/15/2026 12:00"
-    },
-    {
-      "id": "16",
-      "group": "H",
-      "matchday": "1",
-      "type": "group",
-      "home": {
-        "id": "31",
-        "code": "KSA",
-        "name": "Saudi Arabia",
-        "flag": "https://flagcdn.com/w80/sa.png"
-      },
-      "away": {
-        "id": "32",
-        "code": "URU",
-        "name": "Uruguay",
-        "flag": "https://flagcdn.com/w80/uy.png"
-      },
-      "home_label": null,
-      "away_label": null,
-      "home_score": 1,
-      "away_score": 1,
-      "finished": true,
-      "status": "FT",
-      "time_elapsed": "finished",
-      "stadium": {
-        "id": "8",
-        "name": "Hard Rock Stadium",
-        "city": "Miami (Miami Gardens)",
-        "country": "United States"
-      },
-      "kickoff_utc": "2026-06-15T22:00:00Z",
-      "kickoff_local_label": "06/15/2026 18:00"
-    },
-    {
-      "id": "20",
-      "group": "J",
-      "matchday": "1",
-      "type": "group",
-      "home": {
-        "id": "39",
-        "code": "AUT",
-        "name": "Austria",
-        "flag": "https://flagcdn.com/w80/at.png"
-      },
-      "away": {
-        "id": "40",
-        "code": "JOR",
-        "name": "Jordan",
-        "flag": "https://flagcdn.com/w80/jo.png"
-      },
-      "home_label": null,
-      "away_label": null,
-      "home_score": 3,
-      "away_score": 1,
-      "finished": true,
-      "status": "FT",
-      "time_elapsed": "finished",
-      "stadium": {
-        "id": "15",
-        "name": "Levi's Stadium",
-        "city": "San Francisco Bay Area (Santa Clara)",
-        "country": "United States"
-      },
-      "kickoff_utc": "2026-06-17T04:00:00Z",
-      "kickoff_local_label": "06/16/2026 21:00"
-    },
-    {
-      "id": "23",
-      "group": "K",
-      "matchday": "1",
-      "type": "group",
-      "home": {
-        "id": "43",
-        "code": "UZB",
-        "name": "Uzbekistan",
-        "flag": "https://flagcdn.com/w80/uz.png"
-      },
-      "away": {
-        "id": "44",
-        "code": "COL",
-        "name": "Colombia",
-        "flag": "https://flagcdn.com/w80/co.png"
-      },
-      "home_label": null,
-      "away_label": null,
-      "home_score": 1,
-      "away_score": 3,
-      "finished": true,
-      "status": "FT",
-      "time_elapsed": "finished",
-      "stadium": {
-        "id": "1",
-        "name": "Estadio Azteca",
-        "city": "Mexico City",
-        "country": "Mexico"
-      },
-      "kickoff_utc": "2026-06-18T02:00:00Z",
-      "kickoff_local_label": "06/17/2026 20:00"
-    },
-    {
-      "id": "91",
-      "group": "R16",
-      "matchday": "5",
-      "type": "r16",
-      "home": {
-        "id": "9",
-        "code": "BRA",
-        "name": "Brazil",
-        "flag": "https://flagcdn.com/w80/br.png"
-      },
-      "away": {
-        "id": "36",
-        "code": "NOR",
-        "name": "Norway",
-        "flag": "https://flagcdn.com/w80/no.png"
-      },
-      "home_label": "Winner Match 76",
-      "away_label": "Winner Match 78",
-      "home_score": 1,
-      "away_score": 2,
-      "finished": true,
-      "status": "FT",
-      "time_elapsed": "finished",
-      "stadium": {
-        "id": "11",
-        "name": "MetLife Stadium",
-        "city": "New York/New Jersey (East Rutherford)",
-        "country": "United States"
-      },
-      "kickoff_utc": "2026-07-05T20:00:00Z",
-      "kickoff_local_label": "07/05/2026 16:00"
-    },
-    {
-      "id": "97",
-      "group": "QF",
-      "matchday": "6",
-      "type": "qf",
-      "home": {
-        "id": "33",
-        "code": "FRA",
-        "name": "France",
-        "flag": "https://flagcdn.com/w80/fr.png"
-      },
-      "away": {
-        "id": "10",
-        "code": "MAR",
-        "name": "Morocco",
-        "flag": "https://flagcdn.com/w80/ma.png"
-      },
-      "home_label": "Winner Match 89",
-      "away_label": "Winner Match 90",
-      "home_score": 2,
-      "away_score": 0,
-      "finished": true,
-      "status": "FT",
-      "time_elapsed": "finished",
-      "stadium": {
-        "id": "9",
-        "name": "Gillette Stadium",
-        "city": "Boston (Foxborough)",
-        "country": "United States"
-      },
-      "kickoff_utc": "2026-07-09T20:00:00Z",
-      "kickoff_local_label": "07/09/2026 16:00"
-    },
-    {
-      "id": "104",
-      "group": "FINAL",
-      "matchday": "9",
-      "type": "final",
-      "home": {
-        "id": "29",
-        "code": "ESP",
-        "name": "Spain",
-        "flag": "https://flagcdn.com/w80/es.png"
-      },
-      "away": {
-        "id": "37",
-        "code": "ARG",
-        "name": "Argentina",
-        "flag": "https://flagcdn.com/w80/ar.png"
-      },
-      "home_label": "Winner Match 101",
-      "away_label": "Winner Match 102",
-      "home_score": 1,
-      "away_score": 0,
-      "finished": true,
-      "status": "FT",
-      "time_elapsed": "finished",
-      "stadium": {
-        "id": "11",
-        "name": "MetLife Stadium",
-        "city": "New York/New Jersey (East Rutherford)",
-        "country": "United States"
-      },
-      "kickoff_utc": "2026-07-19T19:00:00Z",
-      "kickoff_local_label": "07/19/2026 15:00"
-    },
-    {
-      "id": "3",
-      "group": "B",
-      "matchday": "1",
-      "type": "group",
-      "home": {
-        "id": "5",
-        "code": "CAN",
-        "name": "Canada",
-        "flag": "https://flagcdn.com/w80/ca.png"
-      },
-      "away": {
-        "id": "6",
-        "code": "BIH",
-        "name": "Bosnia and Herzegovina",
-        "flag": "https://flagcdn.com/w80/ba.png"
-      },
-      "home_label": null,
-      "away_label": null,
-      "home_score": 1,
-      "away_score": 1,
-      "finished": true,
-      "status": "FT",
-      "time_elapsed": "finished",
-      "stadium": {
-        "id": "12",
-        "name": "BMO Field",
-        "city": "Toronto",
-        "country": "Canada"
-      },
-      "kickoff_utc": "2026-06-12T19:00:00Z",
-      "kickoff_local_label": "06/12/2026 15:00"
-    },
-    {
-      "id": "13",
-      "group": "G",
-      "matchday": "1",
-      "type": "group",
-      "home": {
-        "id": "27",
-        "code": "IRN",
-        "name": "Iran",
-        "flag": "https://flagcdn.com/w80/ir.png"
-      },
-      "away": {
-        "id": "28",
-        "code": "NZL",
-        "name": "New Zealand",
-        "flag": "https://flagcdn.com/w80/nz.png"
-      },
-      "home_label": null,
-      "away_label": null,
-      "home_score": 2,
-      "away_score": 2,
-      "finished": true,
-      "status": "FT",
-      "time_elapsed": "finished",
-      "stadium": {
-        "id": "16",
-        "name": "SoFi Stadium",
-        "city": "Los Angeles (Inglewood)",
-        "country": "United States"
-      },
-      "kickoff_utc": "2026-06-16T01:00:00Z",
-      "kickoff_local_label": "06/15/2026 18:00"
-    },
-    {
-      "id": "19",
-      "group": "J",
-      "matchday": "1",
-      "type": "group",
-      "home": {
-        "id": "37",
-        "code": "ARG",
-        "name": "Argentina",
-        "flag": "https://flagcdn.com/w80/ar.png"
-      },
-      "away": {
-        "id": "38",
-        "code": "ALG",
-        "name": "Algeria",
-        "flag": "https://flagcdn.com/w80/dz.png"
-      },
-      "home_label": null,
-      "away_label": null,
-      "home_score": 3,
-      "away_score": 0,
-      "finished": true,
-      "status": "FT",
-      "time_elapsed": "finished",
-      "stadium": {
-        "id": "6",
-        "name": "GEHA Field at Arrowhead Stadium",
-        "city": "Kansas City",
-        "country": "United States"
-      },
-      "kickoff_utc": "2026-06-17T01:00:00Z",
-      "kickoff_local_label": "06/16/2026 20:00"
-    },
-    {
-      "id": "24",
+      "id": "67",
       "group": "L",
-      "matchday": "1",
+      "matchday": "3",
       "type": "group",
       "home": {
-        "id": "47",
-        "code": "GHA",
-        "name": "Ghana",
-        "flag": "https://flagcdn.com/w80/gh.png"
-      },
-      "away": {
         "id": "48",
         "code": "PAN",
         "name": "Panama",
         "flag": "https://flagcdn.com/w80/pa.png"
       },
-      "home_label": null,
-      "away_label": null,
-      "home_score": 1,
-      "away_score": 0,
-      "finished": true,
-      "status": "FT",
-      "time_elapsed": "finished",
-      "stadium": {
-        "id": "12",
-        "name": "BMO Field",
-        "city": "Toronto",
-        "country": "Canada"
-      },
-      "kickoff_utc": "2026-06-17T23:00:00Z",
-      "kickoff_local_label": "06/17/2026 19:00"
-    },
-    {
-      "id": "28",
-      "group": "A",
-      "matchday": "2",
-      "type": "group",
-      "home": {
-        "id": "4",
-        "code": "CZE",
-        "name": "Czech Republic",
-        "flag": "https://flagcdn.com/w80/cz.png"
-      },
       "away": {
-        "id": "2",
-        "code": "RSA",
-        "name": "South Africa",
-        "flag": "https://flagcdn.com/w80/za.png"
-      },
-      "home_label": null,
-      "away_label": null,
-      "home_score": 1,
-      "away_score": 1,
-      "finished": true,
-      "status": "FT",
-      "time_elapsed": "finished",
-      "stadium": {
-        "id": "7",
-        "name": "Mercedes-Benz Stadium",
-        "city": "Atlanta",
-        "country": "United States"
-      },
-      "kickoff_utc": "2026-06-18T16:00:00Z",
-      "kickoff_local_label": "06/18/2026 12:00"
-    },
-    {
-      "id": "48",
-      "group": "L",
-      "matchday": "2",
-      "type": "group",
-      "home": {
         "id": "45",
         "code": "ENG",
         "name": "England",
         "flag": "https://flagcdn.com/w80/gb-eng.png"
-      },
-      "away": {
-        "id": "47",
-        "code": "GHA",
-        "name": "Ghana",
-        "flag": "https://flagcdn.com/w80/gh.png"
-      },
-      "home_label": null,
-      "away_label": null,
-      "home_score": 0,
-      "away_score": 0,
-      "finished": true,
-      "status": "FT",
-      "time_elapsed": "finished",
-      "stadium": {
-        "id": "9",
-        "name": "Gillette Stadium",
-        "city": "Boston (Foxborough)",
-        "country": "United States"
-      },
-      "kickoff_utc": "2026-06-23T20:00:00Z",
-      "kickoff_local_label": "06/23/2026 16:00"
-    },
-    {
-      "id": "55",
-      "group": "E",
-      "matchday": "3",
-      "type": "group",
-      "home": {
-        "id": "18",
-        "code": "CUW",
-        "name": "Curaçao",
-        "flag": "https://flagcdn.com/w80/cw.png"
-      },
-      "away": {
-        "id": "19",
-        "code": "CIV",
-        "name": "Ivory Coast",
-        "flag": "https://flagcdn.com/w80/ci.png"
       },
       "home_label": null,
       "away_label": null,
@@ -3309,46 +2682,13 @@
       "status": "FT",
       "time_elapsed": "finished",
       "stadium": {
-        "id": "10",
-        "name": "Lincoln Financial Field",
-        "city": "Philadelphia",
-        "country": "United States"
-      },
-      "kickoff_utc": "2026-06-25T20:00:00Z",
-      "kickoff_local_label": "06/25/2026 16:00"
-    },
-    {
-      "id": "56",
-      "group": "E",
-      "matchday": "3",
-      "type": "group",
-      "home": {
-        "id": "20",
-        "code": "ECU",
-        "name": "Ecuador",
-        "flag": "https://flagcdn.com/w80/ec.png"
-      },
-      "away": {
-        "id": "17",
-        "code": "GER",
-        "name": "Germany",
-        "flag": "https://flagcdn.com/w80/de.png"
-      },
-      "home_label": null,
-      "away_label": null,
-      "home_score": 2,
-      "away_score": 1,
-      "finished": true,
-      "status": "FT",
-      "time_elapsed": "finished",
-      "stadium": {
         "id": "11",
         "name": "MetLife Stadium",
         "city": "New York/New Jersey (East Rutherford)",
         "country": "United States"
       },
-      "kickoff_utc": "2026-06-25T20:00:00Z",
-      "kickoff_local_label": "06/25/2026 16:00"
+      "kickoff_utc": "2026-06-27T21:00:00Z",
+      "kickoff_local_label": "06/27/2026 17:00"
     },
     {
       "id": "68",
@@ -3417,6 +2757,138 @@
       "kickoff_local_label": "06/27/2026 21:00"
     },
     {
+      "id": "70",
+      "group": "J",
+      "matchday": "3",
+      "type": "group",
+      "home": {
+        "id": "40",
+        "code": "JOR",
+        "name": "Jordan",
+        "flag": "https://flagcdn.com/w80/jo.png"
+      },
+      "away": {
+        "id": "37",
+        "code": "ARG",
+        "name": "Argentina",
+        "flag": "https://flagcdn.com/w80/ar.png"
+      },
+      "home_label": null,
+      "away_label": null,
+      "home_score": 1,
+      "away_score": 3,
+      "finished": true,
+      "status": "FT",
+      "time_elapsed": "finished",
+      "stadium": {
+        "id": "4",
+        "name": "AT&T Stadium",
+        "city": "Dallas (Arlington, Texas)",
+        "country": "United States"
+      },
+      "kickoff_utc": "2026-06-28T02:00:00Z",
+      "kickoff_local_label": "06/27/2026 21:00"
+    },
+    {
+      "id": "71",
+      "group": "K",
+      "matchday": "3",
+      "type": "group",
+      "home": {
+        "id": "44",
+        "code": "COL",
+        "name": "Colombia",
+        "flag": "https://flagcdn.com/w80/co.png"
+      },
+      "away": {
+        "id": "41",
+        "code": "POR",
+        "name": "Portugal",
+        "flag": "https://flagcdn.com/w80/pt.png"
+      },
+      "home_label": null,
+      "away_label": null,
+      "home_score": 0,
+      "away_score": 0,
+      "finished": true,
+      "status": "FT",
+      "time_elapsed": "finished",
+      "stadium": {
+        "id": "8",
+        "name": "Hard Rock Stadium",
+        "city": "Miami (Miami Gardens)",
+        "country": "United States"
+      },
+      "kickoff_utc": "2026-06-27T23:30:00Z",
+      "kickoff_local_label": "06/27/2026 19:30"
+    },
+    {
+      "id": "72",
+      "group": "K",
+      "matchday": "3",
+      "type": "group",
+      "home": {
+        "id": "42",
+        "code": "COD",
+        "name": "Democratic Republic of the Congo",
+        "flag": "https://flagcdn.com/w80/cd.png"
+      },
+      "away": {
+        "id": "43",
+        "code": "UZB",
+        "name": "Uzbekistan",
+        "flag": "https://flagcdn.com/w80/uz.png"
+      },
+      "home_label": null,
+      "away_label": null,
+      "home_score": 3,
+      "away_score": 1,
+      "finished": true,
+      "status": "FT",
+      "time_elapsed": "finished",
+      "stadium": {
+        "id": "7",
+        "name": "Mercedes-Benz Stadium",
+        "city": "Atlanta",
+        "country": "United States"
+      },
+      "kickoff_utc": "2026-06-27T23:30:00Z",
+      "kickoff_local_label": "06/27/2026 19:30"
+    },
+    {
+      "id": "73",
+      "group": "R32",
+      "matchday": "4",
+      "type": "r32",
+      "home": {
+        "id": "2",
+        "code": "RSA",
+        "name": "South Africa",
+        "flag": "https://flagcdn.com/w80/za.png"
+      },
+      "away": {
+        "id": "5",
+        "code": "CAN",
+        "name": "Canada",
+        "flag": "https://flagcdn.com/w80/ca.png"
+      },
+      "home_label": "Runner-up Group A",
+      "away_label": "Runner-up Group B",
+      "home_score": 0,
+      "away_score": 1,
+      "finished": true,
+      "status": "FT",
+      "time_elapsed": "finished",
+      "stadium": {
+        "id": "16",
+        "name": "SoFi Stadium",
+        "city": "Los Angeles (Inglewood)",
+        "country": "United States"
+      },
+      "kickoff_utc": "2026-06-28T19:00:00Z",
+      "kickoff_local_label": "06/28/2026 12:00"
+    },
+    {
       "id": "74",
       "group": "R32",
       "matchday": "4",
@@ -3450,237 +2922,6 @@
       "kickoff_local_label": "06/29/2026 16:30"
     },
     {
-      "id": "81",
-      "group": "R32",
-      "matchday": "4",
-      "type": "r32",
-      "home": {
-        "id": "13",
-        "code": "USA",
-        "name": "United States",
-        "flag": "https://flagcdn.com/w80/us.png"
-      },
-      "away": {
-        "id": "6",
-        "code": "BIH",
-        "name": "Bosnia and Herzegovina",
-        "flag": "https://flagcdn.com/w80/ba.png"
-      },
-      "home_label": "Winner Group D",
-      "away_label": "3rd Group B/E/F/I/J",
-      "home_score": 2,
-      "away_score": 0,
-      "finished": true,
-      "status": "FT",
-      "time_elapsed": "finished",
-      "stadium": {
-        "id": "15",
-        "name": "Levi's Stadium",
-        "city": "San Francisco Bay Area (Santa Clara)",
-        "country": "United States"
-      },
-      "kickoff_utc": "2026-07-02T00:00:00Z",
-      "kickoff_local_label": "07/01/2026 17:00"
-    },
-    {
-      "id": "103",
-      "group": "3RD",
-      "matchday": "8",
-      "type": "third",
-      "home": {
-        "id": "33",
-        "code": "FRA",
-        "name": "France",
-        "flag": "https://flagcdn.com/w80/fr.png"
-      },
-      "away": {
-        "id": "45",
-        "code": "ENG",
-        "name": "England",
-        "flag": "https://flagcdn.com/w80/gb-eng.png"
-      },
-      "home_label": "Loser Match 101",
-      "away_label": "Loser Match 102",
-      "home_score": 4,
-      "away_score": 6,
-      "finished": true,
-      "status": "FT",
-      "time_elapsed": "finished",
-      "stadium": {
-        "id": "8",
-        "name": "Hard Rock Stadium",
-        "city": "Miami (Miami Gardens)",
-        "country": "United States"
-      },
-      "kickoff_utc": "2026-07-18T21:00:00Z",
-      "kickoff_local_label": "07/18/2026 17:00"
-    },
-    {
-      "id": "15",
-      "group": "G",
-      "matchday": "1",
-      "type": "group",
-      "home": {
-        "id": "25",
-        "code": "BEL",
-        "name": "Belgium",
-        "flag": "https://flagcdn.com/w80/be.png"
-      },
-      "away": {
-        "id": "26",
-        "code": "EGY",
-        "name": "Egypt",
-        "flag": "https://flagcdn.com/w80/eg.png"
-      },
-      "home_label": null,
-      "away_label": null,
-      "home_score": 1,
-      "away_score": 1,
-      "finished": true,
-      "status": "FT",
-      "time_elapsed": "finished",
-      "stadium": {
-        "id": "14",
-        "name": "Lumen Field",
-        "city": "Seattle",
-        "country": "United States"
-      },
-      "kickoff_utc": "2026-06-15T19:00:00Z",
-      "kickoff_local_label": "06/15/2026 12:00"
-    },
-    {
-      "id": "34",
-      "group": "E",
-      "matchday": "2",
-      "type": "group",
-      "home": {
-        "id": "20",
-        "code": "ECU",
-        "name": "Ecuador",
-        "flag": "https://flagcdn.com/w80/ec.png"
-      },
-      "away": {
-        "id": "18",
-        "code": "CUW",
-        "name": "Curaçao",
-        "flag": "https://flagcdn.com/w80/cw.png"
-      },
-      "home_label": null,
-      "away_label": null,
-      "home_score": 0,
-      "away_score": 0,
-      "finished": true,
-      "status": "FT",
-      "time_elapsed": "finished",
-      "stadium": {
-        "id": "6",
-        "name": "GEHA Field at Arrowhead Stadium",
-        "city": "Kansas City",
-        "country": "United States"
-      },
-      "kickoff_utc": "2026-06-21T00:00:00Z",
-      "kickoff_local_label": "06/20/2026 19:00"
-    },
-    {
-      "id": "54",
-      "group": "B",
-      "matchday": "3",
-      "type": "group",
-      "home": {
-        "id": "8",
-        "code": "SUI",
-        "name": "Switzerland",
-        "flag": "https://flagcdn.com/w80/ch.png"
-      },
-      "away": {
-        "id": "5",
-        "code": "CAN",
-        "name": "Canada",
-        "flag": "https://flagcdn.com/w80/ca.png"
-      },
-      "home_label": null,
-      "away_label": null,
-      "home_score": 2,
-      "away_score": 1,
-      "finished": true,
-      "status": "FT",
-      "time_elapsed": "finished",
-      "stadium": {
-        "id": "13",
-        "name": "BC Place",
-        "city": "Vancouver",
-        "country": "Canada"
-      },
-      "kickoff_utc": "2026-06-24T19:00:00Z",
-      "kickoff_local_label": "06/24/2026 12:00"
-    },
-    {
-      "id": "57",
-      "group": "D",
-      "matchday": "3",
-      "type": "group",
-      "home": {
-        "id": "14",
-        "code": "PAR",
-        "name": "Paraguay",
-        "flag": "https://flagcdn.com/w80/py.png"
-      },
-      "away": {
-        "id": "15",
-        "code": "AUS",
-        "name": "Australia",
-        "flag": "https://flagcdn.com/w80/au.png"
-      },
-      "home_label": null,
-      "away_label": null,
-      "home_score": 0,
-      "away_score": 0,
-      "finished": true,
-      "status": "FT",
-      "time_elapsed": "finished",
-      "stadium": {
-        "id": "15",
-        "name": "Levi's Stadium",
-        "city": "San Francisco Bay Area (Santa Clara)",
-        "country": "United States"
-      },
-      "kickoff_utc": "2026-06-26T02:00:00Z",
-      "kickoff_local_label": "06/25/2026 19:00"
-    },
-    {
-      "id": "64",
-      "group": "G",
-      "matchday": "3",
-      "type": "group",
-      "home": {
-        "id": "28",
-        "code": "NZL",
-        "name": "New Zealand",
-        "flag": "https://flagcdn.com/w80/nz.png"
-      },
-      "away": {
-        "id": "25",
-        "code": "BEL",
-        "name": "Belgium",
-        "flag": "https://flagcdn.com/w80/be.png"
-      },
-      "home_label": null,
-      "away_label": null,
-      "home_score": 1,
-      "away_score": 5,
-      "finished": true,
-      "status": "FT",
-      "time_elapsed": "finished",
-      "stadium": {
-        "id": "13",
-        "name": "BC Place",
-        "city": "Vancouver",
-        "country": "Canada"
-      },
-      "kickoff_utc": "2026-06-27T03:00:00Z",
-      "kickoff_local_label": "06/26/2026 20:00"
-    },
-    {
       "id": "75",
       "group": "R32",
       "matchday": "4",
@@ -3712,6 +2953,72 @@
       },
       "kickoff_utc": "2026-06-30T01:00:00Z",
       "kickoff_local_label": "06/29/2026 19:00"
+    },
+    {
+      "id": "76",
+      "group": "R32",
+      "matchday": "4",
+      "type": "r32",
+      "home": {
+        "id": "9",
+        "code": "BRA",
+        "name": "Brazil",
+        "flag": "https://flagcdn.com/w80/br.png"
+      },
+      "away": {
+        "id": "22",
+        "code": "JPN",
+        "name": "Japan",
+        "flag": "https://flagcdn.com/w80/jp.png"
+      },
+      "home_label": "Winner Group C",
+      "away_label": "Runner-up Group F",
+      "home_score": 2,
+      "away_score": 1,
+      "finished": true,
+      "status": "FT",
+      "time_elapsed": "finished",
+      "stadium": {
+        "id": "5",
+        "name": "NRG Stadium",
+        "city": "Houston",
+        "country": "United States"
+      },
+      "kickoff_utc": "2026-06-29T17:00:00Z",
+      "kickoff_local_label": "06/29/2026 12:00"
+    },
+    {
+      "id": "77",
+      "group": "R32",
+      "matchday": "4",
+      "type": "r32",
+      "home": {
+        "id": "33",
+        "code": "FRA",
+        "name": "France",
+        "flag": "https://flagcdn.com/w80/fr.png"
+      },
+      "away": {
+        "id": "23",
+        "code": "SWE",
+        "name": "Sweden",
+        "flag": "https://flagcdn.com/w80/se.png"
+      },
+      "home_label": "Winner Group I",
+      "away_label": "3rd Group C/D/F/G/H",
+      "home_score": 3,
+      "away_score": 0,
+      "finished": true,
+      "status": "FT",
+      "time_elapsed": "finished",
+      "stadium": {
+        "id": "11",
+        "name": "MetLife Stadium",
+        "city": "New York/New Jersey (East Rutherford)",
+        "country": "United States"
+      },
+      "kickoff_utc": "2026-06-30T21:00:00Z",
+      "kickoff_local_label": "06/30/2026 17:00"
     },
     {
       "id": "78",
@@ -3813,6 +3120,39 @@
       "kickoff_local_label": "07/01/2026 12:00"
     },
     {
+      "id": "81",
+      "group": "R32",
+      "matchday": "4",
+      "type": "r32",
+      "home": {
+        "id": "13",
+        "code": "USA",
+        "name": "United States",
+        "flag": "https://flagcdn.com/w80/us.png"
+      },
+      "away": {
+        "id": "6",
+        "code": "BIH",
+        "name": "Bosnia and Herzegovina",
+        "flag": "https://flagcdn.com/w80/ba.png"
+      },
+      "home_label": "Winner Group D",
+      "away_label": "3rd Group B/E/F/I/J",
+      "home_score": 2,
+      "away_score": 0,
+      "finished": true,
+      "status": "FT",
+      "time_elapsed": "finished",
+      "stadium": {
+        "id": "15",
+        "name": "Levi's Stadium",
+        "city": "San Francisco Bay Area (Santa Clara)",
+        "country": "United States"
+      },
+      "kickoff_utc": "2026-07-02T00:00:00Z",
+      "kickoff_local_label": "07/01/2026 17:00"
+    },
+    {
       "id": "82",
       "group": "R32",
       "matchday": "4",
@@ -3844,6 +3184,204 @@
       },
       "kickoff_utc": "2026-07-01T20:00:00Z",
       "kickoff_local_label": "07/01/2026 13:00"
+    },
+    {
+      "id": "83",
+      "group": "R32",
+      "matchday": "4",
+      "type": "r32",
+      "home": {
+        "id": "41",
+        "code": "POR",
+        "name": "Portugal",
+        "flag": "https://flagcdn.com/w80/pt.png"
+      },
+      "away": {
+        "id": "46",
+        "code": "CRO",
+        "name": "Croatia",
+        "flag": "https://flagcdn.com/w80/hr.png"
+      },
+      "home_label": "Runner-up Group K",
+      "away_label": "Runner-up Group L",
+      "home_score": 2,
+      "away_score": 1,
+      "finished": true,
+      "status": "FT",
+      "time_elapsed": "finished",
+      "stadium": {
+        "id": "12",
+        "name": "BMO Field",
+        "city": "Toronto",
+        "country": "Canada"
+      },
+      "kickoff_utc": "2026-07-02T23:00:00Z",
+      "kickoff_local_label": "07/02/2026 19:00"
+    },
+    {
+      "id": "84",
+      "group": "R32",
+      "matchday": "4",
+      "type": "r32",
+      "home": {
+        "id": "29",
+        "code": "ESP",
+        "name": "Spain",
+        "flag": "https://flagcdn.com/w80/es.png"
+      },
+      "away": {
+        "id": "39",
+        "code": "AUT",
+        "name": "Austria",
+        "flag": "https://flagcdn.com/w80/at.png"
+      },
+      "home_label": "Winner Group H",
+      "away_label": "Runner-up Group J",
+      "home_score": 3,
+      "away_score": 0,
+      "finished": true,
+      "status": "FT",
+      "time_elapsed": "finished",
+      "stadium": {
+        "id": "16",
+        "name": "SoFi Stadium",
+        "city": "Los Angeles (Inglewood)",
+        "country": "United States"
+      },
+      "kickoff_utc": "2026-07-02T19:00:00Z",
+      "kickoff_local_label": "07/02/2026 12:00"
+    },
+    {
+      "id": "85",
+      "group": "R32",
+      "matchday": "4",
+      "type": "r32",
+      "home": {
+        "id": "8",
+        "code": "SUI",
+        "name": "Switzerland",
+        "flag": "https://flagcdn.com/w80/ch.png"
+      },
+      "away": {
+        "id": "38",
+        "code": "ALG",
+        "name": "Algeria",
+        "flag": "https://flagcdn.com/w80/dz.png"
+      },
+      "home_label": "Winner Group B",
+      "away_label": "3rd Group E/F/G/I/J",
+      "home_score": 2,
+      "away_score": 0,
+      "finished": true,
+      "status": "FT",
+      "time_elapsed": "finished",
+      "stadium": {
+        "id": "13",
+        "name": "BC Place",
+        "city": "Vancouver",
+        "country": "Canada"
+      },
+      "kickoff_utc": "2026-07-03T03:00:00Z",
+      "kickoff_local_label": "07/02/2026 20:00"
+    },
+    {
+      "id": "86",
+      "group": "R32",
+      "matchday": "4",
+      "type": "r32",
+      "home": {
+        "id": "37",
+        "code": "ARG",
+        "name": "Argentina",
+        "flag": "https://flagcdn.com/w80/ar.png"
+      },
+      "away": {
+        "id": "30",
+        "code": "CPV",
+        "name": "Cape Verde",
+        "flag": "https://flagcdn.com/w80/cv.png"
+      },
+      "home_label": "Winner Group J",
+      "away_label": "Runner-up Group H",
+      "home_score": 3,
+      "away_score": 2,
+      "finished": true,
+      "status": "FT",
+      "time_elapsed": "finished",
+      "stadium": {
+        "id": "8",
+        "name": "Hard Rock Stadium",
+        "city": "Miami (Miami Gardens)",
+        "country": "United States"
+      },
+      "kickoff_utc": "2026-07-03T22:00:00Z",
+      "kickoff_local_label": "07/03/2026 18:00"
+    },
+    {
+      "id": "87",
+      "group": "R32",
+      "matchday": "4",
+      "type": "r32",
+      "home": {
+        "id": "44",
+        "code": "COL",
+        "name": "Colombia",
+        "flag": "https://flagcdn.com/w80/co.png"
+      },
+      "away": {
+        "id": "47",
+        "code": "GHA",
+        "name": "Ghana",
+        "flag": "https://flagcdn.com/w80/gh.png"
+      },
+      "home_label": "Winner Group K",
+      "away_label": "3rd Group D/E/I/J/L",
+      "home_score": 1,
+      "away_score": 0,
+      "finished": true,
+      "status": "FT",
+      "time_elapsed": "finished",
+      "stadium": {
+        "id": "6",
+        "name": "GEHA Field at Arrowhead Stadium",
+        "city": "Kansas City",
+        "country": "United States"
+      },
+      "kickoff_utc": "2026-07-04T01:30:00Z",
+      "kickoff_local_label": "07/03/2026 20:30"
+    },
+    {
+      "id": "88",
+      "group": "R32",
+      "matchday": "4",
+      "type": "r32",
+      "home": {
+        "id": "15",
+        "code": "AUS",
+        "name": "Australia",
+        "flag": "https://flagcdn.com/w80/au.png"
+      },
+      "away": {
+        "id": "26",
+        "code": "EGY",
+        "name": "Egypt",
+        "flag": "https://flagcdn.com/w80/eg.png"
+      },
+      "home_label": "Runner-up Group D",
+      "away_label": "Runner-up Group G",
+      "home_score": 1,
+      "away_score": 1,
+      "finished": true,
+      "status": "FT",
+      "time_elapsed": "finished",
+      "stadium": {
+        "id": "4",
+        "name": "AT&T Stadium",
+        "city": "Dallas (Arlington, Texas)",
+        "country": "United States"
+      },
+      "kickoff_utc": "2026-07-03T18:00:00Z",
+      "kickoff_local_label": "07/03/2026 13:00"
     },
     {
       "id": "89",
@@ -3879,6 +3417,303 @@
       "kickoff_local_label": "07/04/2026 17:00"
     },
     {
+      "id": "90",
+      "group": "R16",
+      "matchday": "5",
+      "type": "r16",
+      "home": {
+        "id": "5",
+        "code": "CAN",
+        "name": "Canada",
+        "flag": "https://flagcdn.com/w80/ca.png"
+      },
+      "away": {
+        "id": "10",
+        "code": "MAR",
+        "name": "Morocco",
+        "flag": "https://flagcdn.com/w80/ma.png"
+      },
+      "home_label": "Winner Match 73",
+      "away_label": "Winner Match 75",
+      "home_score": 0,
+      "away_score": 3,
+      "finished": true,
+      "status": "FT",
+      "time_elapsed": "finished",
+      "stadium": {
+        "id": "5",
+        "name": "NRG Stadium",
+        "city": "Houston",
+        "country": "United States"
+      },
+      "kickoff_utc": "2026-07-04T17:00:00Z",
+      "kickoff_local_label": "07/04/2026 12:00"
+    },
+    {
+      "id": "91",
+      "group": "R16",
+      "matchday": "5",
+      "type": "r16",
+      "home": {
+        "id": "9",
+        "code": "BRA",
+        "name": "Brazil",
+        "flag": "https://flagcdn.com/w80/br.png"
+      },
+      "away": {
+        "id": "36",
+        "code": "NOR",
+        "name": "Norway",
+        "flag": "https://flagcdn.com/w80/no.png"
+      },
+      "home_label": "Winner Match 76",
+      "away_label": "Winner Match 78",
+      "home_score": 1,
+      "away_score": 2,
+      "finished": true,
+      "status": "FT",
+      "time_elapsed": "finished",
+      "stadium": {
+        "id": "11",
+        "name": "MetLife Stadium",
+        "city": "New York/New Jersey (East Rutherford)",
+        "country": "United States"
+      },
+      "kickoff_utc": "2026-07-05T20:00:00Z",
+      "kickoff_local_label": "07/05/2026 16:00"
+    },
+    {
+      "id": "92",
+      "group": "R16",
+      "matchday": "5",
+      "type": "r16",
+      "home": {
+        "id": "1",
+        "code": "MEX",
+        "name": "Mexico",
+        "flag": "https://flagcdn.com/w80/mx.png"
+      },
+      "away": {
+        "id": "45",
+        "code": "ENG",
+        "name": "England",
+        "flag": "https://flagcdn.com/w80/gb-eng.png"
+      },
+      "home_label": "Winner Match 79",
+      "away_label": "Winner Match 80",
+      "home_score": 2,
+      "away_score": 3,
+      "finished": true,
+      "status": "FT",
+      "time_elapsed": "finished",
+      "stadium": {
+        "id": "1",
+        "name": "Estadio Azteca",
+        "city": "Mexico City",
+        "country": "Mexico"
+      },
+      "kickoff_utc": "2026-07-06T00:00:00Z",
+      "kickoff_local_label": "07/05/2026 18:00"
+    },
+    {
+      "id": "93",
+      "group": "R16",
+      "matchday": "5",
+      "type": "r16",
+      "home": {
+        "id": "41",
+        "code": "POR",
+        "name": "Portugal",
+        "flag": "https://flagcdn.com/w80/pt.png"
+      },
+      "away": {
+        "id": "29",
+        "code": "ESP",
+        "name": "Spain",
+        "flag": "https://flagcdn.com/w80/es.png"
+      },
+      "home_label": "Winner Match 83",
+      "away_label": "Winner Match 84",
+      "home_score": 0,
+      "away_score": 1,
+      "finished": true,
+      "status": "FT",
+      "time_elapsed": "finished",
+      "stadium": {
+        "id": "4",
+        "name": "AT&T Stadium",
+        "city": "Dallas (Arlington, Texas)",
+        "country": "United States"
+      },
+      "kickoff_utc": "2026-07-06T19:00:00Z",
+      "kickoff_local_label": "07/06/2026 14:00"
+    },
+    {
+      "id": "94",
+      "group": "R16",
+      "matchday": "5",
+      "type": "r16",
+      "home": {
+        "id": "13",
+        "code": "USA",
+        "name": "United States",
+        "flag": "https://flagcdn.com/w80/us.png"
+      },
+      "away": {
+        "id": "25",
+        "code": "BEL",
+        "name": "Belgium",
+        "flag": "https://flagcdn.com/w80/be.png"
+      },
+      "home_label": "Winner Match 81",
+      "away_label": "Winner Match 82",
+      "home_score": 1,
+      "away_score": 4,
+      "finished": true,
+      "status": "FT",
+      "time_elapsed": "finished",
+      "stadium": {
+        "id": "14",
+        "name": "Lumen Field",
+        "city": "Seattle",
+        "country": "United States"
+      },
+      "kickoff_utc": "2026-07-07T00:00:00Z",
+      "kickoff_local_label": "07/06/2026 17:00"
+    },
+    {
+      "id": "95",
+      "group": "R16",
+      "matchday": "5",
+      "type": "r16",
+      "home": {
+        "id": "37",
+        "code": "ARG",
+        "name": "Argentina",
+        "flag": "https://flagcdn.com/w80/ar.png"
+      },
+      "away": {
+        "id": "26",
+        "code": "EGY",
+        "name": "Egypt",
+        "flag": "https://flagcdn.com/w80/eg.png"
+      },
+      "home_label": "Winner Match 86",
+      "away_label": "Winner Match 88",
+      "home_score": 3,
+      "away_score": 2,
+      "finished": true,
+      "status": "FT",
+      "time_elapsed": "finished",
+      "stadium": {
+        "id": "7",
+        "name": "Mercedes-Benz Stadium",
+        "city": "Atlanta",
+        "country": "United States"
+      },
+      "kickoff_utc": "2026-07-07T16:00:00Z",
+      "kickoff_local_label": "07/07/2026 12:00"
+    },
+    {
+      "id": "96",
+      "group": "R16",
+      "matchday": "5",
+      "type": "r16",
+      "home": {
+        "id": "8",
+        "code": "SUI",
+        "name": "Switzerland",
+        "flag": "https://flagcdn.com/w80/ch.png"
+      },
+      "away": {
+        "id": "44",
+        "code": "COL",
+        "name": "Colombia",
+        "flag": "https://flagcdn.com/w80/co.png"
+      },
+      "home_label": "Winner Match 85",
+      "away_label": "Winner Match 87",
+      "home_score": 0,
+      "away_score": 0,
+      "finished": true,
+      "status": "FT",
+      "time_elapsed": "finished",
+      "stadium": {
+        "id": "13",
+        "name": "BC Place",
+        "city": "Vancouver",
+        "country": "Canada"
+      },
+      "kickoff_utc": "2026-07-07T20:00:00Z",
+      "kickoff_local_label": "07/07/2026 13:00"
+    },
+    {
+      "id": "97",
+      "group": "QF",
+      "matchday": "6",
+      "type": "qf",
+      "home": {
+        "id": "33",
+        "code": "FRA",
+        "name": "France",
+        "flag": "https://flagcdn.com/w80/fr.png"
+      },
+      "away": {
+        "id": "10",
+        "code": "MAR",
+        "name": "Morocco",
+        "flag": "https://flagcdn.com/w80/ma.png"
+      },
+      "home_label": "Winner Match 89",
+      "away_label": "Winner Match 90",
+      "home_score": 2,
+      "away_score": 0,
+      "finished": true,
+      "status": "FT",
+      "time_elapsed": "finished",
+      "stadium": {
+        "id": "9",
+        "name": "Gillette Stadium",
+        "city": "Boston (Foxborough)",
+        "country": "United States"
+      },
+      "kickoff_utc": "2026-07-09T20:00:00Z",
+      "kickoff_local_label": "07/09/2026 16:00"
+    },
+    {
+      "id": "98",
+      "group": "QF",
+      "matchday": "6",
+      "type": "qf",
+      "home": {
+        "id": "29",
+        "code": "ESP",
+        "name": "Spain",
+        "flag": "https://flagcdn.com/w80/es.png"
+      },
+      "away": {
+        "id": "25",
+        "code": "BEL",
+        "name": "Belgium",
+        "flag": "https://flagcdn.com/w80/be.png"
+      },
+      "home_label": "Winner Match 93",
+      "away_label": "Winner Match 94",
+      "home_score": 2,
+      "away_score": 1,
+      "finished": true,
+      "status": "FT",
+      "time_elapsed": "finished",
+      "stadium": {
+        "id": "16",
+        "name": "SoFi Stadium",
+        "city": "Los Angeles (Inglewood)",
+        "country": "United States"
+      },
+      "kickoff_utc": "2026-07-10T19:00:00Z",
+      "kickoff_local_label": "07/10/2026 12:00"
+    },
+    {
       "id": "99",
       "group": "QF",
       "matchday": "6",
@@ -3910,6 +3745,171 @@
       },
       "kickoff_utc": "2026-07-11T21:00:00Z",
       "kickoff_local_label": "07/11/2026 17:00"
+    },
+    {
+      "id": "100",
+      "group": "QF",
+      "matchday": "6",
+      "type": "qf",
+      "home": {
+        "id": "37",
+        "code": "ARG",
+        "name": "Argentina",
+        "flag": "https://flagcdn.com/w80/ar.png"
+      },
+      "away": {
+        "id": "8",
+        "code": "SUI",
+        "name": "Switzerland",
+        "flag": "https://flagcdn.com/w80/ch.png"
+      },
+      "home_label": "Winner Match 95",
+      "away_label": "Winner Match 96",
+      "home_score": 3,
+      "away_score": 1,
+      "finished": true,
+      "status": "FT",
+      "time_elapsed": "finished",
+      "stadium": {
+        "id": "6",
+        "name": "GEHA Field at Arrowhead Stadium",
+        "city": "Kansas City",
+        "country": "United States"
+      },
+      "kickoff_utc": "2026-07-12T01:00:00Z",
+      "kickoff_local_label": "07/11/2026 20:00"
+    },
+    {
+      "id": "101",
+      "group": "SF",
+      "matchday": "7",
+      "type": "sf",
+      "home": {
+        "id": "33",
+        "code": "FRA",
+        "name": "France",
+        "flag": "https://flagcdn.com/w80/fr.png"
+      },
+      "away": {
+        "id": "29",
+        "code": "ESP",
+        "name": "Spain",
+        "flag": "https://flagcdn.com/w80/es.png"
+      },
+      "home_label": "Winner Match 97",
+      "away_label": "Winner Match 98",
+      "home_score": 0,
+      "away_score": 2,
+      "finished": true,
+      "status": "FT",
+      "time_elapsed": "finished",
+      "stadium": {
+        "id": "4",
+        "name": "AT&T Stadium",
+        "city": "Dallas (Arlington, Texas)",
+        "country": "United States"
+      },
+      "kickoff_utc": "2026-07-14T19:00:00Z",
+      "kickoff_local_label": "07/14/2026 14:00"
+    },
+    {
+      "id": "102",
+      "group": "SF",
+      "matchday": "7",
+      "type": "sf",
+      "home": {
+        "id": "45",
+        "code": "ENG",
+        "name": "England",
+        "flag": "https://flagcdn.com/w80/gb-eng.png"
+      },
+      "away": {
+        "id": "37",
+        "code": "ARG",
+        "name": "Argentina",
+        "flag": "https://flagcdn.com/w80/ar.png"
+      },
+      "home_label": "Winner Match 99",
+      "away_label": "Winner Match 100",
+      "home_score": 1,
+      "away_score": 2,
+      "finished": true,
+      "status": "FT",
+      "time_elapsed": "finished",
+      "stadium": {
+        "id": "7",
+        "name": "Mercedes-Benz Stadium",
+        "city": "Atlanta",
+        "country": "United States"
+      },
+      "kickoff_utc": "2026-07-15T19:00:00Z",
+      "kickoff_local_label": "07/15/2026 15:00"
+    },
+    {
+      "id": "103",
+      "group": "3RD",
+      "matchday": "8",
+      "type": "third",
+      "home": {
+        "id": "33",
+        "code": "FRA",
+        "name": "France",
+        "flag": "https://flagcdn.com/w80/fr.png"
+      },
+      "away": {
+        "id": "45",
+        "code": "ENG",
+        "name": "England",
+        "flag": "https://flagcdn.com/w80/gb-eng.png"
+      },
+      "home_label": "Loser Match 101",
+      "away_label": "Loser Match 102",
+      "home_score": 4,
+      "away_score": 6,
+      "finished": true,
+      "status": "FT",
+      "time_elapsed": "finished",
+      "stadium": {
+        "id": "8",
+        "name": "Hard Rock Stadium",
+        "city": "Miami (Miami Gardens)",
+        "country": "United States"
+      },
+      "kickoff_utc": "2026-07-18T21:00:00Z",
+      "kickoff_local_label": "07/18/2026 17:00"
+    },
+    {
+      "id": "104",
+      "group": "FINAL",
+      "matchday": "9",
+      "type": "final",
+      "home": {
+        "id": "29",
+        "code": "ESP",
+        "name": "Spain",
+        "flag": "https://flagcdn.com/w80/es.png"
+      },
+      "away": {
+        "id": "37",
+        "code": "ARG",
+        "name": "Argentina",
+        "flag": "https://flagcdn.com/w80/ar.png"
+      },
+      "home_label": "Winner Match 101",
+      "away_label": "Winner Match 102",
+      "home_score": 1,
+      "away_score": 0,
+      "finished": true,
+      "status": "FT",
+      "time_elapsed": "finished",
+      "stadium": {
+        "id": "11",
+        "name": "MetLife Stadium",
+        "city": "New York/New Jersey (East Rutherford)",
+        "country": "United States"
+      },
+      "kickoff_utc": "2026-07-19T19:00:00Z",
+      "kickoff_local_label": "07/19/2026 15:00"
     }
   ],
   "standings": [
