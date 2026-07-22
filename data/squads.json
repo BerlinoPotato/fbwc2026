@@ -1,10 +1,10 @@
 {
   "meta": {
     "source": "thesportsdb.com",
-    "last_updated": "2026-07-21T07:49:37Z",
+    "last_updated": "2026-07-22T07:49:36Z",
     "is_sample": false,
     "teams": 48,
-    "teams_with_players": 28,
+    "teams_with_players": 27,
     "note": "TheSportsDB national rosters are partial; some teams may have few/no players."
   },
   "squads": [
@@ -1623,58 +1623,7 @@
     {
       "code": "UZB",
       "name": "Uzbekistan",
-      "players": [
-        {
-          "number": 11,
-          "name": "Abbosbek Fayzullaev",
-          "position": "Midfielder"
-        },
-        {
-          "number": 45,
-          "name": "Abdukodir Khusanov",
-          "position": "Defender"
-        },
-        {
-          "number": 8,
-          "name": "Abdulla Abdullaev",
-          "position": "Defender"
-        },
-        {
-          "number": 1,
-          "name": "Abduvohid Nematov",
-          "position": "Goalkeeper"
-        },
-        {
-          "number": 10,
-          "name": "Akmal Mozgovoy",
-          "position": "Midfielder"
-        },
-        {
-          "number": 6,
-          "name": "Avazbek Ulmasaliev",
-          "position": "Defender"
-        },
-        {
-          "number": 8,
-          "name": "Azizbek Amonov",
-          "position": "Attacker"
-        },
-        {
-          "number": 6,
-          "name": "Azizjon Ganiev",
-          "position": "Midfielder"
-        },
-        {
-          "number": 2,
-          "name": "Bekhruz Karimov",
-          "position": "Defender"
-        },
-        {
-          "number": 1,
-          "name": "Botirali Ergashev",
-          "position": "Goalkeeper"
-        }
-      ]
+      "players": []
     }
   ]
 }
